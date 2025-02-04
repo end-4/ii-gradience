@@ -1,0 +1,66 @@
+.variant {
+    padding: 0;
+    border-radius: 100%;
+}
+
+.variant radio {
+    color: transparent;
+    background-color: inherit;
+    border: 2px solid transparent;
+}
+
+.variant:checked radio {
+    border: 2px solid @accent_bg_color;
+}
+
+#dark {
+    background-color: #3d3846;
+}
+
+#light {
+    background-color: #deddda;
+}
+
+#red {
+    background-color: #e01b24;
+}
+
+#orange {
+    background-color: #ff7800;
+}
+
+#yellow {
+    background-color: #f6d32d;
+}
+
+#blue {
+    background-color: #3584e4;
+}
+
+#green {
+    background-color: #33d17a;
+}
+
+.tag {
+    border-radius: 20px;
+    background-color: alpha(currentColor, 0.07);
+    padding: 5px 13px;
+    margin: 0 2px;
+}
+
+.badge-black {
+    background-color: #3d3846;
+    color: #deddda;
+}
+.badge-white {
+    background-color: #deddda;
+    color: #3d3846;
+}
+
+.row-content {
+    padding: 10px;
+}
+
+.content {
+    margin: 10px 12px;
+}

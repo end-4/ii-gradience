@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name>Gradience</name>
+  <shortdesc xml:lang="en">Change the look of Adwaita, with ease</shortdesc>
+  <description xml:lang="en">
+     Gradience is a tool for customizing Libadwaita applications and the adw-gtk3 theme.
+  </description>
+
+  <homepage rdf:resource="https://gradienceteam.github.io" />
+  <download-page rdf:resource="https://github.com/GradienceTeam/Gradience/releases" />
+  <bug-database rdf:resource="https://github.com/GradienceTeam/Gradience/issues" />
+  
+  <programming-language>Python</programming-language>
+  
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>0xMRTT</foaf:name>
+      <foaf:mbox rdf:resource="mailto:0xMRTT@proton.me" />
+      <gnome:userid>0xMRTT</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Gradience Team</foaf:name>
+      <foaf:mbox rdf:resource="mailto:GradienceTeam@proton.me" />
+    </foaf:Person>
+  </maintainer>
+</Project>

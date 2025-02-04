@@ -1,0 +1,2329 @@
+# Gradience POT file
+# Copyright (C) 2022 Gradience Team
+# This file is distributed under the GNU GPLv3 license.
+# Gradience Team, 2022.
+#
+# 엘련(Jisu Kim) <vbalien@duck.com>, 2022.
+# 0xMRTT <0xMRTT@tuta.io>, 2022.
+# 이정희 <daemul72@gmail.com>, 2022.
+# Daudix UFO <ddaudix@gmail.com>, 2022.
+# yangyangdaji <1504305527@qq.com>, 2022, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: Atrophaneura@proton.me\n"
+"POT-Creation-Date: 2024-01-10 01:35+0000\n"
+"PO-Revision-Date: 2024-01-12 08:06+0000\n"
+"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/GradienceTeam/"
+"gradience/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:4
+#: data/com.github.GradienceTeam.Gradience.desktop.in.in:3 data/ui/window.blp:5
+msgid "Gradience"
+msgstr "Gradience"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:5
+#: data/ui/welcome_window.blp:64
+msgid "Change the look of Adwaita, with ease"
+msgstr "Adwaita의 외관을 쉽게 변경합니다"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:6
+#: gradience/frontend/views/about_window.py:41
+msgid "Gradience Team"
+msgstr "Gradience팀"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:14
+msgid ""
+"Gradience is a tool for customizing Libadwaita applications and the adw-gtk3 "
+"theme."
+msgstr ""
+"Gradience는 Libadwaita 애플리케이션과 adw-gtk3 테마를 커스터마이징하기 위한 "
+"도구입니다."
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:15
+msgid "The main features of Gradience include the following:"
+msgstr ""
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:17
+#, fuzzy
+msgid "🎨️ Changing any color of Adwaita theme"
+msgstr "Adwaita 테마의 색상 변경"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:18
+#, fuzzy
+msgid "🖼️ Applying Material 3 color scheme from wallpaper"
+msgstr "바탕화면 이미지에서 Material 3 색상 적용"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:19
+#, fuzzy
+msgid "🎁️ Usage of other users presets"
+msgstr "다른 사용자의 사전 설정 사용"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:20
+#, fuzzy
+msgid "⚙️ Changing advanced options with CSS"
+msgstr "CSS로 고급 옵션 변경"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:21
+#, fuzzy
+msgid "🧩️ Extending functionality using plugins"
+msgstr "플러그인을 사용하여 기능 확장"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:27
+msgid "Screenshot of \"Colors\" Tab of Main UI"
+msgstr ""
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:32
+msgid "Screenshot of \"Monet\" Tab of Main UI"
+msgstr ""
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:37
+msgid "Screenshot of \"Advanced\" Tab of Main UI"
+msgstr ""
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:42
+msgid "Screenshot of \"Installed\" Tab of Preset Manager"
+msgstr ""
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:47
+msgid "Screenshot of \"Explore\" Tab of Preset Manager"
+msgstr ""
+
+#: data/ui/app_type_dialog.blp:14
+#, fuzzy
+#| msgid "Select application types you want to theme:"
+msgid "Select application types to theme:"
+msgstr "테마를 지정할 응용프로그램 유형 선택하기:"
+
+#: data/ui/app_type_dialog.blp:17
+msgid "Libadwaita and GTK 4 Applications"
+msgstr "Libadwaita 및 GTK 4 응용프로그램"
+
+#: data/ui/app_type_dialog.blp:21
+#, fuzzy
+#| msgid "GTK 3 Applications (adw-gtk3 theme is required)"
+msgid "GTK 3 Applications (adw-gtk3 theme required)"
+msgstr "GTK 3 응용프로그램 (adw-gtk3 테마 필요)"
+
+#: data/ui/builtin_preset_row.blp:5
+msgid "Made by @GradienceTeam"
+msgstr "제작팀: @GradienceTeam"
+
+#: data/ui/builtin_preset_row.blp:12 data/ui/preset_row.blp:50
+#: data/ui/window.blp:30
+msgid "Apply Preset"
+msgstr "프리셋 적용하기"
+
+#: data/ui/custom_css_group.blp:5
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom Styles"
+msgstr "커스텀 CSS"
+
+#: data/ui/custom_css_group.blp:6
+#, fuzzy
+msgid ""
+"Changing this may break some programs. Libadwaita allows applications to "
+"hardcode values like padding and margins, and using custom styles may cause "
+"unintended breakage."
+msgstr ""
+"이것을 변경하면 일부 프로그램이 중단될 수 있습니다. Libadwaita는 응용 프로그"
+"램이 패딩 및 여백과 같은 값을 하드코딩할 수 있도록 만들어졌습니다."
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 4"
+msgstr "GTK 4"
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 3"
+msgstr "GTK 3"
+
+#: data/ui/explore_preset_row.blp:23
+msgid "Download and Apply"
+msgstr "다운로드하고 적용하기"
+
+#: data/ui/explore_preset_row.blp:34
+#, fuzzy
+#| msgid "Download Only"
+msgid "Download"
+msgstr "다운로드만"
+
+#: data/ui/log_out_dialog.blp:5
+#, fuzzy
+#| msgid "Log out ?"
+msgid "Log out"
+msgstr "로그아웃하시겠습니까?"
+
+#: data/ui/log_out_dialog.blp:6
+msgid "Log out to allow changes to take effect."
+msgstr ""
+
+#: data/ui/monet_theming_group.blp:5 data/ui/preferences_window.blp:113
+msgid "Monet Engine"
+msgstr "Monet 엔진"
+
+#: data/ui/monet_theming_group.blp:6
+#, fuzzy
+#| msgid ""
+#| "Monet is an engine that generates a Material Design 3 palette from an "
+#| "image's color."
+msgid "Generates a Material Design 3 palette by extracting colors of an image."
+msgstr ""
+"Monet은 이미지 색상에서 Material Design 3 팔레트를 생성하는 엔진입니다."
+
+#: data/ui/monet_theming_group.blp:9
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Monet Engine Options"
+msgstr "Monet 엔진"
+
+#: data/ui/monet_theming_group.blp:10
+msgid "Choose an image and modify generated Monet palette"
+msgstr ""
+
+#: data/ui/monet_theming_group.blp:16 data/ui/shell_theming_group.blp:27
+#: data/ui/window.blp:29
+msgid "Apply"
+msgstr "적용"
+
+#: data/ui/monet_theming_group.blp:17
+#, fuzzy
+#| msgid "Apply preset"
+msgid "Apply a palette"
+msgstr "사전 설정 적용"
+
+#: data/ui/monet_theming_group.blp:23
+msgid "Background Image"
+msgstr "배경 이미지"
+
+#: data/ui/monet_theming_group.blp:33
+msgid "Choose a File"
+msgstr "파일 고르기"
+
+#: data/ui/monet_theming_group.blp:42
+#, fuzzy
+#| msgid "Choose a File"
+msgid "Choose a Image File"
+msgstr "파일 고르기"
+
+#: data/ui/no_plugin_window.blp:5
+msgid "Plugin Preferences"
+msgstr "플러그인 환경설정"
+
+#: data/ui/no_plugin_window.blp:15
+msgid "No Preferences"
+msgstr "환경설정 없음"
+
+#: data/ui/no_plugin_window.blp:16
+#, fuzzy
+#| msgid "This plugin doesn't have any preferences."
+msgid "This plugin has no preferences."
+msgstr "이 플러그인에는 환경설정이 없습니다."
+
+#: data/ui/option_row.blp:12
+msgid "GTK 3 Support Warning"
+msgstr "GTK 3 지원 경고"
+
+#: data/ui/option_row.blp:21
+msgid "Explanation"
+msgstr "설명"
+
+#: data/ui/option_row.blp:45 gradience/frontend/widgets/option_row.py:96
+msgid "Show Hex"
+msgstr ""
+
+#: data/ui/plugin_row.blp:10
+msgid "Toggle Plugin"
+msgstr "플러그인 전환하기"
+
+#: data/ui/plugin_row.blp:33
+msgid "Remove Plugin"
+msgstr "플러그인 제거하기"
+
+#: data/ui/preferences_window.blp:5 data/ui/window.blp:128
+msgid "Preferences"
+msgstr "환경설정"
+
+#: data/ui/preferences_window.blp:11
+msgid "General"
+msgstr ""
+
+#: data/ui/preferences_window.blp:15
+#, fuzzy
+#| msgid "GTK 4 Flatpak Applications"
+msgid "Flatpak Applications"
+msgstr "GTK 4 Flatpak 응용 프로그램"
+
+#: data/ui/preferences_window.blp:18
+msgid "Theme sandboxed GTK 4 apps"
+msgstr ""
+
+#: data/ui/preferences_window.blp:19
+#, fuzzy
+#| msgid ""
+#| "Override Flatpak permissions for current user to allow GTK 4 Flatpak "
+#| "applications to access custom themes."
+msgid "Allow GTK 4 Flatpak apps of current user to access custom themes"
+msgstr ""
+"GTK 4 Flatpak 응용프로그램이 사용자 지정 테마에 액세스할 수 있도록 현재 사용"
+"자에 대한 Flatpak 권한을 재정의합니다."
+
+#: data/ui/preferences_window.blp:28
+msgid "Theme sandboxed GTK 4 apps (System)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:29
+msgid ""
+"Allow GTK 4 Flatpak apps of all users to access custom themes "
+"(Authentication required)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:37
+msgid "Theme sandboxed GTK 3 apps"
+msgstr ""
+
+#: data/ui/preferences_window.blp:38
+#, fuzzy
+#| msgid ""
+#| "Override Flatpak permissions for current user to allow GTK 3 Flatpak apps "
+#| "to access adw-gtk3 theme."
+msgid "Allow GTK 3 Flatpak apps of current user to access adw-gtk3 theme"
+msgstr ""
+"GTK 3 Flatpak 응용프로그램이 adw-gtk3 테마에 액세스할 수 있도록 현재 사용자"
+"에 대한 Flatpak 권한을 재정의합니다."
+
+#: data/ui/preferences_window.blp:47
+msgid "Theme sandboxed GTK 3 apps (System)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:48
+msgid ""
+"Allow GTK 3 Flatpak apps of all users to access adw-gtk3 theme "
+"(Authentication required)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:58
+#, fuzzy
+#| msgid "Presets Menu"
+msgid "Preset Fetching"
+msgstr "프리셋 메뉴"
+
+#: data/ui/preferences_window.blp:60
+msgid "Use an alternative server for fetching presets"
+msgstr ""
+
+#: data/ui/preferences_window.blp:61
+msgid "Use JSDelivr instead of directly fetching presets from GitHub"
+msgstr ""
+
+#: data/ui/preferences_window.blp:73
+msgid "Custom Preset Repositories"
+msgstr "사용자 지정 프리셋 저장소"
+
+#: data/ui/preferences_window.blp:76
+msgid "Custom repository URL address"
+msgstr "사용자 지정 저장소 URL 주소"
+
+#: data/ui/preferences_window.blp:96
+#, fuzzy
+#| msgid "Theme"
+msgid "Theming"
+msgstr "테마"
+
+#: data/ui/preferences_window.blp:100
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Theme Engines"
+msgstr "Monet 엔진"
+
+#: data/ui/preferences_window.blp:101
+msgid ""
+"Theme Engines are the built-in theme generators for various customizable "
+"programs/frameworks."
+msgstr ""
+
+#: data/ui/preferences_window.blp:104 data/ui/shell_theming_group.blp:5
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Shell Engine"
+msgstr "Monet 엔진"
+
+#: data/ui/preferences_window.blp:105
+msgid "Generates GNOME Shell theme based on current preset"
+msgstr ""
+
+#: data/ui/preferences_window.blp:114
+#, fuzzy
+#| msgid ""
+#| "Monet is an engine that generates a Material Design 3 palette from an "
+#| "image's color."
+msgid "Generates a Material Design 3 palette by extracting colors of an image"
+msgstr ""
+"Monet은 이미지 색상에서 Material Design 3 팔레트를 생성하는 엔진입니다."
+
+#: data/ui/preset_row.blp:65
+msgid "Rename Preset"
+msgstr "프리셋 이름 바꾸기"
+
+#: data/ui/preset_row.blp:80
+msgid "Description"
+msgstr "설명"
+
+#: data/ui/preset_row.blp:81
+#, fuzzy
+#| msgid "Sorry, but this preset don't have a description."
+msgid "This preset has no description."
+msgstr "죄송합니다. 이 프리셋에는 설명이 없습니다."
+
+#: data/ui/preset_row.blp:93
+msgid "No Badges"
+msgstr "배지 없음"
+
+#: data/ui/preset_row.blp:102
+msgid "Report an Issue"
+msgstr "문제 보고"
+
+#: data/ui/preset_row.blp:109
+msgid "Remove preset"
+msgstr "사전 설정 삭제"
+
+#: data/ui/preset_row.blp:110 data/ui/repo_row.blp:9
+msgid "Remove Preset"
+msgstr "프리셋 제거하기"
+
+#: data/ui/presets_manager_window.blp:5 data/ui/window.blp:65
+msgid "Presets"
+msgstr "사전 설정"
+
+#: data/ui/presets_manager_window.blp:31
+msgid "Import"
+msgstr "가져오기"
+
+#: data/ui/presets_manager_window.blp:32
+#, fuzzy
+#| msgid "Import a Preset File"
+msgid "Import Preset File"
+msgstr "프리셋 파일 가져오기"
+
+#: data/ui/presets_manager_window.blp:38
+msgid "Delete"
+msgstr "삭제"
+
+#: data/ui/presets_manager_window.blp:44
+#, fuzzy
+#| msgid "Remove Preset"
+msgid "Report Preset Issue"
+msgstr "프리셋 제거하기"
+
+#: data/ui/presets_manager_window.blp:55 gradience/frontend/main.py:250
+msgid "Open in File Manager"
+msgstr "파일 관리자에서 열기"
+
+#: data/ui/presets_manager_window.blp:73
+msgid "Installed"
+msgstr "설치됨"
+
+#: data/ui/presets_manager_window.blp:82
+msgid "Explore"
+msgstr "탐색"
+
+#: data/ui/presets_manager_window.blp:87
+msgid "Search for presets"
+msgstr "사전 설정 검색"
+
+#: data/ui/presets_manager_window.blp:88
+#, fuzzy
+msgid ""
+"Enter a keyword to search on <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a>."
+msgstr ""
+"<a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a>에서 검색할 키워드를 입력하세요."
+
+#: data/ui/presets_manager_window.blp:101
+msgid "e.g. \"Pretty Purple\""
+msgstr "예시: \"Pretty Purple\""
+
+#: data/ui/presets_manager_window.blp:106
+msgid "All"
+msgstr "모두"
+
+#: data/ui/presets_manager_window.blp:134
+msgid "No Results Found"
+msgstr "검색 결과가 없음"
+
+#: data/ui/presets_manager_window.blp:142
+msgid "Offline"
+msgstr "오프라인"
+
+#: data/ui/presets_manager_window.blp:155
+#: gradience/frontend/views/presets_manager_window.py:126
+#: gradience/frontend/views/presets_manager_window.py:394
+msgid "Repositories"
+msgstr "저장소"
+
+#: data/ui/presets_manager_window.blp:175
+msgid "Import a Preset File (*.json)"
+msgstr "프리셋 파일 가져오기 (*.json)"
+
+#: data/ui/presets_manager_window.blp:180
+msgid "All files"
+msgstr "모든 파일"
+
+#: data/ui/presets_manager_window.blp:185
+msgid "JSON file (*.json)"
+msgstr "JSON 파일(*.json)"
+
+#: data/ui/reset_preset_group.blp:5
+#, fuzzy
+#| msgid "Rename Preset"
+msgid "Reset and Restore Theming"
+msgstr "프리셋 이름 바꾸기"
+
+#: data/ui/reset_preset_group.blp:6
+msgid "Reset theming to default or restore previously applied preset."
+msgstr ""
+
+#: data/ui/reset_preset_group.blp:9
+#, fuzzy
+#| msgid "Libadwaita and GTK 4 apps"
+msgid "GTK 4/Libadwaita Apps"
+msgstr "Libadwaita 및 GTK 4 앱"
+
+#: data/ui/reset_preset_group.blp:14 data/ui/reset_preset_group.blp:34
+#, fuzzy
+#| msgid "Remove Preset"
+msgid "Restore Previous Preset"
+msgstr "프리셋 제거하기"
+
+#: data/ui/reset_preset_group.blp:21 data/ui/reset_preset_group.blp:41
+#, fuzzy
+msgid "Reset"
+msgstr "초기화"
+
+#: data/ui/reset_preset_group.blp:22 data/ui/reset_preset_group.blp:42
+#, fuzzy
+#| msgid "Reset Applied Color Scheme"
+msgid "Reset Applied Preset"
+msgstr "적용된 색 구성표 재설정"
+
+#: data/ui/reset_preset_group.blp:29
+#, fuzzy
+#| msgid "GTK 3 Applications"
+msgid "GTK 3 Apps"
+msgstr "GTK 3 응용프로그램"
+
+#: data/ui/save_dialog.blp:5
+msgid "Save preset as…"
+msgstr "프리셋을 다른 이름으로 저장…"
+
+#: data/ui/save_dialog.blp:10
+#, fuzzy
+#| msgid "Preset renamed"
+msgid "Preset Name"
+msgstr "사전 설정 이름이 변경됨"
+
+#: data/ui/share_window.blp:5
+msgid "Share Preset"
+msgstr "프리셋 공유하기"
+
+#: data/ui/share_window.blp:42 data/ui/welcome_window.blp:42
+msgid "Previous"
+msgstr "이전"
+
+#: data/ui/share_window.blp:65
+msgid "Share your preset"
+msgstr "사용자의 프리셋 공유하기"
+
+#: data/ui/share_window.blp:66
+msgid "Share your preset with the world!"
+msgstr "사용자의 프리셋을 전 세계와 공유하세요!"
+
+#: data/ui/share_window.blp:73
+msgid "How it's work?"
+msgstr "어떻게 작동합니까?"
+
+#: data/ui/share_window.blp:74
+msgid ""
+"Gradience use GitHub to share your preset. You need to create a GitHub "
+"account and fork <a href='https://github.com/GradienceTeam/"
+"Community'>GradienceTeam/Community</a>. Then, you can upload your preset, "
+"make a pull request and share it with the world!"
+msgstr ""
+"Gradience는 GitHub를 사용하여 프리셋을 공유합니다. GitHub 계정을 만들고 <a "
+"href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/Community</"
+"a>를 분기해야 합니다. 그런 다음 프리셋을 업로드하고 풀 리퀘스트(끌어오기 요"
+"청)를 하여 전 세계와 공유할 수 있습니다!"
+
+#: data/ui/share_window.blp:81 data/ui/welcome_window.blp:78
+msgid "Warning"
+msgstr "경고"
+
+#: data/ui/share_window.blp:82
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers."
+msgstr ""
+"색 구성표를 변경하면 대비와 가독성에 부정적인 영향을 줄 수 있습니다. 주의해"
+"서 진행하십시오. 테마 관련 문제를 앱 개발자에게 보고하지 마십시오."
+
+#: data/ui/share_window.blp:86
+msgid "I Understand The Consequences"
+msgstr "결과를 이해합니다"
+
+#: data/ui/share_window.blp:97
+msgid "Customize Adwaita Theme"
+msgstr "Adwaita 테마를 커스터마이징"
+
+#: data/ui/share_window.blp:98
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom CSS"
+msgstr ""
+"사용자 지정 CSS 추가와 같은 고급 기능으로 창, 단추, 목록 등의 색상 변경하기"
+
+#: data/ui/share_window.blp:104
+msgid "Configure Gradience"
+msgstr "Gradience 구성하기"
+
+#: data/ui/share_window.blp:105
+msgid ""
+"Install adw-gtk3 theme for legacy applications and configure system for "
+"theming."
+msgstr ""
+"기존 응용프로그램에 대한 adw-gtk3 테마를 설치하고 테마에 대한 시스템을 구성합"
+"니다."
+
+#: data/ui/share_window.blp:110
+msgid "Legacy apps theming"
+msgstr "기존 앱 테마적용"
+
+#: data/ui/share_window.blp:115
+msgid "Install adw-gtk3 theme for legacy apps theming"
+msgstr "기존 앱 테마적용을 위한 adw-gtk3 테마 설치하기"
+
+#: data/ui/share_window.blp:120
+msgid "System configuration"
+msgstr "시스템 설정"
+
+#: data/ui/share_window.blp:126
+msgid "Configure system for theming, enables Flatpak theme override"
+msgstr "테마적용을 위한 시스템을 구성하고, Flatpak 테마 재정의 활성화하기"
+
+#: data/ui/share_window.blp:136
+msgid "Installing Themes"
+msgstr "테마 설치"
+
+#: data/ui/share_window.blp:137
+msgid "Please wait until theme will be installed."
+msgstr "테마가 설치 될 때까지 기다리십시오."
+
+#: data/ui/share_window.blp:143
+msgid "Continue"
+msgstr "계속"
+
+#: data/ui/share_window.blp:162
+msgid "Done"
+msgstr "완료"
+
+#: data/ui/share_window.blp:163
+msgid "Now you can make your own presets or download some online."
+msgstr ""
+"이제 사용자 자신만의 프리셋을 만들거나 온라인에서 다른 프리셋을 다운로드할 "
+"수 있습니다."
+
+#: data/ui/share_window.blp:168
+msgid "Please finish the setup first"
+msgstr "먼저 설정을 완료하십시오"
+
+#: data/ui/share_window.blp:176 data/ui/welcome_window.blp:98
+msgid "Start Using Gradience"
+msgstr "Gradience 사용 시작하기"
+
+#: data/ui/share_window.blp:193 data/ui/welcome_window.blp:113
+msgid "Next"
+msgstr "다음"
+
+#: data/ui/shell_prefs_window.blp:5
+#, fuzzy
+#| msgid "Plugin Preferences"
+msgid "Shell Engine Preferences"
+msgstr "플러그인 환경설정"
+
+#: data/ui/shell_prefs_window.blp:13
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Shell theme colors"
+msgstr "Adwaita 테마를 커스터마이징"
+
+#: data/ui/shell_theming_group.blp:6
+msgid ""
+"Generates GNOME Shell theme based on current preset.\n"
+"WARNING: Extensions that modify the Shell stylesheet may cause issues with "
+"themes."
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:20
+msgid "Shell Engine Options"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:21
+msgid "Change the generated GNOME Shell theme"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:28
+#, fuzzy
+#| msgid "Apply This Color Scheme?"
+msgid "Apply Shell theme"
+msgstr "이 색 구성표를 적용하시겠습니까?"
+
+#: data/ui/shell_theming_group.blp:37
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Customize Shell Theme"
+msgstr "Adwaita 테마를 커스터마이징"
+
+#: data/ui/shell_theming_group.blp:43
+#, fuzzy
+#| msgid "No Preferences"
+msgid "Open Shell Preferences"
+msgstr "환경설정 없음"
+
+#: data/ui/shell_theming_group.blp:49
+#, fuzzy
+#| msgid "Preset reseted"
+msgid "Preset Variant"
+msgstr "사전 설정 재설정됨"
+
+#: data/ui/shell_theming_group.blp:50
+msgid "Select currently applied preset variant"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:62
+msgid "Currently unavailable"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:73
+#, fuzzy
+#| msgid "Preset removed"
+msgid "Reset Theme"
+msgstr "사전 설정 제거됨"
+
+#: data/ui/shell_theming_group.blp:74
+#, fuzzy
+#| msgid "Reset applied color scheme?"
+msgid "Reset applied theme"
+msgstr "적용된 색 구성표를 재설정하시겠습니까?"
+
+#: data/ui/theming_empty_group.blp:5
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "No Theme Engines"
+msgstr "Monet 엔진"
+
+#: data/ui/theming_empty_group.blp:6
+msgid ""
+"Theme Engines extend the functionality of Gradience. They can be enabled in "
+"the Preferences."
+msgstr ""
+
+#: data/ui/theming_empty_group.blp:9
+msgid "Open Preferences to manage Theme Engines"
+msgstr ""
+
+#: data/ui/theming_empty_group.blp:14 data/ui/theming_empty_group.blp:15
+#, fuzzy
+#| msgid "Preferences"
+msgid "Open Preferences"
+msgstr "환경설정"
+
+#: data/ui/welcome_window.blp:5 data/ui/welcome_window.blp:63
+msgid "Welcome to Gradience"
+msgstr "Gradience에 오신 것을 환영합니다."
+
+#: data/ui/welcome_window.blp:70
+#, fuzzy
+msgid "What's new in 0.8.0"
+msgstr "0.3.0의 새로운 기능"
+
+#: data/ui/welcome_window.blp:71
+msgid ""
+"In this release, we added GNOME Shell theming support and reworked how "
+"Gradience works internally"
+msgstr ""
+
+#: data/ui/welcome_window.blp:79
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers"
+msgstr ""
+"색 구성표를 변경하면 대비와 가독성에 부정적인 영향을 줄 수 있습니다. "
+"주의해서 진행하십시오. 테마 관련 문제를 앱 개발자에게 보고하지 마십시오"
+
+#: data/ui/welcome_window.blp:83
+#, fuzzy
+#| msgid "Continue"
+msgid "Agree and Continue"
+msgstr "계속"
+
+#: data/ui/welcome_window.blp:93
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Customize Adwaita"
+msgstr "Adwaita 테마를 커스터마이징"
+
+#: data/ui/welcome_window.blp:94
+#, fuzzy
+#| msgid ""
+#| "Change colors of windows, buttons, lists and more, with advanced features "
+#| "like adding custom CSS"
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom styles"
+msgstr ""
+"사용자 지정 CSS 추가와 같은 고급 기능으로 창, 단추, 목록 등의 색상 변경하기"
+
+#: data/ui/window.blp:37 gradience/frontend/main.py:422
+msgid "Save Preset"
+msgstr "사전 설정 저장"
+
+#: data/ui/window.blp:46
+msgid "Show Preview Window"
+msgstr ""
+
+#: data/ui/window.blp:57
+msgid "Main Menu"
+msgstr "기본 메뉴"
+
+#: data/ui/window.blp:66
+msgid "Presets Menu"
+msgstr "프리셋 메뉴"
+
+#: data/ui/window.blp:73
+msgid "CSS Errors"
+msgstr "CSS 오류"
+
+#: data/ui/window.blp:88
+#, fuzzy
+#| msgid "Colors"
+msgid "_Colors"
+msgstr "색상"
+
+#: data/ui/window.blp:97
+#, fuzzy
+#| msgid "Theme"
+msgid "_Theming"
+msgstr "테마"
+
+#: data/ui/window.blp:106
+#, fuzzy
+#| msgid "Advanced"
+msgid "_Advanced"
+msgstr "고급"
+
+#: data/ui/window.blp:133
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/window.blp:138
+msgid "About Gradience"
+msgstr "Gradience에 대하여"
+
+#: data/ui/window.blp:146
+#: gradience/frontend/views/presets_manager_window.py:114
+msgid "Built-In Presets"
+msgstr "내장 프리셋"
+
+#: data/ui/window.blp:167
+msgid "Manage Presets"
+msgstr "프리셋 관리하기"
+
+#: gradience/backend/flatpak_overrides.py:71
+#: gradience/backend/flatpak_overrides.py:93
+msgid "Failed to save override"
+msgstr "재정의를 저장하지 못했습니다"
+
+#: gradience/backend/flatpak_overrides.py:186
+#: gradience/backend/flatpak_overrides.py:228
+#: gradience/backend/flatpak_overrides.py:306
+#: gradience/backend/flatpak_overrides.py:366
+#: gradience/backend/flatpak_overrides.py:448
+#: gradience/backend/flatpak_overrides.py:509
+msgid "Unexpected file error occurred"
+msgstr "예기치 않은 파일 오류가 발생했습니다"
+
+#: gradience/frontend/dialogs/app_type_dialog.py:47
+#: gradience/frontend/dialogs/save_dialog.py:62
+#, fuzzy
+msgid "_Cancel"
+msgstr "취소"
+
+#: gradience/frontend/dialogs/save_dialog.py:39
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "Saving preset to <tt>{0}</tt>. If that preset already exists, it will be "
+#| "overwritten."
+msgid ""
+"Saving preset to \n"
+" <small><i><tt>{0}</tt></i></small>. \n"
+" If that preset already exists, it will be overwritten."
+msgstr ""
+"사전 설정을 <tt>{0}</tt>에 저장하는 중입니다. 해당 사전 설정이 이미 있는 경"
+"우 덮어씁니다."
+
+#: gradience/frontend/dialogs/save_dialog.py:65
+msgid "Discard"
+msgstr "버리기"
+
+#: gradience/frontend/dialogs/save_dialog.py:70
+#, fuzzy
+msgid "_Save"
+msgstr "저장"
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:40
+msgid "Unsupported Shell Version ({get_full_shell_version()})"
+msgstr ""
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:41
+msgid ""
+"The Shell version you are using is not supported by Gradience. Please "
+"upgrade to a newer version of GNOME."
+msgstr ""
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:43
+msgid "OK"
+msgstr ""
+
+#: gradience/frontend/main.py:203
+#: gradience/frontend/views/presets_manager_window.py:339
+#, fuzzy
+#| msgid "Failed to load preset"
+msgid "Failed to load list of presets"
+msgstr "사전 설정을 로드하지 못했습니다."
+
+#: gradience/frontend/main.py:236
+msgid "No presets found"
+msgstr "프리셋을 찾을 수 없습니다"
+
+#: gradience/frontend/main.py:259
+#, fuzzy
+msgid "Favorite Presets"
+msgstr "좋아하는 프리셋"
+
+#: gradience/frontend/main.py:412
+msgid "Unsaved Changes"
+msgstr "저장되지 않은 변경사항"
+
+#: gradience/frontend/main.py:421
+msgid "Save"
+msgstr "저장"
+
+#: gradience/frontend/main.py:511
+msgid "Apply This Color Scheme?"
+msgstr "이 색 구성표를 적용하시겠습니까?"
+
+#: gradience/frontend/main.py:513
+msgid ""
+"Warning: any custom CSS files for those app types will be irreversibly "
+"overwritten!"
+msgstr ""
+"경고: 해당 앱 유형에 대한 모든 사용자 정의 CSS 파일은 되돌릴 수 없도록 덮어씁"
+"니다!"
+
+#: gradience/frontend/main.py:517
+#, fuzzy
+msgid "_Apply"
+msgstr "적용"
+
+#: gradience/frontend/main.py:543
+msgid "You have unsaved changes!"
+msgstr "저장하지 않은 변경사항이 있습니다!"
+
+#: gradience/frontend/main.py:594
+msgid "Preset saved"
+msgstr "사전 설정 저장됨"
+
+#: gradience/frontend/main.py:611
+msgid "Preset has been set. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:23
+msgid "Accent Colors"
+msgstr "강조 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:25
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, and entries, to indicate that a widget is important, interactive, "
+#| "or currently active."
+msgid ""
+"These colors are used across many different widgets, often to indicate that "
+"a widget is important, interactive, or currently active."
+msgstr ""
+"이러한 색상은 버튼, 레이블 및 항목과 같은 다양한 위젯에서 사용되어 위젯이 중"
+"요하거나 대화형이거나 현재 활성화되어 있음을 나타냅니다."
+
+#: gradience/frontend/schemas/preset_schema.py:32
+#: gradience/frontend/schemas/preset_schema.py:63
+#: gradience/frontend/schemas/preset_schema.py:94
+#: gradience/frontend/schemas/preset_schema.py:125
+#: gradience/frontend/schemas/preset_schema.py:156
+msgid "Standalone Color"
+msgstr "독립 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:34
+#: gradience/frontend/schemas/preset_schema.py:65
+#: gradience/frontend/schemas/preset_schema.py:96
+#: gradience/frontend/schemas/preset_schema.py:127
+#: gradience/frontend/schemas/preset_schema.py:158
+msgid ""
+"The standalone colors are similar to the background ones, but provide better "
+"contrast when used as foreground color on top of a neutral background - for "
+"example, colorful text in a window."
+msgstr ""
+"독립 색상은 배경 색상과 유사하지만 무채색 배경(예: 창의 다채로운 텍스트) 위"
+"에 전경색으로 사용할 때 더 나은 대비를 제공합니다."
+
+#: gradience/frontend/schemas/preset_schema.py:43
+#: gradience/frontend/schemas/preset_schema.py:74
+#: gradience/frontend/schemas/preset_schema.py:105
+#: gradience/frontend/schemas/preset_schema.py:136
+#: gradience/frontend/schemas/preset_schema.py:167
+#: gradience/frontend/schemas/preset_schema.py:184
+#: gradience/frontend/schemas/preset_schema.py:204
+#: gradience/frontend/schemas/preset_schema.py:225
+#: gradience/frontend/schemas/preset_schema.py:284
+#: gradience/frontend/schemas/preset_schema.py:327
+#: gradience/frontend/schemas/preset_schema.py:367
+#: gradience/frontend/schemas/preset_schema.py:394
+#: gradience/frontend/schemas/preset_schema.py:411
+#: gradience/frontend/schemas/preset_schema.py:428
+msgid "Background Color"
+msgstr "배경색상"
+
+#: gradience/frontend/schemas/preset_schema.py:48
+#: gradience/frontend/schemas/preset_schema.py:79
+#: gradience/frontend/schemas/preset_schema.py:110
+#: gradience/frontend/schemas/preset_schema.py:141
+#: gradience/frontend/schemas/preset_schema.py:172
+#: gradience/frontend/schemas/preset_schema.py:189
+#: gradience/frontend/schemas/preset_schema.py:209
+#: gradience/frontend/schemas/preset_schema.py:230
+#: gradience/frontend/schemas/preset_schema.py:289
+#: gradience/frontend/schemas/preset_schema.py:332
+#: gradience/frontend/schemas/preset_schema.py:372
+#: gradience/frontend/schemas/preset_schema.py:399
+#: gradience/frontend/schemas/preset_schema.py:416
+#: gradience/frontend/schemas/preset_schema.py:433
+msgid "Foreground Color"
+msgstr "전경색상"
+
+#: gradience/frontend/schemas/preset_schema.py:55
+msgid "Destructive Colors"
+msgstr "파괴적인 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:57
+#, fuzzy
+#| msgid ""
+#| "These colors are used for buttons to indicate a dangerous action, such as "
+#| "deleting a file."
+msgid ""
+"These colors are used to indicate dangerous actions, such as deleting a file."
+msgstr "이 색상은 파일 삭제와 같은 위험한 작업을 나타내는 버튼에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:86
+msgid "Success Colors"
+msgstr "성공 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:88
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, entries, and level bars, to indicate a success or a high level."
+msgid ""
+"These colors are used across many different widgets, to indicate success or "
+"a high level."
+msgstr ""
+"이러한 색상은 버튼, 레이블, 항목 및 수준 표시줄과 같은 다양한 위젯에서 성공 "
+"또는 높은 수준을 나타내는 데 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:117
+msgid "Warning Colors"
+msgstr "경고 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:119
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, entries, and level bars, to indicate a warning or a low level."
+msgid ""
+"These colors are used across many different widgets, to indicate warning or "
+"a low level."
+msgstr ""
+"이러한 색상은 버튼, 레이블, 항목 및 수준 표시줄과 같은 다양한 위젯에서 경고 "
+"또는 낮은 수준을 나타내는 데 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:148
+msgid "Error Colors"
+msgstr "오류 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:150
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, and entries, to indicate a failure."
+msgid ""
+"These colors are used across many different widgets, to indicate a failure."
+msgstr ""
+"이러한 색상은 버튼, 레이블 및 항목과 같은 다양한 위젯에서 실패를 나타내는 데 "
+"사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:179
+msgid "Window Colors"
+msgstr "창 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:180
+msgid "These colors are used primarily for windows."
+msgstr "이 색상은 주로 창에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:196
+msgid "View Colors"
+msgstr "뷰 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:198
+#, fuzzy
+#| msgid ""
+#| "These colors are used in a variety of widgets, such as text views and "
+#| "entries."
+msgid ""
+"These colors are used across many different widgets, such as text views and "
+"entries."
+msgstr "이러한 색상은 텍스트뷰 및 항목과 같은 다양한 위젯에서 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:216
+msgid "Header Bar Colors"
+msgstr "제목 표시줄 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:218
+msgid ""
+"These colors are used for header bars, as well as widgets that are meant to "
+"be visually attached to it, such as search bars or tab bars."
+msgstr ""
+"이러한 색상은 제목 표시줄과 검색 표시줄 또는 탭 표시줄과 같이 시각적으로 연결"
+"되는 위젯에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:235
+msgid "Border Color"
+msgstr "테두리 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:237
+msgid ""
+"The border color has the same default value as a foreground color, but "
+"doesn't change along with it. This can be useful if a light window has a "
+"dark header bar with light text; in this case it may be desirable to keep "
+"the border dark. This variable is only used for vertical borders - for "
+"example, separators between the two header bars in a split header bar layout."
+msgstr ""
+"테두리 색상은 전경색과 동일한 기본값을 갖지만 함께 변경되지는 않습니다. 이것"
+"은 밝은 창에 밝은 텍스트가 있는 어두운 제목 표시줄이 있는 경우 유용할 수 있습"
+"니다. 이 경우 테두리를 어둡게 유지하는 것이 바람직할 수 있습니다. 이 변수는 "
+"세로 테두리에만 사용됩니다(예: 분할 제목 표시줄 레이아웃에서 두 제목 표시줄 "
+"사이의 구분 기호)."
+
+#: gradience/frontend/schemas/preset_schema.py:250
+#: gradience/frontend/schemas/preset_schema.py:294
+#: gradience/frontend/schemas/preset_schema.py:337
+msgid "Backdrop Color"
+msgstr "백드롭 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:252
+#: gradience/frontend/schemas/preset_schema.py:296
+#: gradience/frontend/schemas/preset_schema.py:339
+msgid ""
+"The backdrop color is used instead of the background color when the window "
+"is not focused. By default it's an alias of the window's background color "
+"and changes together with it. When changing this variable, make sure to set "
+"it to a value matching your header bar background color."
+msgstr ""
+"창에 포커스가 없을 때 배경색 대신 백드롭 색상이 사용됩니다. 기본적으로 창 배"
+"경색의 별칭이며 함께 변경됩니다. 이 변수를 변경할 때 제목 표시줄 배경색과 매"
+"칭되는 값으로 설정해야 합니다."
+
+#: gradience/frontend/schemas/preset_schema.py:263
+#: gradience/frontend/schemas/preset_schema.py:307
+#: gradience/frontend/schemas/preset_schema.py:350
+#: gradience/frontend/schemas/preset_schema.py:377
+#: gradience/frontend/schemas/preset_schema.py:438
+#: gradience/frontend/schemas/preset_schema.py:455
+msgid "Shade Color"
+msgstr "그림자 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:265
+#: gradience/frontend/schemas/preset_schema.py:309
+#: gradience/frontend/schemas/preset_schema.py:352
+msgid ""
+"The shade color is used to provide a dark border for header bars and similar "
+"widgets that separates them from the main window."
+msgstr ""
+"그림자 색은 제목 표시줄 및 기본 창에서 이들을 구분하는 유사한 위젯에 어두운 "
+"테두리를 제공하는 데 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:275
+#, fuzzy
+#| msgid "View Colors"
+msgid "Sidebar Colors"
+msgstr "뷰 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:277
+msgid ""
+"These colors are used for sidebars, generally attached to the left or right "
+"sides of a window. They are used by AdwNavigationSplitView and "
+"AdwOverlaySplitView when they are not collapsed."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:319
+#, fuzzy
+#| msgid "Header Bar Colors"
+msgid "Secondary Sidebar Colors"
+msgstr "제목 표시줄 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:321
+msgid ""
+"These colors are used for middle panes in triple-pane layouts,  created via "
+"nesting two split views within one another."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:362
+msgid "Card Colors"
+msgstr "카드 색"
+
+#: gradience/frontend/schemas/preset_schema.py:363
+msgid "These colors are used for cards and boxed lists."
+msgstr "이 색상은 카드 및 상자 목록에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:379
+msgid ""
+"The shade color is used for shadows that are used by cards to separate "
+"themselves from the window background, as well as for row dividers in the "
+"cards."
+msgstr ""
+"그림자 색상은 카드가 창 배경과 자신을 분리하는 데 사용하는 그림자와 카드의 "
+"행 구분선에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:389
+#, fuzzy
+#| msgid "Dialog Colors"
+msgid "Thumbnail Colors"
+msgstr "대화 상자 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:390
+#, fuzzy
+#| msgid "These colors are used for popovers."
+msgid "These colors are used for Tab Overview thumbnails."
+msgstr "이 색상은 팝오버에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:406
+msgid "Dialog Colors"
+msgstr "대화 상자 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:407
+msgid "These colors are used for message dialogs."
+msgstr "이 색상은 메시지 대화 상자에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:423
+msgid "Popover Colors"
+msgstr "팝오버 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:424
+msgid "These colors are used for popovers."
+msgstr "이 색상은 팝오버에 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:440
+msgid ""
+"The shade color is used for scroll undershoot styles within popovers, as "
+"well as transitions in AdwNavigationView, AdwOverlaySplitView, AdwLeaflet "
+"and AdwFlap."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:450
+msgid "Miscellaneous Colors"
+msgstr "여러 가지 종류의 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:451
+msgid "Colors that don't fit in any particular group."
+msgstr "특정 그룹에 맞지 않는 색상."
+
+#: gradience/frontend/schemas/preset_schema.py:457
+msgid ""
+"The shade color is used by inline tab bars, as well as the transitions in "
+"leaflets and flaps, and info bar borders."
+msgstr ""
+"그림자 색상은 인라인 탭 표시줄과 전단지 및 플랩의 전환, 정보 표시줄 테두리에"
+"서 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:465
+msgid "Scrollbar Outline Color"
+msgstr "스크롤바 외곽선 색상"
+
+#: gradience/frontend/schemas/preset_schema.py:467
+msgid ""
+"The scrollbar outline color is used by scrollbars to ensure that overlay "
+"scrollbars are visible regardless of the content color."
+msgstr ""
+"스크롤바 외곽선 색상은 콘텐츠 색상에 관계없이 오버레이 스크롤바가 보이도록 하"
+"기 위해 스크롤바에서 사용됩니다."
+
+#: gradience/frontend/schemas/preset_schema.py:477
+msgid "Blue"
+msgstr "파란색"
+
+#: gradience/frontend/schemas/preset_schema.py:478
+msgid "Green"
+msgstr "녹색"
+
+#: gradience/frontend/schemas/preset_schema.py:479
+msgid "Yellow"
+msgstr "노란색"
+
+#: gradience/frontend/schemas/preset_schema.py:480
+msgid "Orange"
+msgstr "주황색"
+
+#: gradience/frontend/schemas/preset_schema.py:481
+msgid "Red"
+msgstr "빨간색"
+
+#: gradience/frontend/schemas/preset_schema.py:482
+msgid "Purple"
+msgstr "보라색"
+
+#: gradience/frontend/schemas/preset_schema.py:483
+msgid "Brown"
+msgstr "갈색"
+
+#: gradience/frontend/schemas/preset_schema.py:484
+#: gradience/frontend/widgets/monet_theming_group.py:95
+#: gradience/frontend/widgets/shell_theming_group.py:73
+msgid "Light"
+msgstr "밝은 색"
+
+#: gradience/frontend/schemas/preset_schema.py:485
+#: gradience/frontend/widgets/monet_theming_group.py:96
+#: gradience/frontend/widgets/shell_theming_group.py:72
+msgid "Dark"
+msgstr "어두운 색"
+
+#: gradience/frontend/schemas/shell_schema.py:24
+#, fuzzy
+#| msgid "Background Color"
+msgid "Base Background Color"
+msgstr "배경색상"
+
+#: gradience/frontend/schemas/shell_schema.py:29
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Base Foreground Color"
+msgstr "전경색상"
+
+#: gradience/frontend/schemas/shell_schema.py:34
+#, fuzzy
+#| msgid "Background Color"
+msgid "Overview Background Color"
+msgstr "배경색상"
+
+#: gradience/frontend/schemas/shell_schema.py:39
+#, fuzzy
+#| msgid "Background Color"
+msgid "Accent Background Color"
+msgstr "배경색상"
+
+#: gradience/frontend/schemas/shell_schema.py:44
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Accent Foreground Color"
+msgstr "전경색상"
+
+#: gradience/frontend/schemas/shell_schema.py:61
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "OSD Foreground Color"
+msgstr "전경색상"
+
+#: gradience/frontend/views/about_window.py:27
+msgid "translator-credits"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:56
+msgid "Copyright © 2022-2023 Gradience Team"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:63
+msgid "Plugins by"
+msgstr "플러그인"
+
+#: gradience/frontend/views/about_window.py:65
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Plugins/graphs/"
+"contributors"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:69
+msgid "Presets by"
+msgstr "프리셋"
+
+#: gradience/frontend/views/about_window.py:71
+#, fuzzy
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Community/graphs/"
+"contributors"
+msgstr ""
+"<a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a>에서 검색할 키워드를 입력하세요."
+
+#: gradience/frontend/views/main_window.py:204
+msgid "Palette Colors"
+msgstr "팔레트 색상"
+
+#: gradience/frontend/views/main_window.py:207
+msgid ""
+"Named palette colors used by some applications. Default colors follow the <a "
+"href=\"https://developer.gnome.org/hig/reference/palette.html\">GNOME Human "
+"Interface Guidelines</a>."
+msgstr ""
+"일부 응용 프로그램에서 사용하는 명명된 팔레트 색상입니다. 기본 색상은 <a "
+"href=\"https://developer.gnome.org/hig/reference/palette.html\">GNOME Human "
+"Interface Guidelines</a>을 따릅니다."
+
+#: gradience/frontend/views/plugins_list.py:89
+msgid "Plugins"
+msgstr "플러그인"
+
+#: gradience/frontend/views/plugins_list.py:92
+msgid ""
+"Plugins add additional features to Gradience, plugins are made by Gradience "
+"community and can cause issues."
+msgstr ""
+"플러그인은 Gradience에 추가 기능을 추가하며, 플러그인은 Gradience 커뮤니티에"
+"서 만들어지며 문제를 야기할 수 있습니다."
+
+#: gradience/frontend/views/plugins_list.py:104
+msgid "No Plugins Found."
+msgstr "플러그인을 찾을 수 없습니다."
+
+#: gradience/frontend/views/presets_manager_window.py:119
+#: gradience/frontend/views/presets_manager_window.py:355
+msgid "User Presets"
+msgstr "사용자 사전 설정"
+
+#: gradience/frontend/views/presets_manager_window.py:194
+msgid "Add new repository"
+msgstr "새 저장소 추가하기"
+
+#: gradience/frontend/views/presets_manager_window.py:195
+msgid "Add a repository to install additional presets."
+msgstr "추가 프리셋을 설치하려면 저장소를 추가하십시오."
+
+#: gradience/frontend/views/presets_manager_window.py:201
+#: gradience/frontend/widgets/shell_theming_group.py:143
+msgid "Cancel"
+msgstr "취소"
+
+#: gradience/frontend/views/presets_manager_window.py:202
+msgid "Add"
+msgstr "추가하기"
+
+#: gradience/frontend/views/presets_manager_window.py:298
+msgid "Preset already exists"
+msgstr "사전 설정이 이미 있습니다"
+
+#: gradience/frontend/views/presets_manager_window.py:310
+msgid "Preset imported"
+msgstr "가져온 사전 설정"
+
+#: gradience/frontend/views/presets_manager_window.py:313
+msgid "Unsupported file format, must be .json"
+msgstr "지원되지 않는 파일 형식, 파일형식은 .json이어야 합니다"
+
+#: gradience/frontend/views/presets_manager_window.py:348
+msgid "Built-in Presets"
+msgstr "내장 프리셋"
+
+#: gradience/frontend/views/presets_manager_window.py:358
+msgid ""
+"See <a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a> on Github for more presets."
+msgstr ""
+"더 많은 프리셋은 Github에서 <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a>를 참조하십시오."
+
+#: gradience/frontend/views/presets_manager_window.py:384
+msgid ""
+"No preset found! Use the import button to import one or search one on the "
+"Explore tab."
+msgstr ""
+"프리셋을 찾을 수 없습니다! 가져오기 버튼을 사용하여 가져오거나 탐색 탭에서 검"
+"색하십시오."
+
+#: gradience/frontend/views/welcome_window.py:79
+msgid "Thanks for updating Gradience!"
+msgstr "Gradience를 업데이트해주셔서 감사합니다!"
+
+#: gradience/frontend/widgets/explore_preset_row.py:68
+#: gradience/frontend/widgets/explore_preset_row.py:94
+msgid "Preset could not be downloaded"
+msgstr "사전 설정을 다운로드할 수 없습니다"
+
+#: gradience/frontend/widgets/explore_preset_row.py:82
+#: gradience/frontend/widgets/explore_preset_row.py:98
+msgid "Preset downloaded"
+msgstr "사전 설정 다운로드됨"
+
+#: gradience/frontend/widgets/monet_theming_group.py:65
+#, fuzzy
+#| msgid "Monet Palette"
+msgid "Palette"
+msgstr "Monet 팔레트"
+
+#: gradience/frontend/widgets/monet_theming_group.py:91
+msgid "Style"
+msgstr ""
+
+#: gradience/frontend/widgets/monet_theming_group.py:94
+msgid "Auto"
+msgstr "자동"
+
+#: gradience/frontend/widgets/monet_theming_group.py:131
+msgid "Failed to generate Monet palette"
+msgstr ""
+
+#: gradience/frontend/widgets/monet_theming_group.py:136
+msgid "Palette generated"
+msgstr "팔레트 생성됨"
+
+#: gradience/frontend/widgets/monet_theming_group.py:141
+#, fuzzy
+#| msgid "Select a background first"
+msgid "Select an image first"
+msgstr "먼저 배경을 선택하십시오"
+
+#: gradience/frontend/widgets/option_row.py:52
+#, fuzzy
+#| msgid "This option is only partially supported by the adw-gtk3 theme."
+msgid "This option is only partially supported by adw-gtk3."
+msgstr "이 옵션은 adw-gtk3 테마에서 부분적으로만 지원됩니다."
+
+#: gradience/frontend/widgets/option_row.py:57
+#, fuzzy
+#| msgid "This option is not supported by the adw-gtk3 theme."
+msgid "This option is not supported by adw-gtk3."
+msgstr "이 옵션은 adw-gtk3 테마에서 지원되지 않습니다."
+
+#: gradience/frontend/widgets/option_row.py:96
+#, fuzzy
+#| msgid "Shade Color"
+msgid "Show Color"
+msgstr "그림자 색상"
+
+#: gradience/frontend/widgets/option_row.py:118
+msgid "Not a color, see text value"
+msgstr "색상이 아님, 텍스트 값 참조"
+
+#: gradience/frontend/widgets/plugin_row.py:85
+msgid "Unable to remove"
+msgstr "제거할 수 없습니다"
+
+#: gradience/frontend/widgets/plugin_row.py:86
+msgid "This is a system plugin, and cannot be removed."
+msgstr "이것은 시스템 플러그인이며 제거할 수 없습니다."
+
+#: gradience/frontend/widgets/plugin_row.py:88
+msgid "Close"
+msgstr "닫기"
+
+#: gradience/frontend/widgets/preset_row.py:85
+#: gradience/frontend/widgets/preset_row.py:144
+#, fuzzy
+msgid "Remove from Favorites"
+msgstr "즐겨찾기에서 제거하기"
+
+#: gradience/frontend/widgets/preset_row.py:88
+#: gradience/frontend/widgets/preset_row.py:140
+#, fuzzy
+msgid "Add to Favorites"
+msgstr "즐겨찾기에 추가하기"
+
+#: gradience/frontend/widgets/preset_row.py:160
+msgid "Preset removed"
+msgstr "사전 설정 제거됨"
+
+#: gradience/frontend/widgets/preset_row.py:161
+msgid "Undo"
+msgstr "실행 취소"
+
+#: gradience/frontend/widgets/preset_row.py:176
+msgid "Pending Deletion"
+msgstr "삭제 보류 중"
+
+#: gradience/frontend/widgets/preset_row.py:190
+msgid "Unable to delete preset"
+msgstr "사전 설정을 삭제할 수 없습니다"
+
+#: gradience/frontend/widgets/repo_row.py:60
+msgid "Repository removed"
+msgstr "저장소 제거됨"
+
+#: gradience/frontend/widgets/reset_preset_group.py:55
+#, fuzzy
+msgid "Unable to restore GTK 4 backup"
+msgstr "GTK 4 백업을 복원할 수 없습니다"
+
+#: gradience/frontend/widgets/reset_preset_group.py:59
+msgid "GTK 4 preset has been restored. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:69
+#: gradience/frontend/widgets/reset_preset_group.py:98
+#, fuzzy
+msgid "Unable to delete current preset"
+msgstr "사전 설정을 삭제할 수 없습니다"
+
+#: gradience/frontend/widgets/reset_preset_group.py:73
+msgid "GTK 4 theme has been reset. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:84
+msgid "Unable to restore GTK 3 backup"
+msgstr "GTK 3 백업을 복원할 수 없습니다"
+
+#: gradience/frontend/widgets/reset_preset_group.py:88
+msgid "GTK 3 preset has been restored. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:102
+msgid "GTK 3 theme has been reset. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:94
+msgid "An unexpected error occurred while loading variable colors."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:118
+msgid "GNOME Shell Missing"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:119
+msgid ""
+"Shell Engine is designed to work only on systems running GNOME. You can "
+"still generate themes on other desktop environments, but it won't have any "
+"affect on them."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:121
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Disable Engine"
+msgstr "Monet 엔진"
+
+#: gradience/frontend/widgets/shell_theming_group.py:122
+#: gradience/frontend/widgets/shell_theming_group.py:133
+#: gradience/frontend/widgets/shell_theming_group.py:145
+#, fuzzy
+#| msgid "Continue"
+msgid "Continue Anyway"
+msgstr "계속"
+
+#: gradience/frontend/widgets/shell_theming_group.py:129
+msgid "User Themes Extension Missing"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:130
+msgid ""
+"Gradience requires the User Themes extension installed to apply the Shell "
+"theme. You can still generate a theme, but you won't be able to apply it "
+"without this extension."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:132
+#, fuzzy
+msgid "Install Extension"
+msgstr "테마 설치"
+
+#: gradience/frontend/widgets/shell_theming_group.py:140
+msgid "User Themes Extension Disabled"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:141
+msgid ""
+"The User Themes extension is currently disabled on your system. Please "
+"enable it to apply the theme."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:181
+msgid "An error occurred while generating a Shell theme."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:188
+#, fuzzy
+msgid "Shell theme applied successfully."
+msgstr "사전 설정이 성공적으로 적용되었습니다!"
+
+#: gradience/frontend/widgets/shell_theming_group.py:217
+#: gradience/frontend/widgets/shell_theming_group.py:222
+msgid "Failed to load extension's install link."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:241
+msgid "Shell theme successfully reset."
+msgstr ""
+
+#~ msgid "AdwCustomizer"
+#~ msgstr "AdwCustomizer"
+
+#, fuzzy
+#~| msgid "Adwaita Demo"
+#~ msgid "Adwaita Manager"
+#~ msgstr "Adwaita 데모"
+
+#, fuzzy
+#~| msgid "Manage Presets"
+#~ msgctxt "shortcut window"
+#~ msgid "Manage Presets"
+#~ msgstr "프리셋 관리하기"
+
+#, fuzzy
+#~| msgid "Save Preset"
+#~ msgctxt "shortcut window"
+#~ msgid "Save Preset"
+#~ msgstr "사전 설정 저장"
+
+#, fuzzy
+#~| msgid "Move CSS to the \"Advanced\" tab"
+#~ msgctxt "shortcut window"
+#~ msgid "Go to the Advanced Section"
+#~ msgstr "CSS를 \"고급\" 탭으로 이동"
+
+#, fuzzy
+#~| msgid "Preferences"
+#~ msgctxt "shortcut window"
+#~ msgid "Preferences"
+#~ msgstr "환경설정"
+
+#, fuzzy
+#~| msgid ""
+#~| "Monet is an engine that generates a Material Design 3 palette from an "
+#~| "image's color."
+#~ msgid "Monet Engine generates a Material You color palette from an image."
+#~ msgstr ""
+#~ "Monet은 이미지 색상에서 Material Design 3 팔레트를 생성하는 엔진입니다."
+
+#, fuzzy
+#~| msgid "Allow GTK 3 Flatpak theming"
+#~ msgid "Allow GTK 4 Theming"
+#~ msgstr "GTK 3 Flatpak 테마 허용하기"
+
+#, fuzzy
+#~| msgid "Allow GTK 4 Flatpak Applications Theming (System)"
+#~ msgid "Allow GTK 4 Theming (System)"
+#~ msgstr "GTK 4 Flatpak 응용프로그램 테마 허용하기 (시스템)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Override Flatpak permissions for all users to allow GTK 4 Flatpak "
+#~| "applications to access custom themes. (Requires root access)"
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 4 Flatpak apps to "
+#~ "access custom themes. (Requires root access)"
+#~ msgstr ""
+#~ "GTK 4 Flatpak 응용프로그램이 사용자 지정 테마에 액세스할 수 있도록 모든 사"
+#~ "용자에 대한 Flatpak 권한을 재정의합니다. (루트 액세스 필요)"
+
+#, fuzzy
+#~| msgid "Allow GTK 3 Flatpak theming"
+#~ msgid "Allow GTK 3 Theming"
+#~ msgstr "GTK 3 Flatpak 테마 허용하기"
+
+#, fuzzy
+#~| msgid "Allow GTK 4 Flatpak Applications Theming (System)"
+#~ msgid "Allow GTK 3 Theming (System)"
+#~ msgstr "GTK 4 Flatpak 응용프로그램 테마 허용하기 (시스템)"
+
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 3 Flatpak apps to "
+#~ "access adw-gtk3 theme. (Requires root access)"
+#~ msgstr ""
+#~ "GTK 3 Flatpak 응용프로그램이 adw-gtk3 테마에 액세스할 수 있도록 모든 사용"
+#~ "자에 대한 Flatpak 권한을 재정의합니다. (루트 액세스 필요)"
+
+#, fuzzy
+#~| msgid "Shade Color"
+#~ msgid "Custom Shell Colors"
+#~ msgstr "그림자 색상"
+
+#, fuzzy
+#~| msgid ""
+#~| "Change colors of windows, buttons, lists and more, with advanced "
+#~| "features like adding custom CSS"
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more, with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr ""
+#~ "사용자 지정 CSS 추가와 같은 고급 기능으로 창, 단추, 목록 등의 색상 변경하"
+#~ "기"
+
+#~ msgid "Theme"
+#~ msgstr "테마"
+
+#~ msgid "Save Changes"
+#~ msgstr "변경사항 저장하기"
+
+#, fuzzy
+#~| msgid ""
+#~| "Change colors of windows, buttons, lists and more, with advanced "
+#~| "features like adding custom CSS."
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more; with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr ""
+#~ "사용자 지정 CSS 추가와 같은 고급 기능을 사용하여 창, 단추, 목록 등의 색상"
+#~ "을 변경합니다."
+
+#~ msgid "Legacy Apps Theming"
+#~ msgstr "기존 앱 테마적용"
+
+#, fuzzy
+#~| msgid "Install adw-gtk3 theme for legacy apps theming"
+#~ msgid "Install adw-gtk3 theme for legacy app theming"
+#~ msgstr "기존 앱 테마적용을 위한 adw-gtk3 테마 설치하기"
+
+#~ msgid "System Configuration"
+#~ msgstr "시스템 구성"
+
+#, fuzzy
+#~| msgid "Installing Themes"
+#~ msgid "Installing adw-gtk3"
+#~ msgstr "테마 설치"
+
+#, fuzzy
+#~ msgid "Preset set successfully"
+#~ msgstr "사전 설정이 성공적으로 적용되었습니다!"
+
+#~ msgid "Toggle Text Value"
+#~ msgstr "텍스트 값 토글"
+
+#, fuzzy
+#~| msgid ""
+#~| "Monet is an engine that generates a Material Design 3 palette from an "
+#~| "image's color."
+#~ msgid ""
+#~ "Monet is an engine that generates a Material Design 3 palette from "
+#~ "extracting image's colors."
+#~ msgstr ""
+#~ "Monet은 이미지 색상에서 Material Design 3 팔레트를 생성하는 엔진입니다."
+
+#, fuzzy
+#~| msgid "For the changes to take effect, you need to log out. "
+#~ msgid "For the changes to take full effect, you need to log out."
+#~ msgstr "변경 사항을 적용하려면 로그아웃해야 합니다. "
+
+#~ msgid "Allow GTK 4 Flatpak Applications Theming"
+#~ msgstr "GTK 4 Flatpak 응용프로그램 테마 허용하기"
+
+#~ msgid "GTK 3 Flatpak Applications"
+#~ msgstr "GTK 3 Flatpak 응용프로그램"
+
+#~ msgid ""
+#~ "Remember to install adw-gtk3 theme (as a Flatpak package) in order to get "
+#~ "custom presets working in GTK 3 Flatpak applications."
+#~ msgstr ""
+#~ "GTK 3 Flatpak 응용프로그램에서 작동하는 사용자 지정 프리셋을 얻으려면 adw-"
+#~ "gtk3 테마(Flatpak 패키지로)를 설치해야 합니다."
+
+#~ msgid "GTK 3 Flatpak Applications (System)"
+#~ msgstr "GTK 3 Flatpak 응용프로그램 (시스템)"
+
+#~ msgid "_Monet"
+#~ msgstr "_Monet"
+
+#~ msgid "Restore Applied Color Scheme"
+#~ msgstr "적용된 색 구성표 복원하기"
+
+#~ msgid "Restore applied color scheme?"
+#~ msgstr "적용된 색 구성표를 복원하시겠습니까?"
+
+#~ msgid "Make sure you have the current settings saved as a preset."
+#~ msgstr "현재 설정이 사전 설정으로 저장되어 있는지 확인해주세요."
+
+#, fuzzy
+#~ msgid "_Restore"
+#~ msgstr "복원하기"
+
+#~ msgid "More Options"
+#~ msgstr "옵션 더 보기"
+
+#~ msgid "Packages by"
+#~ msgstr "패키지"
+
+#~ msgid "Fixes by"
+#~ msgstr "버그수정"
+
+#~ msgid "Special thanks to"
+#~ msgstr "특별히 고마운 분들"
+
+#~ msgid "Tone"
+#~ msgstr "톤"
+
+#~ msgid "GTK 4 Demo"
+#~ msgstr "GTK 4 데모"
+
+#~ msgid "GTK 4 Widget Factory"
+#~ msgstr "GTK 4 위젝 팩토리"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Gradience is a tool for customizing Libadwaita applications and the adw-"
+#~ "gtk3 theme.\n"
+#~ "The main features of Gradience include the following:\n"
+#~ "\n"
+#~ "🎨️ Changing any color of Adwaita theme\n"
+#~ "🖼️ Applying Material 3 color scheme from wallpaper\n"
+#~ "🎁️ Usage of other users presets\n"
+#~ "⚙️ Changing advanced options with CSS\n"
+#~ "🧩️ Extending functionality using plugins\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Gradience는 Libadwaita 응용프로그램과 adw-gtk3 테마를 사용자 지정하기 위"
+#~ "한 도구입니다.\n"
+#~ "Gradience를 사용하면 다음을 수행할 수 있습니다:\n"
+#~ "\n"
+#~ "- Adwaita 테마의 색상 변경하기\n"
+#~ "- Wallaper에서 Material 3 색상 적용하기\n"
+#~ "- 다른 사용자 프리셋 사용하기\n"
+#~ "- CSS로 고급 옵션 변경하기\n"
+#~ "- 플러그인을 사용하여 기능 확장하기\n"
+#~ "\n"
+#~ "이 앱은 Python으로 작성되었으며 GTK 4 및 Libadwaita를 사용합니다.\n"
+
+#~ msgid "Unsupported background type"
+#~ msgstr "지원되지 않는 배경 유형"
+
+#~ msgid ""
+#~ "Enter a keyword to search on <a href=\"https://gradienceteam.github.io/"
+#~ "presets\">GradienceTeam/Community</a>."
+#~ msgstr ""
+#~ "<a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+#~ "Community</a>에서 검색할 키워드를 입력하세요."
+
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+
+#~ msgid ""
+#~ "In this release, we added plugin support, a plugin repository, badges, "
+#~ "and a quick preset switcher. We also split the preset repository into an "
+#~ "“Official” repository and a “Curated” repositories."
+#~ msgstr ""
+#~ "이번 릴리스에서는 플러그인 지원, 플러그인 저장소, 배지 및 빠른 프리셋 전환"
+#~ "기를 추가했습니다. 또한 프리셋 저장소를 \"공식\" 저장소와 \"선별\" 저장소"
+#~ "로 나눕니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Added ability to star preset to display it in Palette</li>\n"
+#~ "<li>Updated Firefox GNOME Theme plugin</li>\n"
+#~ "<li>Welcome screen have been improved</li>\n"
+#~ "<li>Margins in color info popovers are fixed</li>\n"
+#~ "<li>Added filter to search presets by repo</li>\n"
+#~ "<li>Added \"No Preferences\" window</li>\n"
+#~ "<li>Preset Manager window size have changed</li>\n"
+#~ "<li>\"Offline\" and \"Nothing Found\" pages have been added to Preset "
+#~ "Manager</li>\n"
+#~ "<li>All text have been rewritten to follow GNOME Writing Guides</li>\n"
+#~ "<li>Switch from aiohttp to Libsoup3</li>\n"
+#~ "<li>Migrate to GNOME SDK 43</li>\n"
+#~ "<li>All contributors have been added to \"About\" window</li>\n"
+#~ "<li>Added \"Log Out\" dialog after preset apply</li>\n"
+#~ "<li>Some symbolics have changed, removed unnecessary hardcoded symbolics</"
+#~ "li>\n"
+#~ "<li>Flatpak theme override now fixed</li>\n"
+#~ "<li>New and updated translations</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "&lt;울&gt;\n"
+#~ "<li>팔레트에 표시할 별표 사전 설정 기능 추가</li>\n"
+#~ "<li>Firefox GNOME 테마 플러그인 업데이트</li>\n"
+#~ "<li>시작 화면이 개선되었습니다.</li>\n"
+#~ "<li>색상 정보 팝오버의 여백이 수정되었습니다.</li>\n"
+#~ "<li>리포지토리로 사전 설정 검색에 필터 추가</li>\n"
+#~ "<li>\"기본 설정 없음\" 창 추가</li>\n"
+#~ "<li>사전 설정 관리자 창 크기가 변경되었습니다.</li>\n"
+#~ "<li>\"오프라인\" 및 \"찾을 수 없음\" 페이지가 사전 설정 관리자에 추가되었"
+#~ "습니다.</li>\n"
+#~ "<li>모든 텍스트는 GNOME Writing Guides를 따르도록 다시 작성되었습니다.</"
+#~ "li>\n"
+#~ "<li>iohttp에서 Libsoup3으로 전환</li>\n"
+#~ "<li>GNOME SDK 43으로 마이그레이션</li>\n"
+#~ "<li>모든 기여자가 \"정보\" 창에 추가되었습니다.</li>\n"
+#~ "<li>사전 설정 적용 후 \"로그아웃\" 대화상자 추가</li>\n"
+#~ "<li>일부 기호가 변경되었으며 불필요한 하드코딩된 기호가 제거되었습니다.</"
+#~ "li>\n"
+#~ "<li>Flatpak 테마 재정의가 이제 수정되었습니다.</li>\n"
+#~ "<li>새로운 번역 및 업데이트된 번역</li>\n"
+#~ "\n"
+
+#~ msgid "Change the look of Adwaita, with ease."
+#~ msgstr "Adwaita의 외관을 쉽게 변경하세요."
+
+#~ msgid "With Gradience you can:"
+#~ msgstr "Gradience를 사용하면 다음을 수행할 수 있습니다:"
+
+#~ msgid "This app is written in Python and uses GTK 4 and Libadwaita."
+#~ msgstr "이 앱은 Python으로 작성되었으며 GTK 4 및 Libadwaita를 사용합니다."
+
+#~ msgid "colors purple"
+#~ msgstr "보라 색상"
+
+#~ msgid "monet purple"
+#~ msgstr "monet 보라색"
+
+#~ msgid "advanced purple"
+#~ msgstr "고급 보라색"
+
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Add AdwViewSwitcher in the header bar.</li>\n"
+#~ "<li>Move CSS to the \"Advanced\" tab</li>\n"
+#~ "<li>Move the rest to the \"colors\" tab</li>\n"
+#~ "<li>Add Monet tab which generates a theme from a background</li>\n"
+#~ "<li>Add disk saved and disk unsaved icon in the header bar</li>\n"
+#~ "<li>Update about dialog</li>\n"
+#~ "<li>Change license to GNU GPLv3</li>\n"
+#~ "<li>Begin plugin support</li>\n"
+#~ "<li>Move preset selector to a drop-down called palette (icon palette)</"
+#~ "li>\n"
+#~ "<li>Add ability to apply the theme only for dark theme or oy for light "
+#~ "theme</li>\n"
+#~ "<li>Automaticly use Adwaita-dark preset if the user prefered scheme is "
+#~ "dark.</li>\n"
+#~ "<li>Added Flatpak CI build</li>\n"
+#~ "<li>Added issue template for bug and feature request </li>\n"
+#~ "<li>`Main` branch is now protected by GitHub branch protection. The "
+#~ "development is done on `next` branch</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>헤더 표시줄에 AdwViewSwitcher를 추가합니다.</li>\n"
+#~ "<li>CSS를 \"고급\" 탭으로 이동하기</li>\n"
+#~ "<li>나머지는 \"색상\" 탭으로 이동하기</li>\n"
+#~ "<li>배경에서 테마를 생성하는 Monet 탭 추가하기</li>\n"
+#~ "<li>헤더 표시줄에 저장된 디스크 및 저장되지 않은 디스크 아이콘 추가하기</"
+#~ "li>\n"
+#~ "<li>대화 상자에 대한 업데이트</li>\n"
+#~ "<li>GNU GPLv3으로 라이선스 변경하기</li>\n"
+#~ "<li>플러그인 지원 시작하기</li>\n"
+#~ "<li>프리셋 선택기를 팔레트(아이콘 팔레트)라는 드롭다운으로 이동하기</li>\n"
+#~ "<li>어두운 테마에만 테마를 적용하거나 밝은 테마에 oy를 적용하는 기능 추가"
+#~ "하기</li>\n"
+#~ "<li>사용자가 선호하는 구성표가 어두운 경우 자동으로 Adwaita-dark 프리셋을 "
+#~ "사용합니다.</li>\n"
+#~ "<li>Flatpak CI 빌드 추가하기</li>\n"
+#~ "<li>버그 및 기능 요청에 대한 문제 템플릿 추가하기 </li>\n"
+#~ "<li>`Main` 분기는 이제 GitHub 분기 보호로 보호됩니다. 개발은 `next` 브랜치"
+#~ "에서 수행됩니다.</li>\n"
+#~ "</ul>\n"
+
+#~ msgid "Share preset"
+#~ msgstr "프리셋 공유하기"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                <ul>\n"
+#~ "                <li>Add AdwViewSwitcher in the header bar.</li>\n"
+#~ "                <li>Move CSS to the \"Advanced\" tab</li>\n"
+#~ "                <li>Move the rest to the \"colors\" tab</li>\n"
+#~ "                <li>Add Monet tab which generates a theme from a "
+#~ "background</li>\n"
+#~ "                <li>Add disk saved and disk unsaved icon in the header "
+#~ "bar</li>\n"
+#~ "                <li>Update about dialog</li>\n"
+#~ "                <li>Change license to GNU GPLv3</li>\n"
+#~ "                <li>Begin plugin support</li>\n"
+#~ "                <li>Move preset selector to a drop-down called palette "
+#~ "(icon palette)</li>\n"
+#~ "                <li>Add ability to apply the theme onlyfor dark theme or "
+#~ "oy for light theme</li>\n"
+#~ "                <li>Automaticly use Adwaita-dark preset if the user "
+#~ "prefered scheme is dark.</li>\n"
+#~ "                <li>Added Flatpak CI build</li>\n"
+#~ "                <li>Added issue template for bug and feature request </"
+#~ "li>\n"
+#~ "                <li>`Main` branch is now protected by GitHub branch "
+#~ "protection. The development is done on `next` branch</li>\n"
+#~ "                </ul>\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                &lt;울&gt;\n"
+#~ "                <li>헤더 표시줄에 AdwViewSwitcher를 추가합니다.</li>\n"
+#~ "                <li>CSS를 \"고급\" 탭으로 이동</li>\n"
+#~ "                <li>나머지는 \"색상\" 탭으로 이동</li>\n"
+#~ "                <li>배경에서 테마를 생성하는 Monet 탭 추가</li>\n"
+#~ "                <li>헤더 표시줄에 저장된 디스크 및 저장되지 않은 디스크 아"
+#~ "이콘 추가</li>\n"
+#~ "                <li>대화 상자에 대한 업데이트</li>\n"
+#~ "                <li>GNU GPLv3으로 라이선스 변경</li>\n"
+#~ "                <li>플러그인 지원 시작</li>\n"
+#~ "                <li>사전 설정 선택기를 팔레트(아이콘 팔레트)라는 드롭다운"
+#~ "으로 이동</li>\n"
+#~ "                <li>어두운 테마의 경우에만 테마를 적용하거나 밝은 테마의 "
+#~ "경우 oy를 적용하는 기능 추가</li>\n"
+#~ "                <li>사용자가 선호하는 구성표가 어두운 경우 자동으로 "
+#~ "Adwaita-dark 사전 설정을 사용합니다.</li>\n"
+#~ "                <li>Flatpak CI 빌드 추가</li>\n"
+#~ "                <li>버그 및 기능 요청에 대한 문제 템플릿 추가 </li>\n"
+#~ "                <li>`Main` 분기는 이제 GitHub 분기 보호로 보호됩니다. 개발"
+#~ "은 `next` 브랜치에서 수행됩니다.</li>\n"
+#~ "                \n"
+#~ "                "
+
+#~ msgid "colors"
+#~ msgstr "색상"
+
+#~ msgid "monet"
+#~ msgstr "monet"
+
+#~ msgid "advanced"
+#~ msgstr "고급"
+
+#~ msgid "A small bug fix release of Gradience."
+#~ msgstr "Gradience의 작은 버그 수정 릴리스."
+
+#~ msgid "Small improvements to the welcome screen"
+#~ msgstr "시작 화면의 작은 개선 사항"
+
+#~ msgid "Fixing release notes"
+#~ msgstr "릴리스 변경 내용"
+
+#~ msgid "New Release of Gradience."
+#~ msgstr "Gradience의 새로운 릴리스."
+
+#~ msgid "Rebrand"
+#~ msgstr "리브랜드"
+
+#~ msgid "Refactoring meson architecture"
+#~ msgstr "meson 아키텍처 리팩토링"
+
+#~ msgid "New debug check"
+#~ msgstr "새로운 디버그 검사"
+
+#~ msgid "Switching runtime to GNOME 42 and adding adw 1.2"
+#~ msgstr "런타임을 GNOME 42로 전환하고 adw 1.2 추가"
+
+#~ msgid "Add more info about monet"
+#~ msgstr "모네에 대한 자세한 정보 추가"
+
+#~ msgid "Add preset manager with option to download other users presets"
+#~ msgstr ""
+#~ "다른 사용자 사전 설정을 다운로드하는 옵션이 있는 사전 설정 관리자 추가"
+
+#~ msgid "First release of Gradience."
+#~ msgstr "Gradience의 첫 번째 릴리스."
+
+#~ msgid "Add AdwViewSwitcher in the header bar"
+#~ msgstr "제목 표시줄에 AdwViewSwitcher 추가"
+
+#~ msgid "Move the rest to the \"colors\" tab"
+#~ msgstr "나머지를 \"색상\" 탭으로 이동"
+
+#~ msgid "Add Monet tab which generates a theme from a background"
+#~ msgstr "배경에서 테마를 생성하는 Monet 탭 추가"
+
+#~ msgid "Add disk saved and disk unsaved icon in the header bar"
+#~ msgstr "제목 표시줄에 디스크 저장 및 저장되지 않은 디스크 아이콘 추가"
+
+#~ msgid "Update about dialog"
+#~ msgstr "정보 대화상자 업데이트"
+
+#~ msgid "Change license to GNU GPLv3"
+#~ msgstr "GNU GPLv3으로 라이선스 변경"
+
+#~ msgid "Begin plugin support"
+#~ msgstr "플러그인 지원 시작"
+
+#~ msgid "Move preset selector to a drop-down called palette (icon palette)"
+#~ msgstr "팔레트(아이콘 팔레트) 드롭다운으로 사전 설정 선택기를 이동"
+
+#~ msgid ""
+#~ "Add ability to apply the theme onlyfor dark theme or oy for light theme"
+#~ msgstr "어두운 테마 또는 밝은 테마에만 테마를 적용하는 기능 추가"
+
+#~ msgid ""
+#~ "Automaticly use Adwaita-dark preset if the user prefered scheme is dark."
+#~ msgstr ""
+#~ "사용자가 선호하는 구성표가 어두운 경우 자동으로 Adwaita-dark 사전 설정을 "
+#~ "사용합니다."
+
+#~ msgid "Added Flatpak CI build"
+#~ msgstr "Flatpak CI 빌드 추가"
+
+#~ msgid "Added issue template for bug and feature request"
+#~ msgstr "버그 및 기능 요청에 대한 문제 템플릿 추가"
+
+#~ msgid ""
+#~ "`Main` branch is now protected by GitHub branch protection. The "
+#~ "development is done on `next` branch"
+#~ msgstr ""
+#~ "`Main` 브랜치는 이제 GitHub 브랜치 보호로 보호됩니다. 개발은 `next` 브랜치"
+#~ "에서 이루어짐"
+
+#, fuzzy
+#~ msgid "Select app types you want to affect:"
+#~ msgstr "영향을 미치려는 앱 유형 선택:"
+
+#, fuzzy
+#~ msgid "GTK 3 apps (adw-gtk3 theme required)"
+#~ msgstr "GTK 3 앱(adw-gtk3 테마 필요)"
+
+#~ msgid "Download and apply"
+#~ msgstr "다운로드 및 적용"
+
+#~ msgid "Download only"
+#~ msgstr "다운로드만"
+
+#, fuzzy
+#~ msgid "Enable plugin"
+#~ msgstr "플러그인 활성화"
+
+#~ msgid "Settings"
+#~ msgstr "설정"
+
+#~ msgid "Remove plugin"
+#~ msgstr "플러그인 삭제"
+
+#~ msgid "Edit preset name"
+#~ msgstr "사전 설정 이름 편집"
+
+#~ msgid "Open in file manager"
+#~ msgstr "파일 관리자로 열기"
+
+#~ msgid "Customize Adwaita with ease"
+#~ msgstr "Adwaita를 쉽게 커스터마이징"
+
+#, fuzzy
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more with advanced features "
+#~ "like adding custom CSS"
+#~ msgstr ""
+#~ "사용자 정의 CSS 추가와 같은 고급 기능으로 창, 버튼, 목록 등의 색상 변경"
+
+#~ msgid "Configure themes"
+#~ msgstr "테마 구성"
+
+#, fuzzy
+#~ msgid "Install adw-gtk3 theme for legacy applications."
+#~ msgstr "레거시 애플리케이션용 adw-gtk3 테마를 설치합니다."
+
+#~ msgid "adw-gtk3 theme"
+#~ msgstr "adw-gtk3 테마"
+
+#~ msgid "Allow installation"
+#~ msgstr "설치 허용"
+
+#, fuzzy
+#~ msgid "Please wait until themes will be installed. "
+#~ msgstr "테마가 설치될 때까지 기다려 주세요. "
+
+#, fuzzy
+#~ msgid "Now you can make your own presets, or download some online."
+#~ msgstr ""
+#~ "이제 자신만의 사전 설정을 만들거나 온라인에서 일부를 다운로드할 수 있습니"
+#~ "다."
+
+#, fuzzy
+#~ msgid "Please Finish the setup first"
+#~ msgstr "먼저 설정을 완료하세요"
+
+#~ msgid "Start using Gradience"
+#~ msgstr "Gradience 시작"
+
+#~ msgid "Unsaved changes"
+#~ msgstr "저장되지 않은 변경사항"
+
+#~ msgid "Save changes"
+#~ msgstr "변경 사항을 저장"
+
+#~ msgid "Apply this color scheme?"
+#~ msgstr "이 색 구성표를 적용하시겠습니까?"
+
+#~ msgid ""
+#~ "Plugins add additional features to Gradience, plugins are made by "
+#~ "Gradience community and can make issues."
+#~ msgstr ""
+#~ "플러그인은 Gradience에 추가 기능을 추가하며, 플러그인은 Gradience 커뮤니티"
+#~ "에서 만들어지며 문제를 일으킬 수 있습니다."
+
+#, fuzzy
+#~ msgid "No plugins found"
+#~ msgstr "플러그인을 찾을 수 없습니다"
+
+#~ msgid "Builtin Presets"
+#~ msgstr "내장 사전 설정"
+
+#~ msgid ""
+#~ "See <a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+#~ "Community</a> on Github for more presets"
+#~ msgstr ""
+#~ "더 많은 사전 설정은 Github에서 <a href=\"https://github.com/GradienceTeam/"
+#~ "Community\">GradienceTeam/Community</a>를 참조"
+
+#~ msgid ""
+#~ "No preset found! Use the import button to import one or search one on the "
+#~ "Explore tab"
+#~ msgstr ""
+#~ "사전 설정을 찾을 수 없습니다! 가져오기 버튼을 사용하여 가져오거나 탐색 탭"
+#~ "에서 검색하십시오."
+
+#~ msgid "Choose a file"
+#~ msgstr "파일 선택"
+
+#~ msgid "Save preset as..."
+#~ msgstr "사전 설정을 다른 이름으로 저장..."
+
+#, fuzzy
+#~ msgid "Installed Presets"
+#~ msgstr "설치됨"
+
+#, fuzzy
+#~ msgid "Rename preset"
+#~ msgstr "사전 설정 삭제"
+
+#, fuzzy
+#~ msgid "Select app types you want to theme:"
+#~ msgstr "영향을 미치려는 앱 유형 선택:"
+
+#, fuzzy
+#~ msgid "GTK 3 apps (adw-gtk3 theme is required)"
+#~ msgstr "GTK 3 앱(adw-gtk3 테마 필요)"
+
+#, fuzzy
+#~ msgid "Toggle plugin"
+#~ msgstr "플러그인 활성화"
+
+#, fuzzy
+#~ msgid "No plugins found."
+#~ msgstr "플러그인을 찾을 수 없습니다"

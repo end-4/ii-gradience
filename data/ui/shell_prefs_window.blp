@@ -1,0 +1,16 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceShellPrefsWindow : Adw.PreferencesWindow {
+  title: _("Shell Engine Preferences");
+  search-enabled: false;
+  default-height: 620;
+  default-width: 500;
+  modal: true;
+
+  Adw.PreferencesPage {
+    Adw.PreferencesGroup custom-colors-group {
+      title: _("Shell theme colors");
+    }
+  }
+}

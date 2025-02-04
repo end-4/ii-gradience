@@ -1,0 +1,145 @@
+{
+    "app-id" : "com.github.GradienceTeam.Gradience",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "45",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "gradience",
+    "finish-args" : [
+        "--share=network",
+        "--share=ipc",
+        "--device=dri",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--talk-name=org.freedesktop.Flatpak",
+        "--filesystem=~/.local/share/gnome-shell/extensions",
+        "--filesystem=xdg-data/flatpak/overrides:create",
+        "--filesystem=xdg-cache/gradience:create",
+        "--filesystem=xdg-data/themes:create",
+        "--filesystem=xdg-config/gtk-3.0",
+        "--filesystem=xdg-config/gtk-4.0",
+        "--filesystem=xdg-config/qt5ct",
+        "--filesystem=xdg-run/gvfsd",
+        "--filesystem=xdg-download:ro",
+        "--filesystem=~/.mozilla/firefox",
+        "--filesystem=~/.librewolf",
+        "--filesystem=~/.waterfox",
+        "--filesystem=~/.var/app/org.mozilla.firefox/.mozilla/firefox",
+        "--filesystem=~/.var/app/io.gitlab.librewolf-community/.librewolf",
+        "--filesystem=~/.var/app/net.waterfox.waterfox/.waterfox",
+        "--filesystem=~/snap/firefox/common/.mozilla/firefox",
+        "--filesystem=/.var/app/com.getmailspring.Mailspring/config/Mailspring/packages/Libadwaita/styles",
+        "--filesystem=xdg-config/Mailspring"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        "pypi-dependencies.json",
+        {
+            "name": "python-lxml",
+            "buildsystem": "simple",
+            "build-commands": [
+                "python3 setup.py build --with-cython",
+                "python3 setup.py install --prefix=/app --root=/"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/lxml/lxml/releases/download/lxml-5.0.0-1/lxml-5.0.0.tar.gz",
+                    "sha256": "67216b13a832adb984cfd20437261236f8c05fc19a0f7d4c59c235fddb17dfdb"
+                }
+            ]
+        },
+        {
+            "name" : "blueprint-compiler",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
+                    "tag" : "v0.10.0"
+                }
+            ]
+        },
+        {
+            "name": "sassc",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/sass/sassc.git",
+                    "tag": "3.6.2"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "autogen.sh",
+                    "commands": [
+                        "autoreconf -si"
+                    ]
+                }
+            ],
+            "cleanup": [
+                "*"
+            ],
+            "modules": [
+                {
+                    "name": "libsass",
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://github.com/sass/libsass.git",
+                            "tag": "3.6.6"
+                        },
+                        {
+                            "type": "script",
+                            "dest-filename": "autogen.sh",
+                            "commands": [
+                                "autoreconf -si"
+                            ]
+                        }
+                    ],
+                    "cleanup": [
+                        "*"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddocs=false",
+                "-Dvapi=false",
+                "-Dbackend-gtk4=enabled"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/flatpak/libportal.git",
+                    "tag": "0.7.1"
+                }
+            ]
+        },
+        {
+            "name" : "gradience",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "config-opts": [
+                "-Dbuildtype=release"
+            ],
+            "sources" : [
+                {
+                    "type" : "dir",
+                    "path" : "../../."
+                }
+            ]
+        }
+    ]
+}

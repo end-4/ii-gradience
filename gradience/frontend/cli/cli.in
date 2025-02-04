@@ -1,0 +1,557 @@
+#!/usr/bin/env python3
+
+# cli.in
+#
+# Change the look of Adwaita, with ease
+# Copyright (C) 2022-2023, Gradience Team
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+import os
+import sys
+import json
+import shutil
+import signal
+import argparse
+import warnings
+import locale
+import gettext
+
+version = "@VERSION@"
+is_local = @local_build@
+localedir = '@LOCALE_DIR@'
+
+if is_local:
+    # In the local use case, use gradience module from the sourcetree
+    sys.path.insert(1, '@PYTHON@')
+
+    # In the local use case the installed schemas go in <builddir>/data
+    os.environ["XDG_DATA_DIRS"] = '@SCHEMAS_DIR@:' + os.environ.get("XDG_DATA_DIRS", "")
+
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+gettext.install('gradience', localedir)
+
+locale.bindtextdomain('gradience', localedir)
+locale.textdomain('gradience')
+
+warnings.filterwarnings("ignore") # suppress GTK warnings
+
+from gi.repository import GLib, Gio
+
+from gradience.backend.utils.networking import get_preset_repos
+from gradience.backend.utils.gnome import is_gnome_available, is_shell_ext_installed
+from gradience.backend.utils.common import to_slug_case
+
+from gradience.backend.globals import presets_dir
+
+from gradience.backend.theming.monet import Monet
+from gradience.backend.models.preset import Preset
+from gradience.backend.theming.shell import ShellTheme
+from gradience.backend.theming.preset import PresetUtils
+from gradience.backend.preset_downloader import PresetDownloader
+from gradience.backend.flatpak_overrides import (list_file_access, allow_file_access,
+                disallow_file_access, create_gtk_user_override, remove_gtk_user_override)
+
+from gradience.backend.logger import Logger
+
+logging = Logger()
+
+
+class CLI:
+    settings = Gio.Settings.new("@APP_ID@")
+
+    def __init__(self):
+        self.parser = argparse.ArgumentParser(description="Gradience - Change the look of Adwaita, with ease")
+        self.parser.add_argument("-V", "--version", action="version", version=f"Gradience, version {version}")
+        #self.parser.add_argument("-j", "--json", action="store_true", help="print out a result of the command directly in JSON format")
+        #self.parser.add_argument('-J', '--pretty-json', dest='pretty_json', action='store_true', help='pretty-print JSON output')
+
+        subparsers = self.parser.add_subparsers(dest="command")
+
+        #info_parser = subparsers.add_parser("info", help="show information about Gradience")
+
+        presets_parser = subparsers.add_parser("presets", help="list installed presets")
+        presets_parser.add_argument("-j", "--json", action="store_true", help="print out a result of this command directly in JSON format")
+
+        favorites_parser = subparsers.add_parser("favorites", help="list favorite presets")
+        favorites_parser.add_argument("-a", "--add-preset", metavar="PRESET_NAME", help="add a preset to favorites")
+        favorites_parser.add_argument("-r", "--remove-preset", metavar="PRESET_NAME", help="remove a preset from favorites")
+        favorites_parser.add_argument("-j", "--json", action="store_true", help="print out a result of this command directly in JSON format")
+
+        import_parser = subparsers.add_parser("import", help="import a preset")
+        import_parser.add_argument("-p", "--preset-path", help="absolute path to a preset file", required=True)
+
+        apply_parser = subparsers.add_parser("apply", help="apply a preset")
+        apply_group = apply_parser.add_mutually_exclusive_group(required=True)
+        apply_group.add_argument("-n", "--preset-name", help="display name of the preset")
+        apply_group.add_argument("-p", "--preset-path", help="absolute path to the preset file")
+        apply_parser.add_argument("--gtk", choices=["gtk4", "gtk3", "both"], default="gtk4", help="types of applications you want to theme (default: gtk4)")
+
+        #new_parser = subparsers.add_parser("new", help="create a new preset")
+        #new_parser.add_argument("-i", "--interactive", action="store_true", help="")
+        #new_parser.add_argument("-n", "--name", help="display name of the preset", required=True)
+        #new_parser.add_argument("--colors", help="", required=True)
+        #new_parser.add_argument("--palette", help="")
+        #new_parser.add_argument("--custom-css", help="")
+        #new_parser.add_argument("-j", "--json", action="store_true", help="print out a result of this command directly in JSON format")
+
+        download_parser = subparsers.add_parser("download", help="download preset from a preset repository")
+        #new_parser.add_argument("-i", "--interactive", action="store_true", help="")
+        download_parser.add_argument("-n", "--preset-name", help="name of a preset you want to get", required=True)
+        #download_parser.add_argument("--custom-url", help="use custom repository's presets.json to download other presets")
+
+        shell_parser = subparsers.add_parser("gnome-shell", help="generate a GNOME Shell theme from any preset")
+        choose_preset_group = shell_parser.add_mutually_exclusive_group(required=True)
+        choose_preset_group.add_argument("-n", "--preset-name", help="display name of the preset")
+        choose_preset_group.add_argument("-p", "--preset-path", help="absolute path to the preset file")
+        shell_parser.add_argument("-v", "--preset-variant", choices=["light", "dark"], help="select which preset variant you use to generate a theme")
+
+        monet_parser = subparsers.add_parser("monet", help="generate Material You preset from an image")
+        #monet_parser.add_argument("-a", "--apply", help="apply Monet's generated preset after it has been created", action='store_true')
+        monet_parser.add_argument("-n", "--preset-name", help="name for a generated preset", required=True)
+        monet_parser.add_argument("-p", "--image-path", help="absolute path to image", required=True)
+        monet_parser.add_argument("--tone", default=20, help="a tone for colors (default: 20)")
+        monet_parser.add_argument("--theme", choices=["light", "dark"], default="light", help="choose whatever it should be a light or dark theme (default: light)")
+        monet_parser.add_argument("-j", "--json", action="store_true", help="print out a result of this command directly in JSON format")
+
+        access_parser = subparsers.add_parser("access-file", help="allow or disallow Gradience to access a certain file or directory")
+        access_parser.add_argument("-l", "--list", action="store_true", help="list allowed directories and files")
+        access_group = access_parser.add_mutually_exclusive_group(required=False)
+        access_group.add_argument("-a", "--allow", metavar="PATH", help="allow Gradience access to this file or directory")
+        access_group.add_argument("-d", "--disallow", metavar="PATH", help="disallow Gradience access to this file or directory")
+
+        overrides_parser = subparsers.add_parser("flatpak-overrides", help="enable or disable Flatpak theming")
+        overrides_group = overrides_parser.add_mutually_exclusive_group(required=True)
+        overrides_group.add_argument("-e", "--enable-theming", choices=["gtk4", "gtk3", "both"], help="enable overrides for Flatpak theming")
+        overrides_group.add_argument("-d", "--disable-theming", choices=["gtk4", "gtk3", "both"], help="disable overrides for Flatpak theming")
+
+        self.preset_repos = get_preset_repos(self.settings.get_boolean("use-jsdelivr"))
+
+        self.__parse_args()
+
+    def __print_json(self, data, pretty=False):
+        if pretty:
+            print(json.dumps(data, indent=4))
+        else:
+            print(json.dumps(data))
+
+    def __parse_args(self):
+        args = self.parser.parse_args()
+
+        if not args.command:
+            print(self.parser.format_help())
+
+        if args.command == "presets":
+            self.list_presets(args)
+
+        elif args.command == "favorites":
+            self.favorite_presets(args)
+
+        elif args.command == "import":
+            self.import_preset(args)
+
+        elif args.command == "apply":
+            self.apply_preset(args)
+
+        elif args.command == "new":
+            self.new_preset(args)
+
+        elif args.command == "download":
+            self.download_preset(args)
+
+        elif args.command == "gnome-shell":
+            self.gnome_shell(args)
+
+        elif args.command == "monet":
+            self.generate_monet(args)
+
+        elif args.command == "access-file":
+            self.access_file(args)
+
+        elif args.command == "flatpak-overrides":
+            self.flatpak_theming(args)
+
+    def list_presets(self, args):
+        #_remove_preset = args.remove_preset
+        _json = args.json
+
+        try:
+            presets_list = PresetUtils().get_presets_list(full_list=True)
+        except (OSError, KeyError, AttributeError) as e:
+            logging.error("Failed to retrieve a list of presets.", exc=e)
+            exit(1)
+
+        if _json:
+            json_output = json.dumps(presets_list)
+            print(json_output)
+            exit(0)
+
+        # TODO: Modify this output to look more like a table (maybe use ncurses?)
+        print("\033[1;37mPreset name\033[0m | \033[1;37mPreset path\033[0m")
+        for key in presets_list:
+            print(f"{presets_list[key]} -> {key}")
+
+    def favorite_presets(self, args):
+        _add_preset = args.add_preset
+        _remove_preset = args.remove_preset
+        _json = args.json
+
+        favorite = set(self.settings.get_value("favourite"))
+
+        try:
+            presets_list = PresetUtils().get_presets_list(full_list=True)
+        except (OSError, KeyError, AttributeError) as e:
+            logging.error("Failed to retrieve a list of presets.", exc=e)
+            exit(1)
+
+        presets_name = list(presets_list.values())
+
+        if _json and not _add_preset and not _remove_preset:
+            favorites_json = {"favorites": list(favorite), "amount": len(favorite)}
+            json_output = json.dumps(favorites_json)
+            print(json_output)
+            exit(0)
+        elif _json and _add_preset or _json and _remove_preset:
+            logging.error("JSON output option isn't available for --add-preset and --remove-preset options.")
+            exit(1)
+
+        if _add_preset:
+            if _add_preset in presets_name:
+                favorite.add(_add_preset)
+                self.settings.set_value("favourite", GLib.Variant("as", favorite))
+                logging.info(f"Preset {_add_preset} has been added to favorites.")
+                exit(0)
+            else:
+                logging.error(f"Preset named {_add_preset} isn't installed in Gradience. "
+                    "Check if you typed the correct preset name, or try importing your preset using 'import' command.")
+                exit(1)
+
+        if _remove_preset:
+            if _remove_preset in favorite:
+                favorite.remove(_remove_preset)
+                self.settings.set_value("favourite", GLib.Variant("as", favorite))
+                logging.info(f"Preset {_add_preset} has been removed from favorites.")
+                exit(0)
+            else:
+                logging.error(f"Preset named {_remove_preset} doesn't exist in favorites list. "
+                    "Check if you typed the correct preset name.")
+                exit(1)
+
+        logging.info("Favorite presets list:")
+        for i, preset in enumerate(favorite):
+            print(preset)
+
+        logging.info(f"Favorites amount: {len(favorite)}")
+        exit(0)
+
+    def import_preset(self, args):
+        _preset_path = args.preset_path
+
+        preset_file = GLib.path_get_basename(_preset_path)
+        output_filename = os.path.join(presets_dir, "user", preset_file.strip())
+        logging.info(f"Importing preset: {preset_file.strip()}")
+
+        # TODO: Check if preset is already imported
+        if _preset_path.endswith(".json"):
+            try:
+                shutil.copy(_preset_path, output_filename)
+            except FileNotFoundError as e:
+                logging.error("Preset could not be imported.", exc=e)
+                exit(1)
+            else:
+                logging.info("Preset imported successfully.")
+                exit(0)
+        else:
+            logging.error("Unsupported preset file format, must be .json")
+            exit(1)
+
+    def apply_preset(self, args):
+        #_interactive = args.interactive
+        _preset_name = args.preset_name
+        _preset_path = args.preset_path
+        _gtk = args.gtk
+
+        try:
+            presets_list = PresetUtils().get_presets_list(full_list=True)
+        except (OSError, KeyError, AttributeError) as e:
+            logging.error("Failed to retrieve a list of presets.", exc=e)
+            exit(1)
+
+        presets_name = list(presets_list.values())
+
+        def __get_preset_from_name():
+            for path, name in presets_list.items():
+                    if name == _preset_name:
+                        preset = Preset().new_from_path(path)
+            return preset
+
+        if _preset_name:
+            if _preset_name in presets_name:
+                preset = __get_preset_from_name()
+        elif _preset_path:
+            preset = Preset().new_from_path(_preset_path)
+
+        if _gtk in ("gtk4", "gtk3"):
+            PresetUtils().apply_preset(_gtk, preset)
+            logging.info(f"Preset {preset.display_name} applied successfully for {_gtk.capitalize()} applications.")
+        elif _gtk == "both":
+            PresetUtils().apply_preset("gtk4", preset)
+            PresetUtils().apply_preset("gtk3", preset)
+            logging.info(f"Preset {preset.display_name} applied successfully for Gtk 3 and Gtk 4 applications.")
+
+        logging.info("In order for changes to take full effect, you need to log out.")
+        exit(0)
+
+    def new_preset(self, args):
+        #_interactive = args.interactive
+        _name = args.name
+        _colors = args.colors
+        _palette = args.palette
+        _custom_css = args.custom_css
+        _json = args.json
+
+        # TODO: Do the logic code for `new` command
+
+        logging.error("This command isn't implemented yet")
+        exit(1)
+
+    def download_preset(self, args):
+        #_interactive = args.interactive
+        _preset_name = args.preset_name
+        #_custom_url = args.custom_url
+
+        repo_no = 1
+        repos_amount = len(self.preset_repos.items())
+        for repo_name, repo in self.preset_repos.items():
+            try:
+                explore_presets, urls = PresetDownloader(self.settings.get_boolean("use-jsdelivr")).fetch_presets(repo)
+            except (GLib.GError, json.JSONDecodeError) as e:
+                logging.error("An error occurred while fetching presets from remote repository.", exc=e)
+                exit(1)
+            else:
+                preset_no = 1
+                presets_amount = len(explore_presets.items())
+                for (preset, preset_name), preset_url in zip(explore_presets.items(), urls):
+                    # TODO: Add handling of two or more presets with the same elements in name
+                    if _preset_name.lower() in preset_name.lower():
+                        logging.info(f"Downloading preset: {preset_name}")
+                        try:
+                            PresetDownloader().download_preset(preset_name, to_slug_case(repo_name), preset_url)
+                        except (GLib.GError, json.JSONDecodeError, OSError) as e:
+                            logging.error("An error occurred while downloading a preset.", exc=e)
+                            exit(1)
+                        else:
+                            logging.info("Preset downloaded successfully.")
+                            exit(0)
+                    else:
+                        if repo_no == repos_amount and preset_no == presets_amount:
+                            logging.error(f"No presets found with text: {_preset_name}")
+                            exit(1)
+                        preset_no += 1
+                        continue
+                repo_no += 1
+
+    # TODO: Add support for custom colors
+    def gnome_shell(self, args):
+        _preset_name = args.preset_name
+        _preset_path = args.preset_path
+        _preset_variant = args.preset_variant
+
+        try:
+            presets_list = PresetUtils().get_presets_list(full_list=True)
+        except (OSError, KeyError, AttributeError) as e:
+            logging.error("Failed to retrieve a list of presets.", exc=e)
+            exit(1)
+
+        presets_name = list(presets_list.values())
+
+        def __get_preset_from_name():
+            for path, name in presets_list.items():
+                    if name == _preset_name:
+                        preset = Preset().new_from_path(path)
+            return preset
+
+        if _preset_name:
+            if _preset_name in presets_name:
+                preset = __get_preset_from_name()
+            else:
+                logging.error(f"Failed to find preset named {_preset_name}. Verify if you wrote the name right with `presets` command.")
+                exit(1)
+        elif _preset_path:
+            try:
+                preset = Preset().new_from_path(_preset_path)
+            except OSError as e:
+                exit(1)
+
+        if not is_gnome_available():
+            logging.warning("Shell Engine is designed to work only on systems running GNOME. You can still generate themes on other desktop environments, but it won't have any affect on them.")
+            prompt = input("Do you want to continue? [N/y] ")
+
+            if prompt.lower() == "y":
+                pass
+            elif prompt.lower() == "n" or prompt == "":
+                logging.info("Aborting all operations...")
+                exit(0)
+            else:
+                logging.info("Aborting all operations...")
+                exit(0)
+
+        shell_engine = ShellTheme()
+
+        is_user_themes_available = is_shell_ext_installed(shell_engine.THEME_EXT_NAME)
+        is_user_themes_enabled = is_shell_ext_installed(shell_engine.THEME_EXT_NAME, check_enabled=True)
+
+        if not is_user_themes_available:
+            logging.warning("Gradience requires User Themes extension installed in order to apply Shell theme. You can still generate a theme, but you won't be able to apply it without this extension.")
+            prompt = input("Do you want to continue? [N/y] ")
+
+            if prompt.lower() == "y":
+                pass
+            elif prompt.lower() == "n" or prompt == "":
+                logging.info("Aborting all operations...")
+                exit(0)
+            else:
+                logging.info("Aborting all operations...")
+                exit(0)
+        elif not is_user_themes_enabled:
+            logging.warning("User Themes extension is currently disabled on your system. Please enable it in order to apply theme.")
+            prompt = input("Do you want to continue? [N/y] ")
+
+            if prompt.lower() == "y":
+                pass
+            elif prompt.lower() == "n" or prompt == "":
+                logging.info("Aborting all operations...")
+                exit(0)
+            else:
+                logging.info("Aborting all operations...")
+                exit(0)
+
+        shell_engine.apply_theme(None, _preset_variant, preset)
+        logging.info("GNOME Shell theme generated successfully.")
+        exit(0)
+
+    # NOTE: Possible useful portals to use in future: org.freedesktop.portal.Documents \
+    # (support missing in libportal, only D-Bus calls), org.freedesktop.portal.FileChooser
+    def generate_monet(self, args):
+        #_apply = args.apply
+        _preset_name = args.preset_name
+        _image_path = args.image_path
+        _tone = args.tone
+        _theme = args.theme
+        _json = args.json
+
+        try:
+            palette = Monet().generate_palette_from_image(_image_path)
+        except (OSError, ValueError) as e:
+            logging.info("If you are getting an `no such file or directory` error on Gradience installed as Flatpak, "
+                "try adding the file to the access list by using `gradience-cli access-file --allow 'path/to/file'` command.")
+            exit(1)
+
+        props = [_tone, _theme]
+
+        if _json:
+            try:
+                preset = Monet().new_preset_from_monet(_preset_name,
+                                    palette, props, True)
+            except (OSError, AttributeError) as e:
+                logging.error("Unexpected error while generating preset from Monet palette.", exc=e)
+                exit(1)
+            else:
+                preset_json = preset.get_preset_json()
+                print(preset_json)
+                exit(0)
+
+        try:
+            Monet().new_preset_from_monet(_preset_name, palette, props)
+        except (OSError, AttributeError) as e:
+            logging.error("Unexpected error while generating preset from Monet palette.", exc=e)
+            exit(1)
+        else:
+            logging.info("Preset generated successfully. "
+                "In order to apply it, use `gradience-cli apply <args>` command.")
+            exit(0)
+
+        if _apply:
+            pass
+
+    # TODO: Add path and xdg-* value parsing
+    def access_file(self, args):
+        _list = args.list
+        _allow = args.allow
+        _disallow = args.disallow
+
+        if not _list and not _allow and not _disallow:
+            logging.error("You need to specify an argument for this command. "
+                "Type `gradience-cli access-file --help` to check available arguments.")
+            exit(1)
+
+        if _list:
+            try:
+                access_list = list_file_access()
+            except GLib.GError as e:
+                logging.error("An error occurred while accessing allowed files list.", exc=e)
+                exit(1)
+            else:
+                logging.info("Allowed files:")
+                if access_list:
+                    for value in access_list:
+                        print(value)
+                    exit(0)
+                else:
+                    print("No paths found.")
+                    exit(0)
+
+        if _allow:
+            try:
+                allow_file_access(_allow)
+            except GLib.GError as e:
+                logging.error("An error occurred while setting file access.", exc=e)
+                exit(1)
+            else:
+                logging.info(f"Path {_allow} added to access list.")
+                exit(0)
+
+        if _disallow:
+            try:
+                disallow_file_access(_disallow)
+            except GLib.GError as e:
+                logging.error("An error occurred while setting file access.", exc=e)
+                exit(1)
+            else:
+                logging.info(f"Path {_disallow} removed from access list.")
+                exit(0)
+
+    def flatpak_theming(self, args):
+        _enable_theming = args.enable_theming
+        _disable_theming = args.disable_theming
+
+        if _enable_theming in ("gtk4", "gtk3"):
+            create_gtk_user_override(self.settings, _enable_theming)
+            logging.info(f"Flatpak theming for {_enable_theming.capitalize()} applications has been enabled.")
+        elif _enable_theming == "both":
+            create_gtk_user_override(self.settings, "gtk4")
+            create_gtk_user_override(self.settings, "gtk3")
+            logging.info("Flatpak theming for Gtk 4 and Gtk 3 applications has been enabled.")
+
+        if _disable_theming in ("gtk4", "gtk3"):
+            remove_gtk_user_override(self.settings, _disable_theming)
+            logging.info(f"Flatpak theming for {_disable_theming.capitalize()} applications has been disabled.")
+        elif _disable_theming == "both":
+            remove_gtk_user_override(self.settings, "gtk4")
+            remove_gtk_user_override(self.settings, "gtk3")
+            logging.info("Flatpak theming for Gtk 4 and Gtk 3 applications has been disabled.")
+
+
+if __name__ == "__main__":
+    cli = CLI()

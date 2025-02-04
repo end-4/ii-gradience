@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <name>Gradience</name>
+  <summary>Change the look of Adwaita, with ease</summary>
+  <developer_name>Gradience Team</developer_name>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <update_contact>GradienceTeam@protonmail.com</update_contact>
+  <content_rating type="oars-1.1"/>
+
+  <description>
+    <p>Gradience is a tool for customizing Libadwaita applications and the adw-gtk3 theme.</p>
+    <p>The main features of Gradience include the following:</p>
+    <ul>
+      <li>🎨️ Changing any color of Adwaita theme</li>
+      <li>🖼️ Applying Material 3 color scheme from wallpaper</li>
+      <li>🎁️ Usage of other users presets</li>
+      <li>⚙️ Changing advanced options with CSS</li>
+      <li>🧩️ Extending functionality using plugins</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default" width="1122" height="822">
+      <caption>Screenshot of "Colors" Tab of Main UI</caption>
+      <image type="source">https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/Appdata/main-ui-colors.png</image>
+    </screenshot>
+
+    <screenshot width="1122" height="822">
+      <caption>Screenshot of "Monet" Tab of Main UI</caption>
+      <image type="source">https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/Appdata/main-ui-monet.png</image>
+    </screenshot>
+
+    <screenshot width="1122" height="822">
+      <caption>Screenshot of "Advanced" Tab of Main UI</caption>
+      <image type="source">https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/Appdata/main-ui-advanced.png</image>
+    </screenshot>
+
+    <screenshot width="772" height="622">
+      <caption>Screenshot of "Installed" Tab of Preset Manager</caption>
+      <image type="source">https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/Appdata/preset-manager-installed.png</image>
+    </screenshot>
+
+    <screenshot width="772" height="622">
+      <caption>Screenshot of "Explore" Tab of Preset Manager</caption>
+      <image type="source">https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/Appdata/preset-manager-explore.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">@PROJECT_URL@</url>
+  <url type="bugtracker">@BUGTRACKER_URL@</url>
+  <url type="help">@HELP_URL@</url>
+  <url type="translate">@TRANSLATE_URL@</url>
+  <url type="vcs-browser">@PROJECT_URL@</url>
+
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>ModernToolkit</kudo>
+  </kudos>
+
+  <custom>
+    <value key="Purism::form_factor">mobile</value>
+  </custom>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+
+  <releases>
+    <release version="0.8.0-beta2" date="2024-01-4" type="development">
+      <description translate="no">
+        <p>Gradience 0.8.0-beta2 release is the second beta for upcoming major release.</p>
+        <ul>
+          <li>See GitHub releases for more info</li>
+        </ul>
+      </description>
+    </release>"
+    <release version="0.8.0-beta1" date="2023-06-16" type="development">
+      <description translate="no">
+        <p>Gradience 0.8.0-beta1 release is the first beta for upcoming major release.</p>
+        <ul>
+          <li>See GitHub releases for more info</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.1" date="2023-3-5" type="stable">
+      <description translate="no">
+        <p>This is a small bug fix release mainly intended for package maintainers.</p>
+        <ul>
+          <li>Only configure local CLI if buildtype is set to debug</li>
+          <li>Changed margins in popup explanations and some other widgets</li>
+          <li>Changed object names in preferences window</li>
+          <li>Fixed local CLI executable making issues with Fedora CI</li>
+          <li>Fixed theme variant menu in Monet Engine not working with non-english locales</li>
+          <li>Applied temporary patch for CssProvider.load_from_data() new behavior in GTK 4.10</li>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.0" date="2023-2-8" type="stable">
+      <description translate="no">
+        <p>Gradience version 0.4.0 introduces some bug fixes and general quality of life improvement changes:</p>
+        <ul>
+          <li>Added CLI interface, useful for creating scripts or for those who prefer terminal tools</li>
+          <li>Now Gradience warns user when switching to other presets, if current one has unsaved changes</li>
+          <li>When running Gradience from terminal, you will see easier to understand error messages, thanks to new logging facility</li>
+          <li>Preset preview button and "Repositories" tab in Preset Manager have been disabled due to lack of proper implementation</li>
+          <li>Fixed color palette leaking into preset variables in some rare occasions</li>
+          <li>Fixed 'list index out of range' error in "Custom CSS Editor"</li>
+          <li>Fixed sorting in "Explore" tab of Preset Manager not working with non-English locales</li>
+          <li>Codebase is now linted by 'pylint'</li>
+          <li>Start moving out remaining backend functions from 'frontend' modules</li>
+          <li>Now Gradience will internally use hexadecimal color values or RGBA formatted colors if transparency is provided</li>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.3" date="2022-12-3" type="stable">
+      <description translate="no">
+        <p>Gradience 0.3.3 release is a minor translations update and UI improvement release:</p>
+        <ul>
+          <li>The Firefox GNOME theme plugin now parses profiles from profiles.ini</li>
+          <li>Theme Preview button is accessible again</li>
+          <li>Plugin row now has the correct controls placement</li>
+          <li>Codebase structure has been refactored</li>
+          <li>Improved details tab in About dialog</li>
+          <li>Added new "Log out" dialog logic</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.2" date="2022-11-10" type="stable">
+      <description translate="no">
+        <p>Gradience 0.3.2 release fixes some major issues and introduces some under-the-hood improvements:</p>
+        <ul>
+          <li>The Firefox GNOME theme plugin now correctly parses installations with multiple profiles</li>
+          <li>Esc now closes dialogs and Preset Manager</li>
+          <li>Added mnemonics for dialogs</li>
+          <li>Save is now a default response in dialogs</li>
+          <li>Plugins rows now look cleaner and are correctly placed</li>
+          <li>File picker is now modal and sticks to the parent window</li>
+          <li>Gradience can now be closed with Ctrl+Q</li>
+          <li>"Favourite(s)" was renamed to "Favorite(s)"</li>
+          <li>Тransitioned from cssutils to an in-house solution</li>
+          <li>Fixed issues with the CSS parser</li>
+          <li>Fixed an issue with presets always being saved as User.json</li>
+          <li>Presets are now removed correctly</li>
+          <li>The Internal structure was refactored</li>
+          <li>Various typos were fixed</li>
+          <li>The README was fully rewritten</li>
+          <li>All screenshots were taken in high resolution</li>
+          <li>New and updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.1" date="2022-10-07" type="stable">
+      <description translate="no">
+        <p>Gradience 0.3.1 release focuses on user interface polish and bug fixes, as well as some new features:</p>
+        <ul>
+          <li>Added ability to star preset to display it in Palette</li>
+          <li>Updated Firefox GNOME Theme plugin</li>
+          <li>Welcome screen have been improved</li>
+          <li>Margins in color info popovers are fixed</li>
+          <li>Added filter to search presets by repo</li>
+          <li>Added "No Preferences" window</li>
+          <li>Preset Manager window size have changed</li>
+          <li>"Offline" and "Nothing Found" pages have been added to Preset Manager</li>
+          <li>All text have been rewritten to follow GNOME Writing Guides</li>
+          <li>Switch from aiohttp to Libsoup3</li>
+          <li>Migrate to GNOME SDK 43</li>
+          <li>All contributors have been added to "About" window</li>
+          <li>Added "Log Out" dialog after preset apply</li>
+          <li>Some symbolics have changed, removed unnecessary hardcoded symbolics</li>
+          <li>Flatpak theme override now fixed</li>
+          <li>New and updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.0" date="2022-09-16" type="stable">
+      <description translate="no">
+        <p>Gradience 0.3.0 is a major update with many new features and improvements. Here are some of them:</p>
+        <ul>
+          <li>Added plugins support, this allows the creation of plugins to customize other apps</li>
+          <li>Added support for custom preset repos, this allows users to host a collection of presets on their own infrastructure</li>
+          <li>Preset Manager performance are significantly enhanced, it downloads presets faster and the app doesn't freeze on preset removal</li>
+          <li>Added search to Preset Manager</li>
+          <li>Preset Manager is attached to the main window</li>
+          <li>Added Quick Preset Switcher back, with it you can switch presets with less clicks</li>
+          <li>Save dialog now shows up when you close app with unsaved preset</li>
+          <li>Currently applied preset now auto-loads on app start-up</li>
+          <li>Toasts are less annoying</li>
+          <li>Added aarch64 builds</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.2.1" date="2022-08-30" type="stable">
+      <description translate="no">
+        <p>A small bug fix release of Gradience.</p>
+        <ul>
+          <li>Small improvements to the welcome screen</li>
+          <li>Fixing release notes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.2.0" date="2022-08-26" type="stable">
+      <description translate="no">
+        <p>New Release of Gradience.</p>
+        <ul>
+          <li>Rebrand</li>
+          <li>Refactoring meson architecture</li>
+          <li>New debug check</li>
+          <li>Switching runtime to GNOME 42 and adding adw 1.2</li>
+          <li>Add more info about monet</li>
+          <li>Add preset manager with option to download other users presets</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.0" date="2022-08-12" type="stable">
+      <description translate="no">
+        <p>First release of Gradience.</p>
+        <ul>
+          <li>Add AdwViewSwitcher in the header bar</li>
+          <li>Move CSS to the "Advanced" tab</li>
+          <li>Move the rest to the "colors" tab</li>
+          <li>Add Monet tab which generates a theme from a background</li>
+          <li>Add disk saved and disk unsaved icon in the header bar</li>
+          <li>Update about dialog</li>
+          <li>Change license to GNU GPLv3</li>
+          <li>Begin plugin support</li>
+          <li>Move preset selector to a drop-down called palette (icon palette)</li>
+          <li>Add ability to apply the theme onlyfor dark theme or oy for light theme</li>
+          <li>Automatically use Adwaita-dark preset if the user preferred scheme is dark.</li>
+          <li>Added Flatpak CI build</li>
+          <li>Added issue template for bug and feature request </li>
+          <li>`Main` branch is now protected by GitHub branch protection. The development is done on `next` branch </li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gresources>
+  <gresource prefix="/com/github/GradienceTeam/Gradience">
+    <file>presets/adwaita.json</file>
+    <file>presets/adwaita-dark.json</file>
+    <file>presets/pretty-purple.json</file>
+    <file preprocess="xml-stripblanks">ui/app_type_dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/builtin_preset_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/custom_css_group.ui</file>
+    <file preprocess="xml-stripblanks">ui/error_list_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/explore_preset_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/monet_theming_group.ui</file>
+    <file preprocess="xml-stripblanks">ui/no_plugin_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/option_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/palette_shades.ui</file>
+    <file preprocess="xml-stripblanks">ui/plugin_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/preferences_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/preset_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/presets_manager_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/repo_row.ui</file>
+    <file preprocess="xml-stripblanks">ui/reset_preset_group.ui</file>
+    <file preprocess="xml-stripblanks">ui/save_dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/share_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/shell_prefs_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/shell_theming_group.ui</file>
+    <file preprocess="xml-stripblanks">ui/theming_empty_group.ui</file>
+    <file preprocess="xml-stripblanks">ui/welcome_window.ui</file>
+    <file preprocess="xml-stripblanks">ui/window.ui</file>
+    <file preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">ui/help_overlay.ui</file>
+
+    <file>images/welcome.svg</file>
+    <file>style.css</file>
+  </gresource>
+  <gresource prefix="/com/github/GradienceTeam/Gradience/icons/scalable/actions/">
+    <file preprocess="xml-stripblanks" alias="adw-gtk3-warning-symbolic.svg">icons/scalable/actions/adw-gtk3-warning-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="bug-symbolic.svg">icons/scalable/actions/bug-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="checkmark-symbolic.svg">icons/scalable/actions/checkmark-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="code-symbolic.svg">icons/scalable/actions/code-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="color-picker-symbolic.svg">icons/scalable/actions/color-picker-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="document-edit-symbolic.svg">icons/scalable/actions/document-edit-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="document-save-symbolic.svg">icons/scalable/actions/document-save-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="larger-brush-symbolic.svg">icons/scalable/actions/larger-brush-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="palette-symbolic.svg">icons/scalable/actions/palette-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="settings-symbolic.svg">icons/scalable/actions/settings-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="star-large-symbolic.svg">icons/scalable/actions/star-large-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="star-outline-rounded-symbolic.svg">icons/scalable/actions/star-outline-rounded-symbolic.svg</file>
+  </gresource>
+</gresources>

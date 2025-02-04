@@ -1,0 +1,1946 @@
+# Gradience POT file
+# Copyright (C) 2022 Gradience Team
+# This file is distributed under the GNU GPLv3 license.
+# Gradience Team, 2022.
+#
+# Tiberiu Frățilă <tiberiu.fratila@gmail.com>, 2022.
+# Daudix UFO <ddaudix@gmail.com>, 2022.
+# yangyangdaji <1504305527@qq.com>, 2022, 2023, 2024.
+# Albert Geantă <albertgeanta@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Atrophaneura@proton.me\n"
+"POT-Creation-Date: 2024-01-10 01:35+0000\n"
+"PO-Revision-Date: 2024-01-12 08:06+0000\n"
+"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/GradienceTeam/"
+"gradience/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:4
+#: data/com.github.GradienceTeam.Gradience.desktop.in.in:3 data/ui/window.blp:5
+msgid "Gradience"
+msgstr "Gradience"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:5
+#: data/ui/welcome_window.blp:64
+msgid "Change the look of Adwaita, with ease"
+msgstr "Modificați cu ușurință aspectul aplicațiilor Adwaita"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:6
+#: gradience/frontend/views/about_window.py:41
+msgid "Gradience Team"
+msgstr "Echipa Gradience"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:14
+msgid ""
+"Gradience is a tool for customizing Libadwaita applications and the adw-gtk3 "
+"theme."
+msgstr ""
+"Gradience este un instrument pentru personalizarea aplicațiilor care "
+"folosesc Libadwaita și a temei adw-gtk3."
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:15
+msgid "The main features of Gradience include the following:"
+msgstr "Principalele beneficii ale Gradience includ:"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:17
+msgid "🎨️ Changing any color of Adwaita theme"
+msgstr "🎨️ Modificarea oricărei culori din tema Adwaita"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:18
+msgid "🖼️ Applying Material 3 color scheme from wallpaper"
+msgstr ""
+"🖼️ Aplicarea unei palete de culori Material 3 din dintr-o imagine de fundal"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:19
+msgid "🎁️ Usage of other users presets"
+msgstr "🎁️ Folosirea presetărilor create de alți utilizatori"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:20
+msgid "⚙️ Changing advanced options with CSS"
+msgstr "⚙️ Modificarea opțiunilor avansate folosind CSS"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:21
+msgid "🧩️ Extending functionality using plugins"
+msgstr "🧩 Extinderea funcționalității prin module"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:27
+msgid "Screenshot of \"Colors\" Tab of Main UI"
+msgstr "Captură de ecran cu tab-ul \"Culori\" din interfața principală"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:32
+msgid "Screenshot of \"Monet\" Tab of Main UI"
+msgstr "Captură de ecran cu tab-ul \"Monet\" din interfața principală"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:37
+msgid "Screenshot of \"Advanced\" Tab of Main UI"
+msgstr "Captură de ecran cu tab-ul \"Avansat\" din interfața principală"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:42
+msgid "Screenshot of \"Installed\" Tab of Preset Manager"
+msgstr "Captură de ecran cu tab-ul \"Instalate\" din interfața principală"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:47
+msgid "Screenshot of \"Explore\" Tab of Preset Manager"
+msgstr "Captură de ecran cu tab-ul \"Explorează\" din interfața principală"
+
+#: data/ui/app_type_dialog.blp:14
+msgid "Select application types to theme:"
+msgstr "Alegeți tipurile de aplicații asupra cărora se va aplica tema:"
+
+#: data/ui/app_type_dialog.blp:17
+msgid "Libadwaita and GTK 4 Applications"
+msgstr "Aplicații Libadwaita și GTK 4"
+
+#: data/ui/app_type_dialog.blp:21
+msgid "GTK 3 Applications (adw-gtk3 theme required)"
+msgstr "Aplicații GTK 3 (tema adw-gtk3 necesară)"
+
+#: data/ui/builtin_preset_row.blp:5
+msgid "Made by @GradienceTeam"
+msgstr "Creat de către @GradienceTeam"
+
+#: data/ui/builtin_preset_row.blp:12 data/ui/preset_row.blp:50
+#: data/ui/window.blp:30
+msgid "Apply Preset"
+msgstr "Aplicați presetarea"
+
+#: data/ui/custom_css_group.blp:5
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom Styles"
+msgstr "CSS personalizat"
+
+#: data/ui/custom_css_group.blp:6
+#, fuzzy
+#| msgid ""
+#| "Changing this may break some programs. Libadwaita allows applications to "
+#| "hardcode values like padding and margins, and using custom CSS may cause "
+#| "unintended breakage."
+msgid ""
+"Changing this may break some programs. Libadwaita allows applications to "
+"hardcode values like padding and margins, and using custom styles may cause "
+"unintended breakage."
+msgstr ""
+"Modificarea acestei setări poate afecta anumite programe. Libadwaita permite "
+"aplicațiilor să aibe valori preconfigurate, precum marginile și căptușelile "
+"(padding), iar utilizarea codului CSS personalizat poate cauza efecte "
+"nedorite."
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 4"
+msgstr "GTK 4"
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 3"
+msgstr "GTK 3"
+
+#: data/ui/explore_preset_row.blp:23
+msgid "Download and Apply"
+msgstr "Descărcați-o și aplicați-o"
+
+#: data/ui/explore_preset_row.blp:34
+#, fuzzy
+#| msgid "Download Only"
+msgid "Download"
+msgstr "Doar descărcați-o"
+
+#: data/ui/log_out_dialog.blp:5
+msgid "Log out"
+msgstr "Delogare"
+
+#: data/ui/log_out_dialog.blp:6
+msgid "Log out to allow changes to take effect."
+msgstr "Delogați-vă pentru a permite modificărilor sa ia efect."
+
+#: data/ui/monet_theming_group.blp:5 data/ui/preferences_window.blp:113
+msgid "Monet Engine"
+msgstr "Generator Monet"
+
+#: data/ui/monet_theming_group.blp:6
+#, fuzzy
+#| msgid ""
+#| "Monet is an engine that generates a Material Design 3 palette from an "
+#| "image's color."
+msgid "Generates a Material Design 3 palette by extracting colors of an image."
+msgstr ""
+"Monet este un generator care poate genera o paletă de culori Material Design "
+"3 din culorile unei imagini."
+
+#: data/ui/monet_theming_group.blp:9
+msgid "Monet Engine Options"
+msgstr "Opțiuni pentru Generator Monet"
+
+#: data/ui/monet_theming_group.blp:10
+msgid "Choose an image and modify generated Monet palette"
+msgstr "Alege o imagine și modifică paleta Monet generată"
+
+#: data/ui/monet_theming_group.blp:16 data/ui/shell_theming_group.blp:27
+#: data/ui/window.blp:29
+msgid "Apply"
+msgstr "Aplicați"
+
+#: data/ui/monet_theming_group.blp:17
+msgid "Apply a palette"
+msgstr "Aplică o paletă"
+
+#: data/ui/monet_theming_group.blp:23
+msgid "Background Image"
+msgstr "Imagine de fundal"
+
+#: data/ui/monet_theming_group.blp:33
+msgid "Choose a File"
+msgstr "Alegeți un fișier"
+
+#: data/ui/monet_theming_group.blp:42
+msgid "Choose a Image File"
+msgstr "Alegeți o imagine"
+
+#: data/ui/no_plugin_window.blp:5
+msgid "Plugin Preferences"
+msgstr "Opțiuni pentru module"
+
+#: data/ui/no_plugin_window.blp:15
+msgid "No Preferences"
+msgstr "Nu există opțiuni"
+
+#: data/ui/no_plugin_window.blp:16
+msgid "This plugin has no preferences."
+msgstr "Acest modul nu are nicio opțiune."
+
+#: data/ui/option_row.blp:12
+msgid "GTK 3 Support Warning"
+msgstr "Atenționare privind compatibilitatea cu GTK 3"
+
+#: data/ui/option_row.blp:21
+msgid "Explanation"
+msgstr "Explicație"
+
+#: data/ui/option_row.blp:45 gradience/frontend/widgets/option_row.py:96
+msgid "Show Hex"
+msgstr "Afișează Hexazecimal"
+
+#: data/ui/plugin_row.blp:10
+msgid "Toggle Plugin"
+msgstr "Activați/dezactivați modulul"
+
+#: data/ui/plugin_row.blp:33
+msgid "Remove Plugin"
+msgstr "Înlăturați modulul"
+
+#: data/ui/preferences_window.blp:5 data/ui/window.blp:128
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: data/ui/preferences_window.blp:11
+msgid "General"
+msgstr "General"
+
+#: data/ui/preferences_window.blp:15
+msgid "Flatpak Applications"
+msgstr "Aplicații Flatpak"
+
+#: data/ui/preferences_window.blp:18
+msgid "Theme sandboxed GTK 4 apps"
+msgstr ""
+
+#: data/ui/preferences_window.blp:19
+#, fuzzy
+#| msgid ""
+#| "Override Flatpak permissions for current user to allow GTK 4 Flatpak apps "
+#| "to access custom themes."
+msgid "Allow GTK 4 Flatpak apps of current user to access custom themes"
+msgstr ""
+"Suprascrieți permisiunile Flatpak pentru utilizatorul actual astfel încât "
+"aplicațiile Flatpak care folosesc GTK 4 se vor putea folosi de temele "
+"personalizate."
+
+#: data/ui/preferences_window.blp:28
+msgid "Theme sandboxed GTK 4 apps (System)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:29
+msgid ""
+"Allow GTK 4 Flatpak apps of all users to access custom themes "
+"(Authentication required)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:37
+msgid "Theme sandboxed GTK 3 apps"
+msgstr ""
+
+#: data/ui/preferences_window.blp:38
+#, fuzzy
+#| msgid ""
+#| "Override Flatpak permissions for current user to allow GTK 3 Flatpak apps "
+#| "to access adw-gtk3 theme."
+msgid "Allow GTK 3 Flatpak apps of current user to access adw-gtk3 theme"
+msgstr ""
+"Suprascrieți permisiunile Flatpak pentru utilizatorul actual astfel încât "
+"aplicațiile Flatpak care folosesc GTK 3 se vor putea folosi de tema adw-gtk3."
+
+#: data/ui/preferences_window.blp:47
+msgid "Theme sandboxed GTK 3 apps (System)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:48
+msgid ""
+"Allow GTK 3 Flatpak apps of all users to access adw-gtk3 theme "
+"(Authentication required)"
+msgstr ""
+
+#: data/ui/preferences_window.blp:58
+msgid "Preset Fetching"
+msgstr "Obținerea Pesetărilor"
+
+#: data/ui/preferences_window.blp:60
+#, fuzzy
+#| msgid "Use an alternative server for downloading presets"
+msgid "Use an alternative server for fetching presets"
+msgstr "Folosește un server alternativ pentru descărcarea presetărilor"
+
+#: data/ui/preferences_window.blp:61
+#, fuzzy
+#| msgid "JSDelivr will be used instead of direct preset fetching from GitHub"
+msgid "Use JSDelivr instead of directly fetching presets from GitHub"
+msgstr ""
+"JSDelivr va fi folosit in locul obținerii presetărilor direct din GitHub"
+
+#: data/ui/preferences_window.blp:73
+msgid "Custom Preset Repositories"
+msgstr "Depozite pentru presetări personalizate"
+
+#: data/ui/preferences_window.blp:76
+msgid "Custom repository URL address"
+msgstr "Adresă URL pentru depozit personalizat"
+
+#: data/ui/preferences_window.blp:96
+#, fuzzy
+#| msgid "Theme"
+msgid "Theming"
+msgstr "Temă"
+
+#: data/ui/preferences_window.blp:100
+msgid "Theme Engines"
+msgstr "Generatoare Teme"
+
+#: data/ui/preferences_window.blp:101
+msgid ""
+"Theme Engines are the built-in theme generators for various customizable "
+"programs/frameworks."
+msgstr ""
+
+#: data/ui/preferences_window.blp:104 data/ui/shell_theming_group.blp:5
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Shell Engine"
+msgstr "Generator Monet"
+
+#: data/ui/preferences_window.blp:105
+msgid "Generates GNOME Shell theme based on current preset"
+msgstr ""
+
+#: data/ui/preferences_window.blp:114
+#, fuzzy
+#| msgid ""
+#| "Monet is an engine that generates a Material Design 3 palette from an "
+#| "image's color."
+msgid "Generates a Material Design 3 palette by extracting colors of an image"
+msgstr ""
+"Monet este un generator care poate genera o paletă de culori Material Design "
+"3 din culorile unei imagini."
+
+#: data/ui/preset_row.blp:65
+msgid "Rename Preset"
+msgstr "Redenumiți presetarea"
+
+#: data/ui/preset_row.blp:80
+msgid "Description"
+msgstr "Descriere"
+
+#: data/ui/preset_row.blp:81
+#, fuzzy
+#| msgid "Sorry, but this preset don't have a description."
+msgid "This preset has no description."
+msgstr "Din păcate această presetare nu conține o descriere."
+
+#: data/ui/preset_row.blp:93
+msgid "No Badges"
+msgstr "Fără ecusoane"
+
+#: data/ui/preset_row.blp:102
+msgid "Report an Issue"
+msgstr "Raportați o problemă"
+
+#: data/ui/preset_row.blp:109
+msgid "Remove preset"
+msgstr "Înlăturați presetarea"
+
+#: data/ui/preset_row.blp:110 data/ui/repo_row.blp:9
+msgid "Remove Preset"
+msgstr "Înlăturați presetarea"
+
+#: data/ui/presets_manager_window.blp:5 data/ui/window.blp:65
+msgid "Presets"
+msgstr "Presetări"
+
+#: data/ui/presets_manager_window.blp:31
+msgid "Import"
+msgstr "Importați"
+
+#: data/ui/presets_manager_window.blp:32
+#, fuzzy
+#| msgid "Import a Preset File"
+msgid "Import Preset File"
+msgstr "Importați un fișier cu o presetare"
+
+#: data/ui/presets_manager_window.blp:38
+msgid "Delete"
+msgstr "Ștergeți"
+
+#: data/ui/presets_manager_window.blp:44
+#, fuzzy
+#| msgid "Remove Preset"
+msgid "Report Preset Issue"
+msgstr "Înlăturați presetarea"
+
+#: data/ui/presets_manager_window.blp:55 gradience/frontend/main.py:250
+msgid "Open in File Manager"
+msgstr "Deschideți în Fișiere"
+
+#: data/ui/presets_manager_window.blp:73
+msgid "Installed"
+msgstr "Instalate"
+
+#: data/ui/presets_manager_window.blp:82
+msgid "Explore"
+msgstr "Explorați"
+
+#: data/ui/presets_manager_window.blp:87
+msgid "Search for presets"
+msgstr "Căutați presetări"
+
+#: data/ui/presets_manager_window.blp:88
+#, fuzzy
+#| msgid ""
+#| "Enter a keyword to search on <a href=\"https://gradienceteam.github.io/"
+#| "presets\">GradienceTeam/Community</a>."
+msgid ""
+"Enter a keyword to search on <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a>."
+msgstr ""
+"Introduceți un termen de căutare pentru a căuta pe <a href=\"https://"
+"gradienceteam.github.io/presets\">GradienceTeam/Community</a>."
+
+#: data/ui/presets_manager_window.blp:101
+msgid "e.g. \"Pretty Purple\""
+msgstr "de exemplu „Violet încântător”"
+
+#: data/ui/presets_manager_window.blp:106
+msgid "All"
+msgstr "Toate"
+
+#: data/ui/presets_manager_window.blp:134
+msgid "No Results Found"
+msgstr "Niciun rezultat nu a fost găsit"
+
+#: data/ui/presets_manager_window.blp:142
+msgid "Offline"
+msgstr "Offline"
+
+#: data/ui/presets_manager_window.blp:155
+#: gradience/frontend/views/presets_manager_window.py:126
+#: gradience/frontend/views/presets_manager_window.py:394
+msgid "Repositories"
+msgstr "Depozite"
+
+#: data/ui/presets_manager_window.blp:175
+msgid "Import a Preset File (*.json)"
+msgstr "Importați un fișier cu o presetare (*.json)"
+
+#: data/ui/presets_manager_window.blp:180
+msgid "All files"
+msgstr "Toate fișierele"
+
+#: data/ui/presets_manager_window.blp:185
+msgid "JSON file (*.json)"
+msgstr "Fișier JSON (*.json)"
+
+#: data/ui/reset_preset_group.blp:5
+#, fuzzy
+#| msgid "Rename Preset"
+msgid "Reset and Restore Theming"
+msgstr "Redenumiți presetarea"
+
+#: data/ui/reset_preset_group.blp:6
+msgid "Reset theming to default or restore previously applied preset."
+msgstr ""
+
+#: data/ui/reset_preset_group.blp:9
+msgid "GTK 4/Libadwaita Apps"
+msgstr ""
+
+#: data/ui/reset_preset_group.blp:14 data/ui/reset_preset_group.blp:34
+#, fuzzy
+#| msgid "Remove Preset"
+msgid "Restore Previous Preset"
+msgstr "Înlăturați presetarea"
+
+#: data/ui/reset_preset_group.blp:21 data/ui/reset_preset_group.blp:41
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset"
+msgstr "Reveniți"
+
+#: data/ui/reset_preset_group.blp:22 data/ui/reset_preset_group.blp:42
+#, fuzzy
+#| msgid "Reset Applied Color Scheme"
+msgid "Reset Applied Preset"
+msgstr "Reveniți la schema cromatică implicită"
+
+#: data/ui/reset_preset_group.blp:29
+#, fuzzy
+#| msgid "GTK 3 Applications"
+msgid "GTK 3 Apps"
+msgstr "Aplicații GTK 3"
+
+#: data/ui/save_dialog.blp:5
+msgid "Save preset as…"
+msgstr "Salvați presetarea ca…"
+
+#: data/ui/save_dialog.blp:10
+#, fuzzy
+#| msgid "Preset saved"
+msgid "Preset Name"
+msgstr "Presetare salvată"
+
+#: data/ui/share_window.blp:5
+msgid "Share Preset"
+msgstr "Partajați presetarea"
+
+#: data/ui/share_window.blp:42 data/ui/welcome_window.blp:42
+msgid "Previous"
+msgstr "Precedent"
+
+#: data/ui/share_window.blp:65
+msgid "Share your preset"
+msgstr "Partajați-vă presetarea"
+
+#: data/ui/share_window.blp:66
+msgid "Share your preset with the world!"
+msgstr "Partajați-vă presetarea cu restul lumii!"
+
+#: data/ui/share_window.blp:73
+msgid "How it's work?"
+msgstr "Cum funcționează?"
+
+#: data/ui/share_window.blp:74
+msgid ""
+"Gradience use GitHub to share your preset. You need to create a GitHub "
+"account and fork <a href='https://github.com/GradienceTeam/"
+"Community'>GradienceTeam/Community</a>. Then, you can upload your preset, "
+"make a pull request and share it with the world!"
+msgstr ""
+"Gradience folosește GitHub pentru a vă partaja presetarea. Trebuie să vă "
+"creați un cont GitHub și să realizați o copie personală (fork) a depozitului "
+"<a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a>. După aceea, puteți să vă încărcați presetarea, să realizați o "
+"cerere de integrare (pull request) și să o partajați cu restul lumii!"
+
+#: data/ui/share_window.blp:81 data/ui/welcome_window.blp:78
+msgid "Warning"
+msgstr "Atenționare"
+
+#: data/ui/share_window.blp:82
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers."
+msgstr ""
+"Modificarea schemei cromatice poate afecta în mod negativ contrastul și "
+"lizibilitatea. Continuați cu precauție. Vă rugăm să nu raportați probleme "
+"legate de tematică dezvoltatorilor aplicației."
+
+#: data/ui/share_window.blp:86
+msgid "I Understand The Consequences"
+msgstr "Înțeleg consecințele"
+
+#: data/ui/share_window.blp:97
+msgid "Customize Adwaita Theme"
+msgstr "Personalizați tema Adwaita"
+
+#: data/ui/share_window.blp:98
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom CSS"
+msgstr ""
+"Modificați culorile ferestrelor, butoanelor, listelor și multor altor "
+"elemente, cu caracteristici avansate precum cod CSS personalizat"
+
+#: data/ui/share_window.blp:104
+msgid "Configure Gradience"
+msgstr "Configurați Gradience"
+
+#: data/ui/share_window.blp:105
+msgid ""
+"Install adw-gtk3 theme for legacy applications and configure system for "
+"theming."
+msgstr ""
+"Instalați tema adw-gtk3 pentru aplicațiile mai vechi și configurați sistemul "
+"pentru aplicarea temelor."
+
+#: data/ui/share_window.blp:110
+msgid "Legacy apps theming"
+msgstr "Temele pentru aplicațiile mai vechi"
+
+#: data/ui/share_window.blp:115
+msgid "Install adw-gtk3 theme for legacy apps theming"
+msgstr "Instalați tema adw-gtk3 pentru a aplica teme pe aplicațiile mai vechi"
+
+#: data/ui/share_window.blp:120
+msgid "System configuration"
+msgstr "Configurarea sistemului"
+
+#: data/ui/share_window.blp:126
+msgid "Configure system for theming, enables Flatpak theme override"
+msgstr ""
+"Configurați sistemul pentru aplicarea temelor, vă permite să suprascrieți "
+"temele aplicațiilor de tip Flatpak"
+
+#: data/ui/share_window.blp:136
+msgid "Installing Themes"
+msgstr "Instalarea temelor"
+
+#: data/ui/share_window.blp:137
+msgid "Please wait until theme will be installed."
+msgstr "Vă rugăm să așteptați până când temele sunt instalate."
+
+#: data/ui/share_window.blp:143
+msgid "Continue"
+msgstr "Continuați"
+
+#: data/ui/share_window.blp:162
+msgid "Done"
+msgstr "Terminat"
+
+#: data/ui/share_window.blp:163
+msgid "Now you can make your own presets or download some online."
+msgstr ""
+"Acum, vă puteți realiza propriile presetări sau puteți să descărcați câteva "
+"de pe internet."
+
+#: data/ui/share_window.blp:168
+msgid "Please finish the setup first"
+msgstr "Vă rugăm să terminați procesul de instalare mai întâi"
+
+#: data/ui/share_window.blp:176 data/ui/welcome_window.blp:98
+msgid "Start Using Gradience"
+msgstr "Începeți să folosiți Gradience"
+
+#: data/ui/share_window.blp:193 data/ui/welcome_window.blp:113
+msgid "Next"
+msgstr "Următorul"
+
+#: data/ui/shell_prefs_window.blp:5
+#, fuzzy
+#| msgid "Plugin Preferences"
+msgid "Shell Engine Preferences"
+msgstr "Opțiuni pentru module"
+
+#: data/ui/shell_prefs_window.blp:13
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Shell theme colors"
+msgstr "Personalizați tema Adwaita"
+
+#: data/ui/shell_theming_group.blp:6
+msgid ""
+"Generates GNOME Shell theme based on current preset.\n"
+"WARNING: Extensions that modify the Shell stylesheet may cause issues with "
+"themes."
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:20
+msgid "Shell Engine Options"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:21
+msgid "Change the generated GNOME Shell theme"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:28
+#, fuzzy
+#| msgid "Apply This Color Scheme?"
+msgid "Apply Shell theme"
+msgstr "Aplicați această schemă cromatică?"
+
+#: data/ui/shell_theming_group.blp:37
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Customize Shell Theme"
+msgstr "Personalizați tema Adwaita"
+
+#: data/ui/shell_theming_group.blp:43
+#, fuzzy
+#| msgid "No Preferences"
+msgid "Open Shell Preferences"
+msgstr "Nu există opțiuni"
+
+#: data/ui/shell_theming_group.blp:49
+#, fuzzy
+#| msgid "Preset reseted"
+msgid "Preset Variant"
+msgstr "Presetare reinițializată"
+
+#: data/ui/shell_theming_group.blp:50
+msgid "Select currently applied preset variant"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:62
+msgid "Currently unavailable"
+msgstr ""
+
+#: data/ui/shell_theming_group.blp:73
+#, fuzzy
+#| msgid "Preset removed"
+msgid "Reset Theme"
+msgstr "Presetare înlăturată"
+
+#: data/ui/shell_theming_group.blp:74
+#, fuzzy
+#| msgid "Reset applied color scheme?"
+msgid "Reset applied theme"
+msgstr "Reveniți la schema cromatică implicită?"
+
+#: data/ui/theming_empty_group.blp:5
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "No Theme Engines"
+msgstr "Generator Monet"
+
+#: data/ui/theming_empty_group.blp:6
+msgid ""
+"Theme Engines extend the functionality of Gradience. They can be enabled in "
+"the Preferences."
+msgstr ""
+
+#: data/ui/theming_empty_group.blp:9
+msgid "Open Preferences to manage Theme Engines"
+msgstr ""
+
+#: data/ui/theming_empty_group.blp:14 data/ui/theming_empty_group.blp:15
+#, fuzzy
+#| msgid "Preferences"
+msgid "Open Preferences"
+msgstr "Preferințe"
+
+#: data/ui/welcome_window.blp:5 data/ui/welcome_window.blp:63
+msgid "Welcome to Gradience"
+msgstr "Bine ați venit la Gradience"
+
+#: data/ui/welcome_window.blp:70
+#, fuzzy
+#| msgid "What's new in 0.3.0"
+msgid "What's new in 0.8.0"
+msgstr "Ce e nou în versiunea 0.3.0"
+
+#: data/ui/welcome_window.blp:71
+msgid ""
+"In this release, we added GNOME Shell theming support and reworked how "
+"Gradience works internally"
+msgstr ""
+
+#: data/ui/welcome_window.blp:79
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers"
+msgstr ""
+"Modificarea schemei cromatice poate afecta în mod negativ contrastul și "
+"lizibilitatea. Continuați cu precauție. Vă rugăm să nu raportați probleme "
+"legate de tematică dezvoltatorilor aplicației"
+
+#: data/ui/welcome_window.blp:83
+#, fuzzy
+#| msgid "Continue"
+msgid "Agree and Continue"
+msgstr "Continuați"
+
+#: data/ui/welcome_window.blp:93
+#, fuzzy
+#| msgid "Customize Adwaita Theme"
+msgid "Customize Adwaita"
+msgstr "Personalizați tema Adwaita"
+
+#: data/ui/welcome_window.blp:94
+#, fuzzy
+#| msgid ""
+#| "Change colors of windows, buttons, lists and more, with advanced features "
+#| "like adding custom CSS"
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom styles"
+msgstr ""
+"Modificați culorile ferestrelor, butoanelor, listelor și multor altor "
+"elemente, cu caracteristici avansate precum cod CSS personalizat"
+
+#: data/ui/window.blp:37 gradience/frontend/main.py:422
+msgid "Save Preset"
+msgstr "Salvați presetarea"
+
+#: data/ui/window.blp:46
+msgid "Show Preview Window"
+msgstr ""
+
+#: data/ui/window.blp:57
+msgid "Main Menu"
+msgstr "Meniu principal"
+
+#: data/ui/window.blp:66
+msgid "Presets Menu"
+msgstr "Meniu pentru presetări"
+
+#: data/ui/window.blp:73
+msgid "CSS Errors"
+msgstr "Erori CSS"
+
+#: data/ui/window.blp:88
+msgid "_Colors"
+msgstr "_Culori"
+
+#: data/ui/window.blp:97
+#, fuzzy
+#| msgid "Theme"
+msgid "_Theming"
+msgstr "Temă"
+
+#: data/ui/window.blp:106
+msgid "_Advanced"
+msgstr "_Avansat"
+
+#: data/ui/window.blp:133
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/window.blp:138
+msgid "About Gradience"
+msgstr "Despre Gradience"
+
+#: data/ui/window.blp:146
+#: gradience/frontend/views/presets_manager_window.py:114
+msgid "Built-In Presets"
+msgstr "Presetări incluse"
+
+#: data/ui/window.blp:167
+msgid "Manage Presets"
+msgstr "Administrați presetările"
+
+#: gradience/backend/flatpak_overrides.py:71
+#: gradience/backend/flatpak_overrides.py:93
+msgid "Failed to save override"
+msgstr "Nu s-a reușit salvarea suprascrierii"
+
+#: gradience/backend/flatpak_overrides.py:186
+#: gradience/backend/flatpak_overrides.py:228
+#: gradience/backend/flatpak_overrides.py:306
+#: gradience/backend/flatpak_overrides.py:366
+#: gradience/backend/flatpak_overrides.py:448
+#: gradience/backend/flatpak_overrides.py:509
+msgid "Unexpected file error occurred"
+msgstr "O eroare de fișier neașteptată s-a produs"
+
+#: gradience/frontend/dialogs/app_type_dialog.py:47
+#: gradience/frontend/dialogs/save_dialog.py:62
+#, fuzzy
+#| msgid "Cancel"
+msgid "_Cancel"
+msgstr "Anulare"
+
+#: gradience/frontend/dialogs/save_dialog.py:39
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "Saving preset to <tt>{0}</tt>. If that preset already exists, it will be "
+#| "overwritten."
+msgid ""
+"Saving preset to \n"
+" <small><i><tt>{0}</tt></i></small>. \n"
+" If that preset already exists, it will be overwritten."
+msgstr ""
+"Se salvează presetarea în <tt>{0}</tt>. Dacă acea presetare există deja, va "
+"fi suprascrisă."
+
+#: gradience/frontend/dialogs/save_dialog.py:65
+msgid "Discard"
+msgstr "Înlăturați"
+
+#: gradience/frontend/dialogs/save_dialog.py:70
+#, fuzzy
+#| msgid "Save"
+msgid "_Save"
+msgstr "Salvați"
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:40
+msgid "Unsupported Shell Version ({get_full_shell_version()})"
+msgstr ""
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:41
+msgid ""
+"The Shell version you are using is not supported by Gradience. Please "
+"upgrade to a newer version of GNOME."
+msgstr ""
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:43
+msgid "OK"
+msgstr ""
+
+#: gradience/frontend/main.py:203
+#: gradience/frontend/views/presets_manager_window.py:339
+#, fuzzy
+#| msgid "Failed to load preset"
+msgid "Failed to load list of presets"
+msgstr "Nu se poate încărca presetarea"
+
+#: gradience/frontend/main.py:236
+msgid "No presets found"
+msgstr "Nicio presetare nu a fost găsită"
+
+#: gradience/frontend/main.py:259
+#, fuzzy
+#| msgid "Favourite Presets"
+msgid "Favorite Presets"
+msgstr "Presetări favorite"
+
+#: gradience/frontend/main.py:412
+msgid "Unsaved Changes"
+msgstr "Modificări nesalvate"
+
+#: gradience/frontend/main.py:421
+msgid "Save"
+msgstr "Salvați"
+
+#: gradience/frontend/main.py:511
+msgid "Apply This Color Scheme?"
+msgstr "Aplicați această schemă cromatică?"
+
+#: gradience/frontend/main.py:513
+msgid ""
+"Warning: any custom CSS files for those app types will be irreversibly "
+"overwritten!"
+msgstr ""
+"Atenționare: toate fișierele de CSS personalizat ale acelor tipuri de "
+"aplicații vor fi suprascrise permanent!"
+
+#: gradience/frontend/main.py:517
+#, fuzzy
+#| msgid "Apply"
+msgid "_Apply"
+msgstr "Aplicați"
+
+#: gradience/frontend/main.py:543
+msgid "You have unsaved changes!"
+msgstr "Aveți modificări nesalvate!"
+
+#: gradience/frontend/main.py:594
+msgid "Preset saved"
+msgstr "Presetare salvată"
+
+#: gradience/frontend/main.py:611
+msgid "Preset has been set. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:23
+msgid "Accent Colors"
+msgstr "Culori de accent"
+
+#: gradience/frontend/schemas/preset_schema.py:25
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, and entries, to indicate that a widget is important, interactive, "
+#| "or currently active."
+msgid ""
+"These colors are used across many different widgets, often to indicate that "
+"a widget is important, interactive, or currently active."
+msgstr ""
+"Aceste culori sunt folosite de multe widgeturi, precum butoane, etichete și "
+"câmpuri de intrare pentru a indica faptul că un widget este important, "
+"interactiv sau activ în acest moment."
+
+#: gradience/frontend/schemas/preset_schema.py:32
+#: gradience/frontend/schemas/preset_schema.py:63
+#: gradience/frontend/schemas/preset_schema.py:94
+#: gradience/frontend/schemas/preset_schema.py:125
+#: gradience/frontend/schemas/preset_schema.py:156
+msgid "Standalone Color"
+msgstr "Culoare independentă"
+
+#: gradience/frontend/schemas/preset_schema.py:34
+#: gradience/frontend/schemas/preset_schema.py:65
+#: gradience/frontend/schemas/preset_schema.py:96
+#: gradience/frontend/schemas/preset_schema.py:127
+#: gradience/frontend/schemas/preset_schema.py:158
+msgid ""
+"The standalone colors are similar to the background ones, but provide better "
+"contrast when used as foreground color on top of a neutral background - for "
+"example, colorful text in a window."
+msgstr ""
+"Culorile independente sunt similare celor de fundal, însă asigură un "
+"contrast îmbunătățit atunci când sunt folosite drept culoare de prim-plan pe "
+"un fundal de culoare neutră – de exemplu, un text colorat într-o fereastră."
+
+#: gradience/frontend/schemas/preset_schema.py:43
+#: gradience/frontend/schemas/preset_schema.py:74
+#: gradience/frontend/schemas/preset_schema.py:105
+#: gradience/frontend/schemas/preset_schema.py:136
+#: gradience/frontend/schemas/preset_schema.py:167
+#: gradience/frontend/schemas/preset_schema.py:184
+#: gradience/frontend/schemas/preset_schema.py:204
+#: gradience/frontend/schemas/preset_schema.py:225
+#: gradience/frontend/schemas/preset_schema.py:284
+#: gradience/frontend/schemas/preset_schema.py:327
+#: gradience/frontend/schemas/preset_schema.py:367
+#: gradience/frontend/schemas/preset_schema.py:394
+#: gradience/frontend/schemas/preset_schema.py:411
+#: gradience/frontend/schemas/preset_schema.py:428
+msgid "Background Color"
+msgstr "Culoare de fundal"
+
+#: gradience/frontend/schemas/preset_schema.py:48
+#: gradience/frontend/schemas/preset_schema.py:79
+#: gradience/frontend/schemas/preset_schema.py:110
+#: gradience/frontend/schemas/preset_schema.py:141
+#: gradience/frontend/schemas/preset_schema.py:172
+#: gradience/frontend/schemas/preset_schema.py:189
+#: gradience/frontend/schemas/preset_schema.py:209
+#: gradience/frontend/schemas/preset_schema.py:230
+#: gradience/frontend/schemas/preset_schema.py:289
+#: gradience/frontend/schemas/preset_schema.py:332
+#: gradience/frontend/schemas/preset_schema.py:372
+#: gradience/frontend/schemas/preset_schema.py:399
+#: gradience/frontend/schemas/preset_schema.py:416
+#: gradience/frontend/schemas/preset_schema.py:433
+msgid "Foreground Color"
+msgstr "Culoare de prim-plan"
+
+#: gradience/frontend/schemas/preset_schema.py:55
+msgid "Destructive Colors"
+msgstr "Culori distructive"
+
+#: gradience/frontend/schemas/preset_schema.py:57
+#, fuzzy
+#| msgid ""
+#| "These colors are used for buttons to indicate a dangerous action, such as "
+#| "deleting a file."
+msgid ""
+"These colors are used to indicate dangerous actions, such as deleting a file."
+msgstr ""
+"Aceste culori sunt folosite pentru butoane care indică o acțiune "
+"periculoasă, precum ștergerea unui fișier."
+
+#: gradience/frontend/schemas/preset_schema.py:86
+msgid "Success Colors"
+msgstr "Culori de succes"
+
+#: gradience/frontend/schemas/preset_schema.py:88
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, entries, and level bars, to indicate a success or a high level."
+msgid ""
+"These colors are used across many different widgets, to indicate success or "
+"a high level."
+msgstr ""
+"Aceste culori sunt folosite de multe widgeturi diferite, precum butoane, "
+"etichete, câmpuri de intrare și bare de nivel pentru a indica succesul unei "
+"acțiuni întreprinse sau un nivel ridicat."
+
+#: gradience/frontend/schemas/preset_schema.py:117
+msgid "Warning Colors"
+msgstr "Culori de avertizare"
+
+#: gradience/frontend/schemas/preset_schema.py:119
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, entries, and level bars, to indicate a warning or a low level."
+msgid ""
+"These colors are used across many different widgets, to indicate warning or "
+"a low level."
+msgstr ""
+"Aceste culori sunt folosite de multe widgeturi diferite, precum butoane, "
+"etichete, câmpuri de intrare și bare de nivel pentru a indica un avertisment "
+"sau un nivel scăzut."
+
+#: gradience/frontend/schemas/preset_schema.py:148
+msgid "Error Colors"
+msgstr "Culori de eroare"
+
+#: gradience/frontend/schemas/preset_schema.py:150
+#, fuzzy
+#| msgid ""
+#| "These colors are used across many different widgets, such as buttons, "
+#| "labels, and entries, to indicate a failure."
+msgid ""
+"These colors are used across many different widgets, to indicate a failure."
+msgstr ""
+"Aceste culori sunt folosite de multe widgeturi diferite, precum butoane, "
+"etichete și câmpuri de intrare pentru a indica că o eroare s-a produs."
+
+#: gradience/frontend/schemas/preset_schema.py:179
+msgid "Window Colors"
+msgstr "Culori de fereastră"
+
+#: gradience/frontend/schemas/preset_schema.py:180
+msgid "These colors are used primarily for windows."
+msgstr "Aceste culori sunt folosite în principal pentru ferestre."
+
+#: gradience/frontend/schemas/preset_schema.py:196
+msgid "View Colors"
+msgstr "Culori pentru vizualizări"
+
+#: gradience/frontend/schemas/preset_schema.py:198
+#, fuzzy
+#| msgid ""
+#| "These colors are used in a variety of widgets, such as text views and "
+#| "entries."
+msgid ""
+"These colors are used across many different widgets, such as text views and "
+"entries."
+msgstr ""
+"Aceste culori sunt folosite de multe widgeturi diferite, precum zone cu text "
+"și câmpuri de intrare."
+
+#: gradience/frontend/schemas/preset_schema.py:216
+msgid "Header Bar Colors"
+msgstr "Culori pentru bara de antet"
+
+#: gradience/frontend/schemas/preset_schema.py:218
+msgid ""
+"These colors are used for header bars, as well as widgets that are meant to "
+"be visually attached to it, such as search bars or tab bars."
+msgstr ""
+"Aceste culori sunt folosite pentru barele de antet, precum și pentru "
+"widgeturi care trebuie să fie atașate din punct de vedere vizual acestora, "
+"precum bare de căutare sau bare care conțin file."
+
+#: gradience/frontend/schemas/preset_schema.py:235
+msgid "Border Color"
+msgstr "Culoare de bordură"
+
+#: gradience/frontend/schemas/preset_schema.py:237
+msgid ""
+"The border color has the same default value as a foreground color, but "
+"doesn't change along with it. This can be useful if a light window has a "
+"dark header bar with light text; in this case it may be desirable to keep "
+"the border dark. This variable is only used for vertical borders - for "
+"example, separators between the two header bars in a split header bar layout."
+msgstr ""
+"Culoarea de bordură are aceeași valoare implicită ca cea de prim-plan, dar "
+"nu se schimbă odată cu aceasta. Acest fapt poate fi util dacă există o "
+"fereastră de culoare deschisă cu o bară de antet închisă și text deschis la "
+"culoare; în acest caz, poate fi de dorit ca bordura să rămână de o culoare "
+"închisă. Această variabilă este doar folosită pentru bordurile verticale – "
+"de exemplu, separatoare între cele două bare de antet într-o vizualizare "
+"împărțită."
+
+#: gradience/frontend/schemas/preset_schema.py:250
+#: gradience/frontend/schemas/preset_schema.py:294
+#: gradience/frontend/schemas/preset_schema.py:337
+msgid "Backdrop Color"
+msgstr "Culoare de fond"
+
+#: gradience/frontend/schemas/preset_schema.py:252
+#: gradience/frontend/schemas/preset_schema.py:296
+#: gradience/frontend/schemas/preset_schema.py:339
+msgid ""
+"The backdrop color is used instead of the background color when the window "
+"is not focused. By default it's an alias of the window's background color "
+"and changes together with it. When changing this variable, make sure to set "
+"it to a value matching your header bar background color."
+msgstr ""
+"Culoarea de fond este folosită în locul celei de fundal atunci când "
+"fereastra nu este activă. În mod implicit, face trimitere la culoarea de "
+"fundal și se modifică odată cu aceasta. Dacă modificați această variabilă, "
+"aveți grijă să o setați la aceeași culoare ca fundalul barei de antet."
+
+#: gradience/frontend/schemas/preset_schema.py:263
+#: gradience/frontend/schemas/preset_schema.py:307
+#: gradience/frontend/schemas/preset_schema.py:350
+#: gradience/frontend/schemas/preset_schema.py:377
+#: gradience/frontend/schemas/preset_schema.py:438
+#: gradience/frontend/schemas/preset_schema.py:455
+msgid "Shade Color"
+msgstr "Culoare pentru umbre"
+
+#: gradience/frontend/schemas/preset_schema.py:265
+#: gradience/frontend/schemas/preset_schema.py:309
+#: gradience/frontend/schemas/preset_schema.py:352
+msgid ""
+"The shade color is used to provide a dark border for header bars and similar "
+"widgets that separates them from the main window."
+msgstr ""
+"Culoarea pentru umbre este folosită pentru a furniza o bordură închisă "
+"pentru barele de antet și alte widgeturi similare care să le separe de "
+"fereastra principală."
+
+#: gradience/frontend/schemas/preset_schema.py:275
+#, fuzzy
+#| msgid "View Colors"
+msgid "Sidebar Colors"
+msgstr "Culori pentru vizualizări"
+
+#: gradience/frontend/schemas/preset_schema.py:277
+msgid ""
+"These colors are used for sidebars, generally attached to the left or right "
+"sides of a window. They are used by AdwNavigationSplitView and "
+"AdwOverlaySplitView when they are not collapsed."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:319
+#, fuzzy
+#| msgid "Header Bar Colors"
+msgid "Secondary Sidebar Colors"
+msgstr "Culori pentru bara de antet"
+
+#: gradience/frontend/schemas/preset_schema.py:321
+msgid ""
+"These colors are used for middle panes in triple-pane layouts,  created via "
+"nesting two split views within one another."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:362
+msgid "Card Colors"
+msgstr "Culori pentru carduri"
+
+#: gradience/frontend/schemas/preset_schema.py:363
+msgid "These colors are used for cards and boxed lists."
+msgstr "Aceste culori sunt folosite de carduri și liste de cutii."
+
+#: gradience/frontend/schemas/preset_schema.py:379
+msgid ""
+"The shade color is used for shadows that are used by cards to separate "
+"themselves from the window background, as well as for row dividers in the "
+"cards."
+msgstr ""
+"Culoarea pentru umbre este folosită pentru umbrele care separă vizual "
+"cardurile de fundalul ferestrei, precum și pentru separatoarele orizontale "
+"dintre mai multe carduri."
+
+#: gradience/frontend/schemas/preset_schema.py:389
+#, fuzzy
+#| msgid "Dialog Colors"
+msgid "Thumbnail Colors"
+msgstr "Culori de dialog"
+
+#: gradience/frontend/schemas/preset_schema.py:390
+#, fuzzy
+#| msgid "These colors are used for popovers."
+msgid "These colors are used for Tab Overview thumbnails."
+msgstr "Aceste culori sunt folosite pentru meniurile de tip popover."
+
+#: gradience/frontend/schemas/preset_schema.py:406
+msgid "Dialog Colors"
+msgstr "Culori de dialog"
+
+#: gradience/frontend/schemas/preset_schema.py:407
+msgid "These colors are used for message dialogs."
+msgstr "Aceste culori sunt folosite pentru mesaje de dialog."
+
+#: gradience/frontend/schemas/preset_schema.py:423
+msgid "Popover Colors"
+msgstr "Culori pentru meniuri popover"
+
+#: gradience/frontend/schemas/preset_schema.py:424
+msgid "These colors are used for popovers."
+msgstr "Aceste culori sunt folosite pentru meniurile de tip popover."
+
+#: gradience/frontend/schemas/preset_schema.py:440
+msgid ""
+"The shade color is used for scroll undershoot styles within popovers, as "
+"well as transitions in AdwNavigationView, AdwOverlaySplitView, AdwLeaflet "
+"and AdwFlap."
+msgstr ""
+
+#: gradience/frontend/schemas/preset_schema.py:450
+msgid "Miscellaneous Colors"
+msgstr "Culori diverse"
+
+#: gradience/frontend/schemas/preset_schema.py:451
+msgid "Colors that don't fit in any particular group."
+msgstr "Culori care nu se încadrează în niciunul dintre grupurile de mai sus."
+
+#: gradience/frontend/schemas/preset_schema.py:457
+msgid ""
+"The shade color is used by inline tab bars, as well as the transitions in "
+"leaflets and flaps, and info bar borders."
+msgstr ""
+"Culoarea pentru umbre este folosită de bare pentru file, precum și de "
+"îmbinările dintre pliante și revere și de bordurile barei de informații."
+
+#: gradience/frontend/schemas/preset_schema.py:465
+msgid "Scrollbar Outline Color"
+msgstr "Culoarea conturului barei de defilare"
+
+#: gradience/frontend/schemas/preset_schema.py:467
+msgid ""
+"The scrollbar outline color is used by scrollbars to ensure that overlay "
+"scrollbars are visible regardless of the content color."
+msgstr ""
+"Culoarea conturului barei de defilare este folosită de barele de defilare "
+"pentru a asigura vizibilitatea barelor de defilare indiferent de culoarea "
+"conținutului."
+
+#: gradience/frontend/schemas/preset_schema.py:477
+msgid "Blue"
+msgstr "Albastru"
+
+#: gradience/frontend/schemas/preset_schema.py:478
+msgid "Green"
+msgstr "Verde"
+
+#: gradience/frontend/schemas/preset_schema.py:479
+msgid "Yellow"
+msgstr "Galben"
+
+#: gradience/frontend/schemas/preset_schema.py:480
+msgid "Orange"
+msgstr "Portocaliu"
+
+#: gradience/frontend/schemas/preset_schema.py:481
+msgid "Red"
+msgstr "Roșu"
+
+#: gradience/frontend/schemas/preset_schema.py:482
+msgid "Purple"
+msgstr "Violet"
+
+#: gradience/frontend/schemas/preset_schema.py:483
+msgid "Brown"
+msgstr "Maro"
+
+#: gradience/frontend/schemas/preset_schema.py:484
+#: gradience/frontend/widgets/monet_theming_group.py:95
+#: gradience/frontend/widgets/shell_theming_group.py:73
+msgid "Light"
+msgstr "Luminoasă"
+
+#: gradience/frontend/schemas/preset_schema.py:485
+#: gradience/frontend/widgets/monet_theming_group.py:96
+#: gradience/frontend/widgets/shell_theming_group.py:72
+msgid "Dark"
+msgstr "Întunecată"
+
+#: gradience/frontend/schemas/shell_schema.py:24
+#, fuzzy
+#| msgid "Background Color"
+msgid "Base Background Color"
+msgstr "Culoare de fundal"
+
+#: gradience/frontend/schemas/shell_schema.py:29
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Base Foreground Color"
+msgstr "Culoare de prim-plan"
+
+#: gradience/frontend/schemas/shell_schema.py:34
+#, fuzzy
+#| msgid "Background Color"
+msgid "Overview Background Color"
+msgstr "Culoare de fundal"
+
+#: gradience/frontend/schemas/shell_schema.py:39
+#, fuzzy
+#| msgid "Background Color"
+msgid "Accent Background Color"
+msgstr "Culoare de fundal"
+
+#: gradience/frontend/schemas/shell_schema.py:44
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Accent Foreground Color"
+msgstr "Culoare de prim-plan"
+
+#: gradience/frontend/schemas/shell_schema.py:61
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "OSD Foreground Color"
+msgstr "Culoare de prim-plan"
+
+#: gradience/frontend/views/about_window.py:27
+msgid "translator-credits"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:56
+msgid "Copyright © 2022-2023 Gradience Team"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:63
+msgid "Plugins by"
+msgstr "Module de"
+
+#: gradience/frontend/views/about_window.py:65
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Plugins/graphs/"
+"contributors"
+msgstr ""
+
+#: gradience/frontend/views/about_window.py:69
+msgid "Presets by"
+msgstr "Presetări de"
+
+#: gradience/frontend/views/about_window.py:71
+#, fuzzy
+#| msgid ""
+#| "Enter a keyword to search on <a href=\"https://gradienceteam.github.io/"
+#| "presets\">GradienceTeam/Community</a>."
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Community/graphs/"
+"contributors"
+msgstr ""
+"Introduceți un termen de căutare pentru a căuta pe <a href=\"https://"
+"gradienceteam.github.io/presets\">GradienceTeam/Community</a>."
+
+#: gradience/frontend/views/main_window.py:204
+msgid "Palette Colors"
+msgstr "Culori din paleta cromatică"
+
+#: gradience/frontend/views/main_window.py:207
+msgid ""
+"Named palette colors used by some applications. Default colors follow the <a "
+"href=\"https://developer.gnome.org/hig/reference/palette.html\">GNOME Human "
+"Interface Guidelines</a>."
+msgstr ""
+"Culori din paleta cromatică care sunt folosite de anumite aplicații. "
+"Culorile implicite urmează <a href=\"https://developer.gnome.org/hig/"
+"reference/palette.html\">recomandările GNOME pentru interfața umană</a>."
+
+#: gradience/frontend/views/plugins_list.py:89
+msgid "Plugins"
+msgstr "Module"
+
+#: gradience/frontend/views/plugins_list.py:92
+msgid ""
+"Plugins add additional features to Gradience, plugins are made by Gradience "
+"community and can cause issues."
+msgstr ""
+"Modulele adaugă caracteristici suplimentare aplicației Gradience, modulele "
+"sunt realizate de comunitatea Gradience și pot cauza probleme."
+
+#: gradience/frontend/views/plugins_list.py:104
+msgid "No Plugins Found."
+msgstr "Niciun modul nu a fost găsit."
+
+#: gradience/frontend/views/presets_manager_window.py:119
+#: gradience/frontend/views/presets_manager_window.py:355
+msgid "User Presets"
+msgstr "Presetările utilizatorului"
+
+#: gradience/frontend/views/presets_manager_window.py:194
+msgid "Add new repository"
+msgstr "Adăugați un depozit nou"
+
+#: gradience/frontend/views/presets_manager_window.py:195
+msgid "Add a repository to install additional presets."
+msgstr "Adăugați un depozit pentru a instala presetări suplimentare."
+
+#: gradience/frontend/views/presets_manager_window.py:201
+#: gradience/frontend/widgets/shell_theming_group.py:143
+msgid "Cancel"
+msgstr "Anulare"
+
+#: gradience/frontend/views/presets_manager_window.py:202
+msgid "Add"
+msgstr "Adăugați"
+
+#: gradience/frontend/views/presets_manager_window.py:298
+msgid "Preset already exists"
+msgstr "Presetarea există deja"
+
+#: gradience/frontend/views/presets_manager_window.py:310
+msgid "Preset imported"
+msgstr "Presetare importată"
+
+#: gradience/frontend/views/presets_manager_window.py:313
+msgid "Unsupported file format, must be .json"
+msgstr "Formatul fișierului nu este acceptat, trebuie să fie de tip .json"
+
+#: gradience/frontend/views/presets_manager_window.py:348
+msgid "Built-in Presets"
+msgstr "Presetări incluse"
+
+#: gradience/frontend/views/presets_manager_window.py:358
+msgid ""
+"See <a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a> on Github for more presets."
+msgstr ""
+"Vedeți și <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a> pe Github pentru mai multe presetări."
+
+#: gradience/frontend/views/presets_manager_window.py:384
+msgid ""
+"No preset found! Use the import button to import one or search one on the "
+"Explore tab."
+msgstr ""
+"Nicio presetare nu a fost găsită! Folosiți butonul „Importați” pentru a "
+"importa una sau căutați una în fila „Explorați”."
+
+#: gradience/frontend/views/welcome_window.py:79
+msgid "Thanks for updating Gradience!"
+msgstr "Vă mulțumim pentru că ați actualizat Gradience!"
+
+#: gradience/frontend/widgets/explore_preset_row.py:68
+#: gradience/frontend/widgets/explore_preset_row.py:94
+msgid "Preset could not be downloaded"
+msgstr "Presetarea nu a putut fi descărcată"
+
+#: gradience/frontend/widgets/explore_preset_row.py:82
+#: gradience/frontend/widgets/explore_preset_row.py:98
+msgid "Preset downloaded"
+msgstr "Presetarea a fost descărcată"
+
+#: gradience/frontend/widgets/monet_theming_group.py:65
+#, fuzzy
+#| msgid "Monet Palette"
+msgid "Palette"
+msgstr "Paletă cromatică Monet"
+
+#: gradience/frontend/widgets/monet_theming_group.py:91
+msgid "Style"
+msgstr ""
+
+#: gradience/frontend/widgets/monet_theming_group.py:94
+msgid "Auto"
+msgstr "Automată"
+
+#: gradience/frontend/widgets/monet_theming_group.py:131
+msgid "Failed to generate Monet palette"
+msgstr ""
+
+#: gradience/frontend/widgets/monet_theming_group.py:136
+msgid "Palette generated"
+msgstr "Paleta cromatică a fost generată"
+
+#: gradience/frontend/widgets/monet_theming_group.py:141
+#, fuzzy
+#| msgid "Select a background first"
+msgid "Select an image first"
+msgstr "Alegeți o imagine de fundal mai întâi"
+
+#: gradience/frontend/widgets/option_row.py:52
+#, fuzzy
+#| msgid "This option is only partially supported by the adw-gtk3 theme."
+msgid "This option is only partially supported by adw-gtk3."
+msgstr "Această opțiune nu este decât parțial acceptată de tema adw-gtk3."
+
+#: gradience/frontend/widgets/option_row.py:57
+#, fuzzy
+#| msgid "This option is not supported by the adw-gtk3 theme."
+msgid "This option is not supported by adw-gtk3."
+msgstr "Această opțiune nu este acceptată de tema adw-gtk3."
+
+#: gradience/frontend/widgets/option_row.py:96
+#, fuzzy
+#| msgid "Shade Color"
+msgid "Show Color"
+msgstr "Culoare pentru umbre"
+
+#: gradience/frontend/widgets/option_row.py:118
+msgid "Not a color, see text value"
+msgstr "Culoare nevalidă, vedeți valoarea textului"
+
+#: gradience/frontend/widgets/plugin_row.py:85
+msgid "Unable to remove"
+msgstr "Nu se poate înlătura"
+
+#: gradience/frontend/widgets/plugin_row.py:86
+msgid "This is a system plugin, and cannot be removed."
+msgstr "Acesta este un modul de sistem și nu poate fi înlăturat."
+
+#: gradience/frontend/widgets/plugin_row.py:88
+msgid "Close"
+msgstr "Închideți"
+
+#: gradience/frontend/widgets/preset_row.py:85
+#: gradience/frontend/widgets/preset_row.py:144
+#, fuzzy
+#| msgid "Remove from Favourites"
+msgid "Remove from Favorites"
+msgstr "Eliminați din favorite"
+
+#: gradience/frontend/widgets/preset_row.py:88
+#: gradience/frontend/widgets/preset_row.py:140
+#, fuzzy
+#| msgid "Add to Favourites"
+msgid "Add to Favorites"
+msgstr "Adăugați la favorite"
+
+#: gradience/frontend/widgets/preset_row.py:160
+msgid "Preset removed"
+msgstr "Presetare înlăturată"
+
+#: gradience/frontend/widgets/preset_row.py:161
+msgid "Undo"
+msgstr "Anulați"
+
+#: gradience/frontend/widgets/preset_row.py:176
+msgid "Pending Deletion"
+msgstr "Se procesează înlăturarea"
+
+#: gradience/frontend/widgets/preset_row.py:190
+msgid "Unable to delete preset"
+msgstr "Nu se poate înlătura presetarea"
+
+#: gradience/frontend/widgets/repo_row.py:60
+msgid "Repository removed"
+msgstr "Depozit înlăturat"
+
+#: gradience/frontend/widgets/reset_preset_group.py:55
+#, fuzzy
+#| msgid "Could not restore GTK 4 backup"
+msgid "Unable to restore GTK 4 backup"
+msgstr "Nu s-a putut restaura copia de rezervă GTK 4"
+
+#: gradience/frontend/widgets/reset_preset_group.py:59
+msgid "GTK 4 preset has been restored. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:69
+#: gradience/frontend/widgets/reset_preset_group.py:98
+#, fuzzy
+#| msgid "Unable to delete preset"
+msgid "Unable to delete current preset"
+msgstr "Nu se poate înlătura presetarea"
+
+#: gradience/frontend/widgets/reset_preset_group.py:73
+msgid "GTK 4 theme has been reset. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:84
+#, fuzzy
+#| msgid "Could not restore GTK 4 backup"
+msgid "Unable to restore GTK 3 backup"
+msgstr "Nu s-a putut restaura copia de rezervă GTK 3"
+
+#: gradience/frontend/widgets/reset_preset_group.py:88
+msgid "GTK 3 preset has been restored. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/reset_preset_group.py:102
+msgid "GTK 3 theme has been reset. Log out to apply changes."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:94
+msgid "An unexpected error occurred while loading variable colors."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:118
+msgid "GNOME Shell Missing"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:119
+msgid ""
+"Shell Engine is designed to work only on systems running GNOME. You can "
+"still generate themes on other desktop environments, but it won't have any "
+"affect on them."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:121
+#, fuzzy
+#| msgid "Monet Engine"
+msgid "Disable Engine"
+msgstr "Generator Monet"
+
+#: gradience/frontend/widgets/shell_theming_group.py:122
+#: gradience/frontend/widgets/shell_theming_group.py:133
+#: gradience/frontend/widgets/shell_theming_group.py:145
+#, fuzzy
+#| msgid "Continue"
+msgid "Continue Anyway"
+msgstr "Continuați"
+
+#: gradience/frontend/widgets/shell_theming_group.py:129
+msgid "User Themes Extension Missing"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:130
+msgid ""
+"Gradience requires the User Themes extension installed to apply the Shell "
+"theme. You can still generate a theme, but you won't be able to apply it "
+"without this extension."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:132
+#, fuzzy
+#| msgid "Installed"
+msgid "Install Extension"
+msgstr "Instalate"
+
+#: gradience/frontend/widgets/shell_theming_group.py:140
+msgid "User Themes Extension Disabled"
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:141
+msgid ""
+"The User Themes extension is currently disabled on your system. Please "
+"enable it to apply the theme."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:181
+msgid "An error occurred while generating a Shell theme."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:188
+#, fuzzy
+#| msgid "Preset set sucessfully"
+msgid "Shell theme applied successfully."
+msgstr "Presetare aplicată cu succes"
+
+#: gradience/frontend/widgets/shell_theming_group.py:217
+#: gradience/frontend/widgets/shell_theming_group.py:222
+msgid "Failed to load extension's install link."
+msgstr ""
+
+#: gradience/frontend/widgets/shell_theming_group.py:241
+msgid "Shell theme successfully reset."
+msgstr ""
+
+#~ msgid "AdwCustomizer"
+#~ msgstr "AdwCustomizer"
+
+#, fuzzy
+#~| msgid "Adwaita Demo"
+#~ msgid "Adwaita Manager"
+#~ msgstr "Demonstrație Adwaita"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "General"
+
+#, fuzzy
+#~| msgid "Manage Presets"
+#~ msgctxt "shortcut window"
+#~ msgid "Manage Presets"
+#~ msgstr "Administrați presetările"
+
+#, fuzzy
+#~| msgid "Save Preset"
+#~ msgctxt "shortcut window"
+#~ msgid "Save Preset"
+#~ msgstr "Salvați presetarea"
+
+#, fuzzy
+#~| msgid "Preferences"
+#~ msgctxt "shortcut window"
+#~ msgid "Preferences"
+#~ msgstr "Preferințe"
+
+#~ msgid "Monet Engine generates a Material You color palette from an image."
+#~ msgstr ""
+#~ "Monet Engine generează o paletă de culori Material You bazat pe o imagine."
+
+#~ msgid "Select an Image"
+#~ msgstr "Selectează o imagine"
+
+#~ msgid "Allow GTK 4 Theming"
+#~ msgstr "Permiteți aplicarea temelor pe aplicațiile GTK4"
+
+#~ msgid "Allow GTK 4 Theming (System)"
+#~ msgstr "Permiteți aplicarea temelor pe GTK 4 (sistem)"
+
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 4 Flatpak apps to "
+#~ "access custom themes. (Requires root access)"
+#~ msgstr ""
+#~ "Suprascrieți permisiunile Flatpak pentru utilizatorul actual astfel încât "
+#~ "aplicațiile Flatpak care folosesc GTK 4 se vor putea folosi de temele "
+#~ "personalizate. (necesită acces root)"
+
+#~ msgid "Allow GTK 3 Theming"
+#~ msgstr "Permiteți aplicarea temelor pe aplicațiile GTK 3"
+
+#~ msgid "Allow GTK 3 Theming (System)"
+#~ msgstr "Permiteți aplicarea temelor pe aplicațiile GTK 4 Flatpak (sistem)"
+
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 3 Flatpak apps to "
+#~ "access adw-gtk3 theme. (Requires root access)"
+#~ msgstr ""
+#~ "Suprascrieți permisiunile Flatpak pentru utilizatorul actual astfel încât "
+#~ "aplicațiile Flatpak care folosesc GTK 3 se vor putea folosi de tema adw-"
+#~ "gtk3. (necesită acces root)"
+
+#, fuzzy
+#~| msgid "Shade Color"
+#~ msgid "Custom Shell Colors"
+#~ msgstr "Culoare pentru umbre"
+
+#, fuzzy
+#~| msgid ""
+#~| "Change colors of windows, buttons, lists and more, with advanced "
+#~| "features like adding custom CSS"
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more, with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr ""
+#~ "Modificați culorile ferestrelor, butoanelor, listelor și multor altor "
+#~ "elemente, cu caracteristici avansate precum cod CSS personalizat"
+
+#~ msgid "Theme"
+#~ msgstr "Temă"
+
+#~ msgid "Save Changes"
+#~ msgstr "Salvați modificările"
+
+#, fuzzy
+#~| msgid ""
+#~| "Change colors of windows, buttons, lists and more, with advanced "
+#~| "features like adding custom CSS."
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more; with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr ""
+#~ "Modificați culorile ferestrelor, butoanelor, listelor și multor altor "
+#~ "elemente, cu caracteristici avansate precum cod CSS personalizat."
+
+#~ msgid "Legacy Apps Theming"
+#~ msgstr "Temele pentru aplicațiile mai vechi"
+
+#, fuzzy
+#~| msgid "Install adw-gtk3 theme for legacy apps theming"
+#~ msgid "Install adw-gtk3 theme for legacy app theming"
+#~ msgstr ""
+#~ "Instalați tema adw-gtk3 pentru a aplica teme pe aplicațiile mai vechi"
+
+#~ msgid "System Configuration"
+#~ msgstr "Configurarea sistemului"
+
+#, fuzzy
+#~| msgid "Installing Themes"
+#~ msgid "Installing adw-gtk3"
+#~ msgstr "Instalarea temelor"
+
+#, fuzzy
+#~| msgid "Preset set sucessfully"
+#~ msgid "Preset set successfully"
+#~ msgstr "Presetare aplicată cu succes"
+
+#~ msgid "Toggle Text Value"
+#~ msgstr "Schimbați valoarea textului"
+
+#, fuzzy
+#~| msgid ""
+#~| "Monet is an engine that generates a Material Design 3 palette from an "
+#~| "image's color."
+#~ msgid ""
+#~ "Monet is an engine that generates a Material Design 3 palette from "
+#~ "extracting image's colors."
+#~ msgstr ""
+#~ "Monet este un generator care poate genera o paletă de culori Material "
+#~ "Design 3 din culorile unei imagini."
+
+#, fuzzy
+#~| msgid "For the changes to take effect, you need to log out. "
+#~ msgid "For the changes to take full effect, you need to log out."
+#~ msgstr ""
+#~ "Pentru ca modificările să se poată aplica, trebuie să ieșiți din sesiune. "
+
+#~ msgid "Allow GTK 4 Flatpak Applications Theming"
+#~ msgstr "Permiteți aplicarea temelor pe aplicațiile GTK 4 Flatpak"
+
+#~ msgid "GTK 3 Flatpak Applications"
+#~ msgstr "Aplicații Flatpak GTK 3"
+
+#~ msgid ""
+#~ "Remember to install adw-gtk3 theme (as a Flatpak package) in order to get "
+#~ "custom presets working in GTK 3 Flatpak applications."
+#~ msgstr ""
+#~ "Țineți minte să instalați tema adw-gtk3 (ca pachet Flatpak) pentru ca "
+#~ "presetările personalizate să poată funcționa în aplicațiile Flatpak care "
+#~ "folosesc GTK 3."
+
+#~ msgid "GTK 3 Flatpak Applications (System)"
+#~ msgstr "Aplicații Flatpak GTK 3 (sistem)"
+
+#~ msgid "_Monet"
+#~ msgstr "_Monet"
+
+#~ msgid "Restore Applied Color Scheme"
+#~ msgstr "Restabiliți schema cromatică aplicată"
+
+#~ msgid "Restore applied color scheme?"
+#~ msgstr "Restabiliți schema cromatică aplicată?"
+
+#~ msgid "Make sure you have the current settings saved as a preset."
+#~ msgstr "Asigurați-vă că aveți setările actuale salvate ca o presetare."
+
+#, fuzzy
+#~| msgid "Restore"
+#~ msgid "_Restore"
+#~ msgstr "Restabiliți"
+
+#~ msgid "More Options"
+#~ msgstr "Mai multe opțiuni"
+
+#~ msgid "Packages by"
+#~ msgstr "Pachete de"
+
+#~ msgid "Fixes by"
+#~ msgstr "Corecții de"
+
+#~ msgid "Special thanks to"
+#~ msgstr "Mulțumiri speciale către"
+
+#~ msgid "Tone"
+#~ msgstr "Ton"
+
+#~ msgid "GTK 4 Demo"
+#~ msgstr "Demonstrație GTK 4"
+
+#~ msgid "GTK 4 Widget Factory"
+#~ msgstr "Fabrică de widgeturi GTK 4"
+
+#~ msgid "Unsupported background type"
+#~ msgstr "Tip de fundal neacceptat"
+
+#~ msgid "Logout"
+#~ msgstr "Ieșiți din sesiune"
+
+#~ msgid ""
+#~ "In this release, we added plugin support, a plugin repository, badges, "
+#~ "and a quick preset switcher. We also split the preset repository into an "
+#~ "“Official” repository and a “Curated” repositories."
+#~ msgstr ""
+#~ "În această versiune, am adăugat modulele, un depozit de module, ecusoane "
+#~ "și un comutator rapid între presetări. În același timp, am împărțit "
+#~ "depozitul de presetări într-un depozit de presetări „oficiale” și un "
+#~ "depozit de presetări „întreținute”."
+
+#~ msgid "Change the look of Adwaita, with ease."
+#~ msgstr "Modificați cu ușurință aspectul temei Adwaita"
+
+#~ msgid "With Gradience you can:"
+#~ msgstr "Cu ajutorul aplicației Gradience ai posibilitatea să:"
+
+#~ msgid "This app is written in Python and uses GTK 4 and Libadwaita."
+#~ msgstr ""
+#~ "Această aplicație este scrisă în Python și se folosește de GTK 4 și de "
+#~ "Libadwaita."
+
+#~ msgid "colors purple"
+#~ msgstr "culori violet"
+
+#~ msgid "monet purple"
+#~ msgstr "monet violet"
+
+#~ msgid "advanced purple"
+#~ msgstr "violet complex"

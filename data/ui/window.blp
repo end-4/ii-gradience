@@ -1,0 +1,191 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceMainWindow : Adw.ApplicationWindow {
+  title: _("Gradience");
+  default-width: 950;
+  default-height: 650;
+
+  ShortcutController {
+    Shortcut {
+      trigger: "<primary>q";
+      action: "action(window.close)";
+    }
+  }
+
+  Adw.ToastOverlay toast_overlay {
+    Adw.Leaflet leaflet {
+      can-navigate-back: true;
+      can-unfold: false;
+
+      Gtk.Box main_view {
+        orientation: vertical;
+
+        Adw.HeaderBar titlebar {
+          centering-policy: strict;
+
+          Button apply-button {
+            styles ["suggested-action"]
+            label: _("Apply");
+            tooltip-text: _("Apply Preset");
+            action-name: "app.apply_color_scheme";
+          }
+
+          [start]
+          Button save-preset-button {
+            action-name: "app.save_preset";
+            tooltip-text: _("Save Preset");
+            Adw.ButtonContent {
+              icon-name: "document-save-symbolic";
+            }
+          }
+
+          [start]
+          Button {
+            icon-name: "applications-science-symbolic";
+            tooltip-text: _("Show Preview Window");
+            visible: false;
+          }
+
+          [title]
+          Adw.ViewSwitcherTitle title {
+            stack: view_stack;
+          }
+
+          [end]
+          Gtk.MenuButton {
+            tooltip-text: _("Main Menu");
+            icon-name: "open-menu-symbolic";
+            menu-model: main-menu;
+          }
+
+          [end]
+          MenuButton presets-dropdown {
+            menu-model: presets-menu;
+            label: _("Presets");
+            tooltip-text: _("Presets Menu");
+            icon-name: "palette-symbolic";
+          }
+
+          [end]
+          MenuButton errors-button {
+            styles ["raised", "error"]
+            tooltip-text: _("CSS Errors");
+            icon-name: "dialog-warning-symbolic";
+            popover: errors-popover;
+          }
+        }
+
+        Gtk.Box {
+          orientation: vertical;
+
+          Adw.ViewStack view_stack {
+            vexpand: true;
+            hexpand: true;
+
+            Adw.ViewStackPage {
+              name: "colors";
+              title: _("_Colors");
+              icon-name: "larger-brush-symbolic";
+
+              child: Adw.PreferencesPage content-colors { };
+              use-underline: true;
+            }
+
+            Adw.ViewStackPage {
+              name: "theming";
+              title: _("_Theming");
+              icon-name: "color-picker-symbolic";
+
+              child: Adw.PreferencesPage content-theming { };
+              use-underline: true;
+            }
+
+            Adw.ViewStackPage {
+              name: "plugins";
+              title: _("_Advanced");
+              icon-name: "settings-symbolic";
+
+              child: Adw.PreferencesPage content-plugins { };
+              use-underline: true;
+            }
+          }
+
+          Adw.ViewSwitcherBar {
+            stack: view_stack;
+            reveal: bind title.title-visible;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+menu main-menu {
+  section {
+    item {
+      label: _("Preferences");
+      action: "app.preferences";
+    }
+
+    item {
+      label: _("Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+
+    item {
+      label: _("About Gradience");
+      action: "app.about";
+    }
+  }
+}
+
+menu presets-menu {
+  section {
+    label: _("Built-In Presets");
+
+    item {
+      label: "Adwaita";
+      action: "app.load_preset";
+      target: "adwaita";
+    }
+
+    item {
+      label: "Adwaita Dark";
+      action: "app.load_preset";
+      target: "adwaita-dark";
+    }
+
+     item {
+      label: "Pretty Purple";
+      action: "app.load_preset";
+      target: "pretty-purple";
+    }
+
+    item {
+      label: _("Manage Presets");
+      action: "app.manage_presets";
+    }
+  }
+}
+
+
+Popover errors-popover {
+  ListBox errors-list {
+    selection-mode: none;
+
+    [placeholder]
+    Label {
+      margin-top: 6;
+      margin-bottom: 6;
+      margin-start: 6;
+      margin-end: 6;
+      halign: start;
+      styles ["dim-label"]
+      max-width-chars: 30;
+      wrap: true;
+      justify: left;
+    }
+  }
+}

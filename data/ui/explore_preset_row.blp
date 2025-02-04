@@ -1,0 +1,42 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceExplorePresetRow : Adw.ActionRow {
+  activatable-widget: apply_button;
+
+  Box {
+    spacing: 6;
+
+    //Label badge {
+    //  valign: center;
+    //  label: _("Unknown");
+
+    //  styles [
+    //      "tag",
+    //      "caption",
+    //  ]
+    //}
+
+    Button apply_button {
+      valign: center;
+      icon-name: "checkmark-symbolic";
+      tooltip-text: _("Download and Apply");
+      clicked => $on_apply_button_clicked();
+
+      styles [
+        "flat",
+      ]
+    }
+
+    Button download_button {
+      valign: center;
+      icon-name: "folder-download-symbolic";
+      tooltip-text: _("Download");
+      clicked => $on_download_button_clicked();
+
+      styles [
+        "flat",
+      ]
+    }
+  }
+}

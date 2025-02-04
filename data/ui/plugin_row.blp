@@ -1,0 +1,36 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradiencePluginRow : Adw.ActionRow {
+  activatable-widget: switch;
+
+  [suffix]
+  Switch switch {
+    valign: center;
+    tooltip-text: _("Toggle Plugin");
+    state-set => $on_switch_toggled();
+  }
+
+  // TODO: Detect if plugin has preferences, and if it does display the
+  // settings button
+
+  // [suffix]
+  // Button settings-button {
+  //   valign: center;
+  //   icon-name: "settings-symbolic";
+  //   tooltip-text: _("Preferences");
+  //   clicked => $on_settings_plugin_clicked();
+
+  //   styles [
+  //     "flat",
+  //   ]
+  // }
+
+  [suffix]
+  Button remove-button {
+    valign: center;
+    icon-name: "user-trash-symbolic";
+    tooltip-text: _("Remove Plugin");
+    clicked => $on_remove_plugin_clicked();
+  }
+}

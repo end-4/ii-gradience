@@ -1,0 +1,34 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceCustomCSSGroup : Adw.PreferencesGroup {
+  title: _("Custom Styles");
+  description: _("Changing this may break some programs. Libadwaita allows applications to hardcode values like padding and margins, and using custom styles may cause unintended breakage.");
+
+  [header-suffix]
+  DropDown app_type_dropdown {
+    valign: start;
+    model: app_type_list;
+    notify => $on_dropdown_notify();
+  }
+
+  ScrolledWindow {
+    min-content-height: 500;
+    max-content-height: 500;
+    TextView custom_css_text_view {
+      styles ["card"]
+      left-margin: 10;
+      right-margin: 10;
+      top-margin: 10;
+      bottom-margin: 10;
+      monospace: true;
+      buffer: TextBuffer {
+        changed => $on_custom_css_changed();
+      };
+    }
+  }
+}
+
+StringList app_type_list {
+  strings [_("GTK 4"), _("GTK 3")]
+}

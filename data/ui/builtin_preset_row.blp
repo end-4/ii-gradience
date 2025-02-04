@@ -1,0 +1,18 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceBuiltinPresetRow : Adw.ActionRow {
+  subtitle: _("Made by @GradienceTeam");
+  activatable-widget: apply_button;
+
+  [suffix]
+  Button apply_button {
+    valign: center;
+    icon-name: "checkmark-symbolic";
+    tooltip-text: _("Apply Preset");
+    clicked => $on_apply_button_clicked();
+    styles [
+      "flat",
+    ]
+  }
+}

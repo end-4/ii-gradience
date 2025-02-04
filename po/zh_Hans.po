@@ -1,0 +1,2204 @@
+# Gradience POT file
+# Copyright (C) 2022 Gradience Team
+# This file is distributed under the GNU GPLv3 license.
+# Gradience Team, 2022.
+#
+# yangyangdaji <1504305527@qq.com>, 2022, 2023, 2024.
+# 0xMRTT <0xMRTT@tuta.io>, 2022.
+# Daudix UFO <ddaudix@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: Atrophaneura@proton.me\n"
+"POT-Creation-Date: 2024-01-10 01:35+0000\n"
+"PO-Revision-Date: 2024-01-12 08:06+0000\n"
+"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"GradienceTeam/gradience/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:4
+#: data/com.github.GradienceTeam.Gradience.desktop.in.in:3 data/ui/window.blp:5
+msgid "Gradience"
+msgstr "Gradience"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:5
+#: data/ui/welcome_window.blp:64
+msgid "Change the look of Adwaita, with ease"
+msgstr "轻松改变 Adwaita 的外观"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:6
+#: gradience/frontend/views/about_window.py:41
+msgid "Gradience Team"
+msgstr "Gradience 团队"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:14
+msgid ""
+"Gradience is a tool for customizing Libadwaita applications and the adw-gtk3 "
+"theme."
+msgstr "Gradience 是一个用于自定义 Libadwaita 应用和 adw-gtk3 主题的工具。"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:15
+msgid "The main features of Gradience include the following:"
+msgstr "Gradience 的主要特点包括："
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:17
+msgid "🎨️ Changing any color of Adwaita theme"
+msgstr "🎨️ 改变 Adwaita 主题的任何颜色"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:18
+msgid "🖼️ Applying Material 3 color scheme from wallpaper"
+msgstr "🖼️ 从壁纸应用 Material 3 配色方案"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:19
+msgid "🎁️ Usage of other users presets"
+msgstr "🎁️ 使用其他用户预设"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:20
+msgid "⚙️ Changing advanced options with CSS"
+msgstr "⚙️ 使用 CSS 更改高级选项"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:21
+msgid "🧩️ Extending functionality using plugins"
+msgstr "🧩️ 使用插件扩展功能"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:27
+msgid "Screenshot of \"Colors\" Tab of Main UI"
+msgstr "主界面 \"颜色 \"选项卡的屏幕截图"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:32
+msgid "Screenshot of \"Monet\" Tab of Main UI"
+msgstr "主界面 “Monet” 选项卡的屏幕截图"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:37
+msgid "Screenshot of \"Advanced\" Tab of Main UI"
+msgstr "主界面 “高级” 选项卡的屏幕截图"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:42
+msgid "Screenshot of \"Installed\" Tab of Preset Manager"
+msgstr "预设管理器“已安装”选项卡的屏幕截图"
+
+#: data/com.github.GradienceTeam.Gradience.appdata.xml.in.in:47
+msgid "Screenshot of \"Explore\" Tab of Preset Manager"
+msgstr "预设管理器的“浏览”选项卡的屏幕截图"
+
+#: data/ui/app_type_dialog.blp:14
+msgid "Select application types to theme:"
+msgstr "选择主题的应用类型："
+
+#: data/ui/app_type_dialog.blp:17
+msgid "Libadwaita and GTK 4 Applications"
+msgstr "Libadwaita 和 GTK 4 应用"
+
+#: data/ui/app_type_dialog.blp:21
+msgid "GTK 3 Applications (adw-gtk3 theme required)"
+msgstr "GTK 3 应用（需要 adw-gtk3 主题）"
+
+#: data/ui/builtin_preset_row.blp:5
+msgid "Made by @GradienceTeam"
+msgstr "@GradienceTeam 制作"
+
+#: data/ui/builtin_preset_row.blp:12 data/ui/preset_row.blp:50
+#: data/ui/window.blp:30
+msgid "Apply Preset"
+msgstr "应用预设"
+
+#: data/ui/custom_css_group.blp:5
+msgid "Custom Styles"
+msgstr "自定义样式"
+
+#: data/ui/custom_css_group.blp:6
+msgid ""
+"Changing this may break some programs. Libadwaita allows applications to "
+"hardcode values like padding and margins, and using custom styles may cause "
+"unintended breakage."
+msgstr "更改此设置可能会破坏某些程序。 Libadwaita "
+"允许应用对填充和边距等值进行硬编码，并且使用自定义样式可能会导致意外损坏。"
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 4"
+msgstr "GTK 4"
+
+#: data/ui/custom_css_group.blp:33
+msgid "GTK 3"
+msgstr "GTK 3"
+
+#: data/ui/explore_preset_row.blp:23
+msgid "Download and Apply"
+msgstr "下载并应用"
+
+#: data/ui/explore_preset_row.blp:34
+msgid "Download"
+msgstr "下载"
+
+#: data/ui/log_out_dialog.blp:5
+msgid "Log out"
+msgstr "注销"
+
+#: data/ui/log_out_dialog.blp:6
+msgid "Log out to allow changes to take effect."
+msgstr "注销以使更改生效。"
+
+#: data/ui/monet_theming_group.blp:5 data/ui/preferences_window.blp:113
+msgid "Monet Engine"
+msgstr "Monet 引擎"
+
+#: data/ui/monet_theming_group.blp:6
+msgid "Generates a Material Design 3 palette by extracting colors of an image."
+msgstr "通过提取图像的颜色生成 Material Design 3 调色板。"
+
+#: data/ui/monet_theming_group.blp:9
+msgid "Monet Engine Options"
+msgstr "Monet 引擎选项"
+
+#: data/ui/monet_theming_group.blp:10
+msgid "Choose an image and modify generated Monet palette"
+msgstr "选择一个图像并修改生成 Monet 调色板"
+
+#: data/ui/monet_theming_group.blp:16 data/ui/shell_theming_group.blp:27
+#: data/ui/window.blp:29
+msgid "Apply"
+msgstr "应用"
+
+#: data/ui/monet_theming_group.blp:17
+msgid "Apply a palette"
+msgstr "应用调色板"
+
+#: data/ui/monet_theming_group.blp:23
+msgid "Background Image"
+msgstr "背景图片"
+
+#: data/ui/monet_theming_group.blp:33
+msgid "Choose a File"
+msgstr "选择文件"
+
+#: data/ui/monet_theming_group.blp:42
+msgid "Choose a Image File"
+msgstr "选择图像文件"
+
+#: data/ui/no_plugin_window.blp:5
+msgid "Plugin Preferences"
+msgstr "插件选项"
+
+#: data/ui/no_plugin_window.blp:15
+msgid "No Preferences"
+msgstr "没有选项"
+
+#: data/ui/no_plugin_window.blp:16
+msgid "This plugin has no preferences."
+msgstr "该插件没有偏好设置。"
+
+#: data/ui/option_row.blp:12
+msgid "GTK 3 Support Warning"
+msgstr "GTK 3 支持警告"
+
+#: data/ui/option_row.blp:21
+msgid "Explanation"
+msgstr "解释"
+
+#: data/ui/option_row.blp:45 gradience/frontend/widgets/option_row.py:96
+msgid "Show Hex"
+msgstr "显示十六进制"
+
+#: data/ui/plugin_row.blp:10
+msgid "Toggle Plugin"
+msgstr "切换插件"
+
+#: data/ui/plugin_row.blp:33
+msgid "Remove Plugin"
+msgstr "删除插件"
+
+#: data/ui/preferences_window.blp:5 data/ui/window.blp:128
+msgid "Preferences"
+msgstr "选项"
+
+#: data/ui/preferences_window.blp:11
+msgid "General"
+msgstr "常规"
+
+#: data/ui/preferences_window.blp:15
+msgid "Flatpak Applications"
+msgstr "Flatpak 应用"
+
+#: data/ui/preferences_window.blp:18
+msgid "Theme sandboxed GTK 4 apps"
+msgstr "主题沙盒 GTK 4 应用"
+
+#: data/ui/preferences_window.blp:19
+msgid "Allow GTK 4 Flatpak apps of current user to access custom themes"
+msgstr "允许当前用户的 GTK 4 Flatpak 应用访问自定义主题"
+
+#: data/ui/preferences_window.blp:28
+msgid "Theme sandboxed GTK 4 apps (System)"
+msgstr "主题沙盒 GTK 4 应用（系统）"
+
+#: data/ui/preferences_window.blp:29
+msgid ""
+"Allow GTK 4 Flatpak apps of all users to access custom themes "
+"(Authentication required)"
+msgstr "允许所有用户的 GTK 4 Flatpak 应用访问自定义主题（需要身份验证）"
+
+#: data/ui/preferences_window.blp:37
+msgid "Theme sandboxed GTK 3 apps"
+msgstr "主题沙盒 GTK 3 应用"
+
+#: data/ui/preferences_window.blp:38
+msgid "Allow GTK 3 Flatpak apps of current user to access adw-gtk3 theme"
+msgstr "允许当前用户的 GTK 3 Flatpak 应用访问 adw-gtk3 主题"
+
+#: data/ui/preferences_window.blp:47
+msgid "Theme sandboxed GTK 3 apps (System)"
+msgstr "主题沙盒 GTK 3 应用（系统）"
+
+#: data/ui/preferences_window.blp:48
+msgid ""
+"Allow GTK 3 Flatpak apps of all users to access adw-gtk3 theme "
+"(Authentication required)"
+msgstr "允许所有用户的GTK 3 Flatpak应用访问adw-gtk3主题（需要身份验证）"
+
+#: data/ui/preferences_window.blp:58
+msgid "Preset Fetching"
+msgstr "预设抓取"
+
+#: data/ui/preferences_window.blp:60
+msgid "Use an alternative server for fetching presets"
+msgstr "使用备用服务器获取预设"
+
+#: data/ui/preferences_window.blp:61
+msgid "Use JSDelivr instead of directly fetching presets from GitHub"
+msgstr "使用 JSDelivr 而不是直接从 GitHub 获取预设"
+
+#: data/ui/preferences_window.blp:73
+msgid "Custom Preset Repositories"
+msgstr "自定义预设存储库"
+
+#: data/ui/preferences_window.blp:76
+msgid "Custom repository URL address"
+msgstr "自定义存储库 URL 地址"
+
+#: data/ui/preferences_window.blp:96
+msgid "Theming"
+msgstr "主题"
+
+#: data/ui/preferences_window.blp:100
+msgid "Theme Engines"
+msgstr "主题引擎"
+
+#: data/ui/preferences_window.blp:101
+msgid ""
+"Theme Engines are the built-in theme generators for various customizable "
+"programs/frameworks."
+msgstr "主题引擎是用于各种可定制程序/框架的内置主题生成器。"
+
+#: data/ui/preferences_window.blp:104 data/ui/shell_theming_group.blp:5
+msgid "Shell Engine"
+msgstr "Shell 引擎"
+
+#: data/ui/preferences_window.blp:105
+msgid "Generates GNOME Shell theme based on current preset"
+msgstr "根据当前预设生成 GNOME Shell 主题"
+
+#: data/ui/preferences_window.blp:114
+msgid "Generates a Material Design 3 palette by extracting colors of an image"
+msgstr "通过提取图像的颜色生成 Material Design 3 调色板"
+
+#: data/ui/preset_row.blp:65
+msgid "Rename Preset"
+msgstr "删除预设"
+
+#: data/ui/preset_row.blp:80
+msgid "Description"
+msgstr "描述"
+
+#: data/ui/preset_row.blp:81
+msgid "This preset has no description."
+msgstr "该预设没有说明。"
+
+#: data/ui/preset_row.blp:93
+msgid "No Badges"
+msgstr "无徽章"
+
+#: data/ui/preset_row.blp:102
+msgid "Report an Issue"
+msgstr "报告问题"
+
+#: data/ui/preset_row.blp:109
+msgid "Remove preset"
+msgstr "删除预设"
+
+#: data/ui/preset_row.blp:110 data/ui/repo_row.blp:9
+msgid "Remove Preset"
+msgstr "删除预设"
+
+#: data/ui/presets_manager_window.blp:5 data/ui/window.blp:65
+msgid "Presets"
+msgstr "预设"
+
+#: data/ui/presets_manager_window.blp:31
+msgid "Import"
+msgstr "导入"
+
+#: data/ui/presets_manager_window.blp:32
+msgid "Import Preset File"
+msgstr "导入预设文件"
+
+#: data/ui/presets_manager_window.blp:38
+msgid "Delete"
+msgstr "删除"
+
+#: data/ui/presets_manager_window.blp:44
+msgid "Report Preset Issue"
+msgstr "报告预设问题"
+
+#: data/ui/presets_manager_window.blp:55 gradience/frontend/main.py:250
+msgid "Open in File Manager"
+msgstr "在文件管理器中打开"
+
+#: data/ui/presets_manager_window.blp:73
+msgid "Installed"
+msgstr "已安装"
+
+#: data/ui/presets_manager_window.blp:82
+msgid "Explore"
+msgstr "探索"
+
+#: data/ui/presets_manager_window.blp:87
+msgid "Search for presets"
+msgstr "搜索预设"
+
+#: data/ui/presets_manager_window.blp:88
+msgid ""
+"Enter a keyword to search on <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a>."
+msgstr ""
+"输入关键字以在 <a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a> 上搜索。"
+
+#: data/ui/presets_manager_window.blp:101
+msgid "e.g. \"Pretty Purple\""
+msgstr "例如：\"漂亮的紫色\""
+
+#: data/ui/presets_manager_window.blp:106
+msgid "All"
+msgstr "全部"
+
+#: data/ui/presets_manager_window.blp:134
+msgid "No Results Found"
+msgstr "未找到结果"
+
+#: data/ui/presets_manager_window.blp:142
+msgid "Offline"
+msgstr "离线"
+
+#: data/ui/presets_manager_window.blp:155
+#: gradience/frontend/views/presets_manager_window.py:126
+#: gradience/frontend/views/presets_manager_window.py:394
+msgid "Repositories"
+msgstr "存储库"
+
+#: data/ui/presets_manager_window.blp:175
+msgid "Import a Preset File (*.json)"
+msgstr "导入一个预设文件（*.json）"
+
+#: data/ui/presets_manager_window.blp:180
+msgid "All files"
+msgstr "所有文件"
+
+#: data/ui/presets_manager_window.blp:185
+msgid "JSON file (*.json)"
+msgstr "JSON文件（*.json）"
+
+#: data/ui/reset_preset_group.blp:5
+msgid "Reset and Restore Theming"
+msgstr "重置和恢复主题"
+
+#: data/ui/reset_preset_group.blp:6
+msgid "Reset theming to default or restore previously applied preset."
+msgstr "将主题重置为默认值或恢复之前应用的预设。"
+
+#: data/ui/reset_preset_group.blp:9
+msgid "GTK 4/Libadwaita Apps"
+msgstr "GTK 4/Libadwaita 应用"
+
+#: data/ui/reset_preset_group.blp:14 data/ui/reset_preset_group.blp:34
+msgid "Restore Previous Preset"
+msgstr "恢复以前的预设"
+
+#: data/ui/reset_preset_group.blp:21 data/ui/reset_preset_group.blp:41
+msgid "Reset"
+msgstr "重置"
+
+#: data/ui/reset_preset_group.blp:22 data/ui/reset_preset_group.blp:42
+msgid "Reset Applied Preset"
+msgstr "重置应用的预设"
+
+#: data/ui/reset_preset_group.blp:29
+msgid "GTK 3 Apps"
+msgstr "GTK 3 应用"
+
+#: data/ui/save_dialog.blp:5
+msgid "Save preset as…"
+msgstr "将预设另存为…"
+
+#: data/ui/save_dialog.blp:10
+msgid "Preset Name"
+msgstr "预设名"
+
+#: data/ui/share_window.blp:5
+msgid "Share Preset"
+msgstr "分享预设"
+
+#: data/ui/share_window.blp:42 data/ui/welcome_window.blp:42
+msgid "Previous"
+msgstr "以前的"
+
+#: data/ui/share_window.blp:65
+msgid "Share your preset"
+msgstr "分享您的预设"
+
+#: data/ui/share_window.blp:66
+msgid "Share your preset with the world!"
+msgstr "与世界分享您的预设！"
+
+#: data/ui/share_window.blp:73
+msgid "How it's work?"
+msgstr "它是如何工作的？"
+
+#: data/ui/share_window.blp:74
+msgid ""
+"Gradience use GitHub to share your preset. You need to create a GitHub "
+"account and fork <a href='https://github.com/GradienceTeam/"
+"Community'>GradienceTeam/Community</a>. Then, you can upload your preset, "
+"make a pull request and share it with the world!"
+msgstr ""
+"Gradience 使用 GitHub 分享您的预设。您需要创建一个 GitHub 帐户并 fork <a "
+"href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/Community</"
+"a>。然后，您可以上传您的预设，提出拉取请求并与全世界分享！"
+
+#: data/ui/share_window.blp:81 data/ui/welcome_window.blp:78
+msgid "Warning"
+msgstr "警告"
+
+#: data/ui/share_window.blp:82
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers."
+msgstr ""
+"更改配色方案会对对比度和可读性产生负面影响。谨慎行事。请不要向应用开发者报告"
+"与主题相关的问题。"
+
+#: data/ui/share_window.blp:86
+msgid "I Understand The Consequences"
+msgstr "我明白后果的严重性"
+
+#: data/ui/share_window.blp:97
+msgid "Customize Adwaita Theme"
+msgstr "定制 Adwaita 主题"
+
+#: data/ui/share_window.blp:98
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom CSS"
+msgstr "使用添加自定义 CSS 等高级功能更改窗口、按钮、列表等的颜色"
+
+#: data/ui/share_window.blp:104
+msgid "Configure Gradience"
+msgstr "配置 Gradience"
+
+#: data/ui/share_window.blp:105
+msgid ""
+"Install adw-gtk3 theme for legacy applications and configure system for "
+"theming."
+msgstr "为旧版应用安装 adw-gtk3 主题并为主题配置系统。"
+
+#: data/ui/share_window.blp:110
+msgid "Legacy apps theming"
+msgstr "旧版应用主题"
+
+#: data/ui/share_window.blp:115
+msgid "Install adw-gtk3 theme for legacy apps theming"
+msgstr "为旧版应用主题安装 adw-gtk3 主题"
+
+#: data/ui/share_window.blp:120
+msgid "System configuration"
+msgstr "系统配置"
+
+#: data/ui/share_window.blp:126
+msgid "Configure system for theming, enables Flatpak theme override"
+msgstr "为主题配置系统，启用 Flatpak 主题覆盖"
+
+#: data/ui/share_window.blp:136
+msgid "Installing Themes"
+msgstr "正在安装主题"
+
+#: data/ui/share_window.blp:137
+msgid "Please wait until theme will be installed."
+msgstr "请等到主题将被安装。"
+
+#: data/ui/share_window.blp:143
+msgid "Continue"
+msgstr "继续"
+
+#: data/ui/share_window.blp:162
+msgid "Done"
+msgstr "完成"
+
+#: data/ui/share_window.blp:163
+msgid "Now you can make your own presets or download some online."
+msgstr "现在你可以制作自己的预设或在网上下载一些。"
+
+#: data/ui/share_window.blp:168
+msgid "Please finish the setup first"
+msgstr "请先完成设置"
+
+#: data/ui/share_window.blp:176 data/ui/welcome_window.blp:98
+msgid "Start Using Gradience"
+msgstr "开始使用 Gradience"
+
+#: data/ui/share_window.blp:193 data/ui/welcome_window.blp:113
+msgid "Next"
+msgstr "下一步"
+
+#: data/ui/shell_prefs_window.blp:5
+msgid "Shell Engine Preferences"
+msgstr "Shell 引擎选项"
+
+#: data/ui/shell_prefs_window.blp:13
+msgid "Shell theme colors"
+msgstr "Shell 主题颜色"
+
+#: data/ui/shell_theming_group.blp:6
+msgid ""
+"Generates GNOME Shell theme based on current preset.\n"
+"WARNING: Extensions that modify the Shell stylesheet may cause issues with "
+"themes."
+msgstr ""
+"根据当前预设生成 GNOME Shell 主题。\n"
+"警告：修改 Shell 样式表的扩展可能会导致主题出现问题。"
+
+#: data/ui/shell_theming_group.blp:20
+msgid "Shell Engine Options"
+msgstr "Shell 引擎选项"
+
+#: data/ui/shell_theming_group.blp:21
+msgid "Change the generated GNOME Shell theme"
+msgstr "更改生成的 GNOME Shell 主题"
+
+#: data/ui/shell_theming_group.blp:28
+msgid "Apply Shell theme"
+msgstr "应用 Shell 主题"
+
+#: data/ui/shell_theming_group.blp:37
+msgid "Customize Shell Theme"
+msgstr "定制 Shell 主题"
+
+#: data/ui/shell_theming_group.blp:43
+msgid "Open Shell Preferences"
+msgstr "打开 Shell 选项"
+
+#: data/ui/shell_theming_group.blp:49
+msgid "Preset Variant"
+msgstr "预设变体"
+
+#: data/ui/shell_theming_group.blp:50
+msgid "Select currently applied preset variant"
+msgstr "选择当前应用的预设变体"
+
+#: data/ui/shell_theming_group.blp:62
+msgid "Currently unavailable"
+msgstr "目前不可用"
+
+#: data/ui/shell_theming_group.blp:73
+msgid "Reset Theme"
+msgstr "重置主题"
+
+#: data/ui/shell_theming_group.blp:74
+msgid "Reset applied theme"
+msgstr "重置应用的主题"
+
+#: data/ui/theming_empty_group.blp:5
+msgid "No Theme Engines"
+msgstr "没有主题引擎"
+
+#: data/ui/theming_empty_group.blp:6
+msgid ""
+"Theme Engines extend the functionality of Gradience. They can be enabled in "
+"the Preferences."
+msgstr "主题引擎扩展了 Gradience 的功能。可以在选项中启用它们。"
+
+#: data/ui/theming_empty_group.blp:9
+msgid "Open Preferences to manage Theme Engines"
+msgstr "打开选项以管理主题引擎"
+
+#: data/ui/theming_empty_group.blp:14 data/ui/theming_empty_group.blp:15
+msgid "Open Preferences"
+msgstr "打开选项"
+
+#: data/ui/welcome_window.blp:5 data/ui/welcome_window.blp:63
+msgid "Welcome to Gradience"
+msgstr "欢迎来到 Gradience"
+
+#: data/ui/welcome_window.blp:70
+msgid "What's new in 0.8.0"
+msgstr "0.8.0 中的新内容"
+
+#: data/ui/welcome_window.blp:71
+msgid ""
+"In this release, we added GNOME Shell theming support and reworked how "
+"Gradience works internally"
+msgstr "在此版本中，我们添加了 GNOME Shell 主题支持并重新设计了 Gradience "
+"的内部工作方式"
+
+#: data/ui/welcome_window.blp:79
+msgid ""
+"Changing the color scheme can negatively affect contrast and readability. "
+"Proceed with caution. Please do not report theming-related issues to app "
+"developers"
+msgstr "更改配色方案会对对比度和可读性产生负面影响。谨慎行事。请不要向应用开发者报告"
+"与主题相关的问题"
+
+#: data/ui/welcome_window.blp:83
+msgid "Agree and Continue"
+msgstr "同意并继续"
+
+#: data/ui/welcome_window.blp:93
+msgid "Customize Adwaita"
+msgstr "定制 Adwaita"
+
+#: data/ui/welcome_window.blp:94
+msgid ""
+"Change colors of windows, buttons, lists and more, with advanced features "
+"like adding custom styles"
+msgstr "使用添加自定义样式等高级功能更改窗口、按钮、列表等的颜色"
+
+#: data/ui/window.blp:37 gradience/frontend/main.py:422
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: data/ui/window.blp:46
+msgid "Show Preview Window"
+msgstr "显示预览窗口"
+
+#: data/ui/window.blp:57
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: data/ui/window.blp:66
+msgid "Presets Menu"
+msgstr "预设菜单"
+
+#: data/ui/window.blp:73
+msgid "CSS Errors"
+msgstr "CSS 错误"
+
+#: data/ui/window.blp:88
+msgid "_Colors"
+msgstr "颜色 (C)"
+
+#: data/ui/window.blp:97
+msgid "_Theming"
+msgstr "主题 (T)"
+
+#: data/ui/window.blp:106
+msgid "_Advanced"
+msgstr "高级 (A)"
+
+#: data/ui/window.blp:133
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: data/ui/window.blp:138
+msgid "About Gradience"
+msgstr "关于 Gradience"
+
+#: data/ui/window.blp:146
+#: gradience/frontend/views/presets_manager_window.py:114
+msgid "Built-In Presets"
+msgstr "内置预设"
+
+#: data/ui/window.blp:167
+msgid "Manage Presets"
+msgstr "管理预设"
+
+#: gradience/backend/flatpak_overrides.py:71
+#: gradience/backend/flatpak_overrides.py:93
+msgid "Failed to save override"
+msgstr "无法保存覆盖"
+
+#: gradience/backend/flatpak_overrides.py:186
+#: gradience/backend/flatpak_overrides.py:228
+#: gradience/backend/flatpak_overrides.py:306
+#: gradience/backend/flatpak_overrides.py:366
+#: gradience/backend/flatpak_overrides.py:448
+#: gradience/backend/flatpak_overrides.py:509
+msgid "Unexpected file error occurred"
+msgstr "发生意外的文件错误"
+
+#: gradience/frontend/dialogs/app_type_dialog.py:47
+#: gradience/frontend/dialogs/save_dialog.py:62
+msgid "_Cancel"
+msgstr "取消 (C)"
+
+#: gradience/frontend/dialogs/save_dialog.py:39
+#, python-brace-format
+msgid ""
+"Saving preset to \n"
+" <small><i><tt>{0}</tt></i></small>. \n"
+" If that preset already exists, it will be overwritten."
+msgstr ""
+"存储预设为 \n"
+" <small><i><tt>{0}</tt></i></small>。 \n"
+" 如果该预设已存在，它将被覆盖。"
+
+#: gradience/frontend/dialogs/save_dialog.py:65
+msgid "Discard"
+msgstr "放弃"
+
+#: gradience/frontend/dialogs/save_dialog.py:70
+msgid "_Save"
+msgstr "保存 (S)"
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:40
+msgid "Unsupported Shell Version ({get_full_shell_version()})"
+msgstr "不支持此 Shell 版本 ({get_full_shell_version()})"
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:41
+msgid ""
+"The Shell version you are using is not supported by Gradience. Please "
+"upgrade to a newer version of GNOME."
+msgstr ""
+"Gradience 不支持您正在使用的命令行管理程序版本。请升级到较新版本的 GNOME。"
+
+#: gradience/frontend/dialogs/unsupported_shell_dialog.py:43
+msgid "OK"
+msgstr "确定"
+
+#: gradience/frontend/main.py:203
+#: gradience/frontend/views/presets_manager_window.py:339
+msgid "Failed to load list of presets"
+msgstr "加载预设列表失败"
+
+#: gradience/frontend/main.py:236
+msgid "No presets found"
+msgstr "未找到预设"
+
+#: gradience/frontend/main.py:259
+msgid "Favorite Presets"
+msgstr "最喜欢的预设"
+
+#: gradience/frontend/main.py:412
+msgid "Unsaved Changes"
+msgstr "未保存更改"
+
+#: gradience/frontend/main.py:421
+msgid "Save"
+msgstr "保存"
+
+#: gradience/frontend/main.py:511
+msgid "Apply This Color Scheme?"
+msgstr "应用此配色方案？"
+
+#: gradience/frontend/main.py:513
+msgid ""
+"Warning: any custom CSS files for those app types will be irreversibly "
+"overwritten!"
+msgstr "警告：这些应用类型的任何自定义 CSS 文件都将被不可逆转地覆盖!"
+
+#: gradience/frontend/main.py:517
+msgid "_Apply"
+msgstr "应用 (A)"
+
+#: gradience/frontend/main.py:543
+msgid "You have unsaved changes!"
+msgstr "您有未保存更改！"
+
+#: gradience/frontend/main.py:594
+msgid "Preset saved"
+msgstr "预设已保存"
+
+#: gradience/frontend/main.py:611
+msgid "Preset has been set. Log out to apply changes."
+msgstr "预设已设置。 注销以应用更改。"
+
+#: gradience/frontend/schemas/preset_schema.py:23
+msgid "Accent Colors"
+msgstr "强调色"
+
+#: gradience/frontend/schemas/preset_schema.py:25
+msgid ""
+"These colors are used across many different widgets, often to indicate that "
+"a widget is important, interactive, or currently active."
+msgstr ""
+"这些颜色用于许多不同的小部件，通常用于指示小部件重要、交互或当前处于活动状"
+"态。"
+
+#: gradience/frontend/schemas/preset_schema.py:32
+#: gradience/frontend/schemas/preset_schema.py:63
+#: gradience/frontend/schemas/preset_schema.py:94
+#: gradience/frontend/schemas/preset_schema.py:125
+#: gradience/frontend/schemas/preset_schema.py:156
+msgid "Standalone Color"
+msgstr "独立的颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:34
+#: gradience/frontend/schemas/preset_schema.py:65
+#: gradience/frontend/schemas/preset_schema.py:96
+#: gradience/frontend/schemas/preset_schema.py:127
+#: gradience/frontend/schemas/preset_schema.py:158
+msgid ""
+"The standalone colors are similar to the background ones, but provide better "
+"contrast when used as foreground color on top of a neutral background - for "
+"example, colorful text in a window."
+msgstr ""
+"独立的颜色与背景的颜色相似，但在中性背景之上作为前景色使用时，能提供更好的对"
+"比度--例如，窗口中的彩色文本。"
+
+#: gradience/frontend/schemas/preset_schema.py:43
+#: gradience/frontend/schemas/preset_schema.py:74
+#: gradience/frontend/schemas/preset_schema.py:105
+#: gradience/frontend/schemas/preset_schema.py:136
+#: gradience/frontend/schemas/preset_schema.py:167
+#: gradience/frontend/schemas/preset_schema.py:184
+#: gradience/frontend/schemas/preset_schema.py:204
+#: gradience/frontend/schemas/preset_schema.py:225
+#: gradience/frontend/schemas/preset_schema.py:284
+#: gradience/frontend/schemas/preset_schema.py:327
+#: gradience/frontend/schemas/preset_schema.py:367
+#: gradience/frontend/schemas/preset_schema.py:394
+#: gradience/frontend/schemas/preset_schema.py:411
+#: gradience/frontend/schemas/preset_schema.py:428
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:48
+#: gradience/frontend/schemas/preset_schema.py:79
+#: gradience/frontend/schemas/preset_schema.py:110
+#: gradience/frontend/schemas/preset_schema.py:141
+#: gradience/frontend/schemas/preset_schema.py:172
+#: gradience/frontend/schemas/preset_schema.py:189
+#: gradience/frontend/schemas/preset_schema.py:209
+#: gradience/frontend/schemas/preset_schema.py:230
+#: gradience/frontend/schemas/preset_schema.py:289
+#: gradience/frontend/schemas/preset_schema.py:332
+#: gradience/frontend/schemas/preset_schema.py:372
+#: gradience/frontend/schemas/preset_schema.py:399
+#: gradience/frontend/schemas/preset_schema.py:416
+#: gradience/frontend/schemas/preset_schema.py:433
+msgid "Foreground Color"
+msgstr "前景颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:55
+msgid "Destructive Colors"
+msgstr "破坏性颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:57
+msgid ""
+"These colors are used to indicate dangerous actions, such as deleting a file."
+msgstr "这些颜色用于指示危险操作，例如删除文件。"
+
+#: gradience/frontend/schemas/preset_schema.py:86
+msgid "Success Colors"
+msgstr "成功的颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:88
+msgid ""
+"These colors are used across many different widgets, to indicate success or "
+"a high level."
+msgstr "这些颜色用于许多不同的小部件，以表示成功或高水平。"
+
+#: gradience/frontend/schemas/preset_schema.py:117
+msgid "Warning Colors"
+msgstr "警告颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:119
+msgid ""
+"These colors are used across many different widgets, to indicate warning or "
+"a low level."
+msgstr "这些颜色用于许多不同的小部件，以指示警告或低级别。"
+
+#: gradience/frontend/schemas/preset_schema.py:148
+msgid "Error Colors"
+msgstr "错误颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:150
+msgid ""
+"These colors are used across many different widgets, to indicate a failure."
+msgstr "这些颜色被用于许多不同的小工具，如按钮、标签和条目，以表示失败。"
+
+#: gradience/frontend/schemas/preset_schema.py:179
+msgid "Window Colors"
+msgstr "窗口颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:180
+msgid "These colors are used primarily for windows."
+msgstr "这些颜色主要用于窗口。"
+
+#: gradience/frontend/schemas/preset_schema.py:196
+msgid "View Colors"
+msgstr "查看颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:198
+msgid ""
+"These colors are used across many different widgets, such as text views and "
+"entries."
+msgstr "这些颜色用于许多不同的小部件，例如文本视图和条目。"
+
+#: gradience/frontend/schemas/preset_schema.py:216
+msgid "Header Bar Colors"
+msgstr "标题栏颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:218
+msgid ""
+"These colors are used for header bars, as well as widgets that are meant to "
+"be visually attached to it, such as search bars or tab bars."
+msgstr "这些颜色用于标题栏，以及要在视觉上与之相连的部件，如搜索栏或标签栏。"
+
+#: gradience/frontend/schemas/preset_schema.py:235
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:237
+msgid ""
+"The border color has the same default value as a foreground color, but "
+"doesn't change along with it. This can be useful if a light window has a "
+"dark header bar with light text; in this case it may be desirable to keep "
+"the border dark. This variable is only used for vertical borders - for "
+"example, separators between the two header bars in a split header bar layout."
+msgstr ""
+"边框颜色的默认值与前景颜色相同，但不随其变化。如果一个浅色窗口有一个浅色文本"
+"的深色标题栏，这可能很有用；在这种情况下，保持边框的深色可能是可取的。这个变"
+"量只用于垂直边框--例如，在一个分割的标题栏布局中，两个标题栏之间的分隔符。"
+
+#: gradience/frontend/schemas/preset_schema.py:250
+#: gradience/frontend/schemas/preset_schema.py:294
+#: gradience/frontend/schemas/preset_schema.py:337
+msgid "Backdrop Color"
+msgstr "背景颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:252
+#: gradience/frontend/schemas/preset_schema.py:296
+#: gradience/frontend/schemas/preset_schema.py:339
+msgid ""
+"The backdrop color is used instead of the background color when the window "
+"is not focused. By default it's an alias of the window's background color "
+"and changes together with it. When changing this variable, make sure to set "
+"it to a value matching your header bar background color."
+msgstr ""
+"当窗口未聚焦时，将使用背景色代替背景色。默认情况下，它是窗口背景色的别名，并"
+"随之更改。更改此变量时，请确保将其设置为与标题栏背景颜色匹配的值。"
+
+#: gradience/frontend/schemas/preset_schema.py:263
+#: gradience/frontend/schemas/preset_schema.py:307
+#: gradience/frontend/schemas/preset_schema.py:350
+#: gradience/frontend/schemas/preset_schema.py:377
+#: gradience/frontend/schemas/preset_schema.py:438
+#: gradience/frontend/schemas/preset_schema.py:455
+msgid "Shade Color"
+msgstr "阴影颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:265
+#: gradience/frontend/schemas/preset_schema.py:309
+#: gradience/frontend/schemas/preset_schema.py:352
+msgid ""
+"The shade color is used to provide a dark border for header bars and similar "
+"widgets that separates them from the main window."
+msgstr "阴影色用于为标题栏和类似的部件提供一个深色边界，将它们与主窗口分开。"
+
+#: gradience/frontend/schemas/preset_schema.py:275
+msgid "Sidebar Colors"
+msgstr "侧边栏颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:277
+msgid ""
+"These colors are used for sidebars, generally attached to the left or right "
+"sides of a window. They are used by AdwNavigationSplitView and "
+"AdwOverlaySplitView when they are not collapsed."
+msgstr ""
+"这些颜色用于侧边栏，通常连接到窗口的左侧或右侧。 当它们未折叠时，它们被"
+"AdwNavigationSplitView 和AdwOverlaySplitView 使用。"
+
+#: gradience/frontend/schemas/preset_schema.py:319
+msgid "Secondary Sidebar Colors"
+msgstr "次级侧边栏颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:321
+msgid ""
+"These colors are used for middle panes in triple-pane layouts,  created via "
+"nesting two split views within one another."
+msgstr "这些颜色用于三层布局中的中间窗格，通过将两个拆分视图彼此嵌套创建。"
+
+#: gradience/frontend/schemas/preset_schema.py:362
+msgid "Card Colors"
+msgstr "卡片颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:363
+msgid "These colors are used for cards and boxed lists."
+msgstr "这些颜色用于卡片和盒装清单。"
+
+#: gradience/frontend/schemas/preset_schema.py:379
+msgid ""
+"The shade color is used for shadows that are used by cards to separate "
+"themselves from the window background, as well as for row dividers in the "
+"cards."
+msgstr "阴影色用于卡片与窗口背景分离的阴影，也用于卡片中的行隔断。"
+
+#: gradience/frontend/schemas/preset_schema.py:389
+msgid "Thumbnail Colors"
+msgstr "缩略图颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:390
+msgid "These colors are used for Tab Overview thumbnails."
+msgstr "这些颜色用于选项卡概述缩略图。"
+
+#: gradience/frontend/schemas/preset_schema.py:406
+msgid "Dialog Colors"
+msgstr "对话框颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:407
+msgid "These colors are used for message dialogs."
+msgstr "这些颜色用于消息对话。"
+
+#: gradience/frontend/schemas/preset_schema.py:423
+msgid "Popover Colors"
+msgstr "弹出窗口的颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:424
+msgid "These colors are used for popovers."
+msgstr "这些颜色用于弹出框。"
+
+#: gradience/frontend/schemas/preset_schema.py:440
+msgid ""
+"The shade color is used for scroll undershoot styles within popovers, as "
+"well as transitions in AdwNavigationView, AdwOverlaySplitView, AdwLeaflet "
+"and AdwFlap."
+msgstr ""
+"阴影颜色用于弹出弹出式滚动样式，以及在AdwnavigationView，"
+"Adwoverlaysplitview，Adwleaflet 和Adwflap 中的过渡。"
+
+#: gradience/frontend/schemas/preset_schema.py:450
+msgid "Miscellaneous Colors"
+msgstr "杂色"
+
+#: gradience/frontend/schemas/preset_schema.py:451
+msgid "Colors that don't fit in any particular group."
+msgstr "不适合任何特定群体的颜色。"
+
+#: gradience/frontend/schemas/preset_schema.py:457
+msgid ""
+"The shade color is used by inline tab bars, as well as the transitions in "
+"leaflets and flaps, and info bar borders."
+msgstr "阴影色用于内嵌式标签栏，以及小册子和封套中的过渡，还有信息栏的边框。"
+
+#: gradience/frontend/schemas/preset_schema.py:465
+msgid "Scrollbar Outline Color"
+msgstr "滚动条轮廓颜色"
+
+#: gradience/frontend/schemas/preset_schema.py:467
+msgid ""
+"The scrollbar outline color is used by scrollbars to ensure that overlay "
+"scrollbars are visible regardless of the content color."
+msgstr ""
+"滚动条的轮廓颜色被滚动条使用，以确保无论内容的颜色如何，覆盖的滚动条都是可见"
+"的。"
+
+#: gradience/frontend/schemas/preset_schema.py:477
+msgid "Blue"
+msgstr "蓝色"
+
+#: gradience/frontend/schemas/preset_schema.py:478
+msgid "Green"
+msgstr "绿色"
+
+#: gradience/frontend/schemas/preset_schema.py:479
+msgid "Yellow"
+msgstr "黄色"
+
+#: gradience/frontend/schemas/preset_schema.py:480
+msgid "Orange"
+msgstr "橙色"
+
+#: gradience/frontend/schemas/preset_schema.py:481
+msgid "Red"
+msgstr "红色"
+
+#: gradience/frontend/schemas/preset_schema.py:482
+msgid "Purple"
+msgstr "紫色"
+
+#: gradience/frontend/schemas/preset_schema.py:483
+msgid "Brown"
+msgstr "棕色"
+
+#: gradience/frontend/schemas/preset_schema.py:484
+#: gradience/frontend/widgets/monet_theming_group.py:95
+#: gradience/frontend/widgets/shell_theming_group.py:73
+msgid "Light"
+msgstr "亮色"
+
+#: gradience/frontend/schemas/preset_schema.py:485
+#: gradience/frontend/widgets/monet_theming_group.py:96
+#: gradience/frontend/widgets/shell_theming_group.py:72
+msgid "Dark"
+msgstr "深色"
+
+#: gradience/frontend/schemas/shell_schema.py:24
+msgid "Base Background Color"
+msgstr "基础背景色"
+
+#: gradience/frontend/schemas/shell_schema.py:29
+msgid "Base Foreground Color"
+msgstr "前景颜色"
+
+#: gradience/frontend/schemas/shell_schema.py:34
+msgid "Overview Background Color"
+msgstr "概述背景颜色"
+
+#: gradience/frontend/schemas/shell_schema.py:39
+msgid "Accent Background Color"
+msgstr "重点背景颜色"
+
+#: gradience/frontend/schemas/shell_schema.py:44
+msgid "Accent Foreground Color"
+msgstr "重点前景色"
+
+#: gradience/frontend/schemas/shell_schema.py:61
+msgid "OSD Foreground Color"
+msgstr "OSD 前景颜色"
+
+#: gradience/frontend/views/about_window.py:27
+msgid "translator-credits"
+msgstr "翻译人员"
+
+#: gradience/frontend/views/about_window.py:56
+msgid "Copyright © 2022-2023 Gradience Team"
+msgstr "版权所有 © 2022-2023 Gradience Team"
+
+#: gradience/frontend/views/about_window.py:63
+msgid "Plugins by"
+msgstr "插件作者"
+
+#: gradience/frontend/views/about_window.py:65
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Plugins/graphs/"
+"contributors"
+msgstr ""
+"GitHub 上的贡献者 https://github.com/GradienceTeam/Plugins/graphs/"
+"contributors"
+
+#: gradience/frontend/views/about_window.py:69
+msgid "Presets by"
+msgstr "预设作者"
+
+#: gradience/frontend/views/about_window.py:71
+msgid ""
+"Contributors on GitHub https://github.com/GradienceTeam/Community/graphs/"
+"contributors"
+msgstr ""
+"GitHub 上的贡献者 https://github.com/GradienceTeam/Community/graphs/"
+"contributors"
+
+#: gradience/frontend/views/main_window.py:204
+msgid "Palette Colors"
+msgstr "调色板颜色"
+
+#: gradience/frontend/views/main_window.py:207
+msgid ""
+"Named palette colors used by some applications. Default colors follow the <a "
+"href=\"https://developer.gnome.org/hig/reference/palette.html\">GNOME Human "
+"Interface Guidelines</a>."
+msgstr ""
+"一些应用所使用的命名调色板颜色。默认颜色遵循<a href=\"https://developer.gnome"
+".org/hig/reference/palette.html\">GNOME 人机界面指南</a>。"
+
+#: gradience/frontend/views/plugins_list.py:89
+msgid "Plugins"
+msgstr "插件"
+
+#: gradience/frontend/views/plugins_list.py:92
+msgid ""
+"Plugins add additional features to Gradience, plugins are made by Gradience "
+"community and can cause issues."
+msgstr ""
+"插件为 Gradience 添加了额外的功能，插件是由 Gradience 社区制作的，可能会出现"
+"问题。"
+
+#: gradience/frontend/views/plugins_list.py:104
+msgid "No Plugins Found."
+msgstr "未找到插件。"
+
+#: gradience/frontend/views/presets_manager_window.py:119
+#: gradience/frontend/views/presets_manager_window.py:355
+msgid "User Presets"
+msgstr "用户预设"
+
+#: gradience/frontend/views/presets_manager_window.py:194
+msgid "Add new repository"
+msgstr "添加新存储库"
+
+#: gradience/frontend/views/presets_manager_window.py:195
+msgid "Add a repository to install additional presets."
+msgstr "添加存储库以安装其他预设。"
+
+#: gradience/frontend/views/presets_manager_window.py:201
+#: gradience/frontend/widgets/shell_theming_group.py:143
+msgid "Cancel"
+msgstr "取消"
+
+#: gradience/frontend/views/presets_manager_window.py:202
+msgid "Add"
+msgstr "添加"
+
+#: gradience/frontend/views/presets_manager_window.py:298
+msgid "Preset already exists"
+msgstr "预设已存在"
+
+#: gradience/frontend/views/presets_manager_window.py:310
+msgid "Preset imported"
+msgstr "预设已导入"
+
+#: gradience/frontend/views/presets_manager_window.py:313
+msgid "Unsupported file format, must be .json"
+msgstr "不支持的文件格式，必须为 .json"
+
+#: gradience/frontend/views/presets_manager_window.py:348
+msgid "Built-in Presets"
+msgstr "内置预设"
+
+#: gradience/frontend/views/presets_manager_window.py:358
+msgid ""
+"See <a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+"Community</a> on Github for more presets."
+msgstr ""
+"参见Github上的<a href=\"https://github.com/GradienceTeam/"
+"Community\">GradienceTeam/Community</a> 以获得更多的预设。"
+
+#: gradience/frontend/views/presets_manager_window.py:384
+msgid ""
+"No preset found! Use the import button to import one or search one on the "
+"Explore tab."
+msgstr "未找到预设！使用导入按钮导入一个或在“浏览”选项卡上搜索一个。"
+
+#: gradience/frontend/views/welcome_window.py:79
+msgid "Thanks for updating Gradience!"
+msgstr "谢谢你更新 Gradience!"
+
+#: gradience/frontend/widgets/explore_preset_row.py:68
+#: gradience/frontend/widgets/explore_preset_row.py:94
+msgid "Preset could not be downloaded"
+msgstr "无法下载预设"
+
+#: gradience/frontend/widgets/explore_preset_row.py:82
+#: gradience/frontend/widgets/explore_preset_row.py:98
+msgid "Preset downloaded"
+msgstr "预设已下载"
+
+#: gradience/frontend/widgets/monet_theming_group.py:65
+msgid "Palette"
+msgstr "调色板"
+
+#: gradience/frontend/widgets/monet_theming_group.py:91
+msgid "Style"
+msgstr "样式"
+
+#: gradience/frontend/widgets/monet_theming_group.py:94
+msgid "Auto"
+msgstr "自动"
+
+#: gradience/frontend/widgets/monet_theming_group.py:131
+msgid "Failed to generate Monet palette"
+msgstr "无法生成 Monet 调色板"
+
+#: gradience/frontend/widgets/monet_theming_group.py:136
+msgid "Palette generated"
+msgstr "产生的调色板"
+
+#: gradience/frontend/widgets/monet_theming_group.py:141
+msgid "Select an image first"
+msgstr "先选择一张图片"
+
+#: gradience/frontend/widgets/option_row.py:52
+msgid "This option is only partially supported by adw-gtk3."
+msgstr "adw-gtk3 仅部分支持此选项。"
+
+#: gradience/frontend/widgets/option_row.py:57
+msgid "This option is not supported by adw-gtk3."
+msgstr "adw-gtk3 不支持此选项。"
+
+#: gradience/frontend/widgets/option_row.py:96
+msgid "Show Color"
+msgstr "显示颜色"
+
+#: gradience/frontend/widgets/option_row.py:118
+msgid "Not a color, see text value"
+msgstr "不是颜色，见文本值"
+
+#: gradience/frontend/widgets/plugin_row.py:85
+msgid "Unable to remove"
+msgstr "无法删除"
+
+#: gradience/frontend/widgets/plugin_row.py:86
+msgid "This is a system plugin, and cannot be removed."
+msgstr "这是一个系统插件，不能删除。"
+
+#: gradience/frontend/widgets/plugin_row.py:88
+msgid "Close"
+msgstr "关闭"
+
+#: gradience/frontend/widgets/preset_row.py:85
+#: gradience/frontend/widgets/preset_row.py:144
+msgid "Remove from Favorites"
+msgstr "从收藏夹中删除"
+
+#: gradience/frontend/widgets/preset_row.py:88
+#: gradience/frontend/widgets/preset_row.py:140
+msgid "Add to Favorites"
+msgstr "添加到收藏夹"
+
+#: gradience/frontend/widgets/preset_row.py:160
+msgid "Preset removed"
+msgstr "预设已删除"
+
+#: gradience/frontend/widgets/preset_row.py:161
+msgid "Undo"
+msgstr "撤消"
+
+#: gradience/frontend/widgets/preset_row.py:176
+msgid "Pending Deletion"
+msgstr "待删除"
+
+#: gradience/frontend/widgets/preset_row.py:190
+msgid "Unable to delete preset"
+msgstr "无法删除预设"
+
+#: gradience/frontend/widgets/repo_row.py:60
+msgid "Repository removed"
+msgstr "存储库已删除"
+
+#: gradience/frontend/widgets/reset_preset_group.py:55
+msgid "Unable to restore GTK 4 backup"
+msgstr "无法恢复 GTK 4 备份"
+
+#: gradience/frontend/widgets/reset_preset_group.py:59
+msgid "GTK 4 preset has been restored. Log out to apply changes."
+msgstr "GTK 4预设已恢复。 注销以应用更改。"
+
+#: gradience/frontend/widgets/reset_preset_group.py:69
+#: gradience/frontend/widgets/reset_preset_group.py:98
+msgid "Unable to delete current preset"
+msgstr "无法删除当前预设"
+
+#: gradience/frontend/widgets/reset_preset_group.py:73
+msgid "GTK 4 theme has been reset. Log out to apply changes."
+msgstr "GTK 4主题已重置。 注销以应用更改。"
+
+#: gradience/frontend/widgets/reset_preset_group.py:84
+msgid "Unable to restore GTK 3 backup"
+msgstr "无法恢复 GTK 3 备份"
+
+#: gradience/frontend/widgets/reset_preset_group.py:88
+msgid "GTK 3 preset has been restored. Log out to apply changes."
+msgstr "GTK 3预设已恢复。 注销以应用更改。"
+
+#: gradience/frontend/widgets/reset_preset_group.py:102
+msgid "GTK 3 theme has been reset. Log out to apply changes."
+msgstr "GTK 3主题已重置。 注销以应用更改。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:94
+msgid "An unexpected error occurred while loading variable colors."
+msgstr "加载可变颜色时发生意外错误。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:118
+msgid "GNOME Shell Missing"
+msgstr "GNOME Shell 缺失"
+
+#: gradience/frontend/widgets/shell_theming_group.py:119
+msgid ""
+"Shell Engine is designed to work only on systems running GNOME. You can "
+"still generate themes on other desktop environments, but it won't have any "
+"affect on them."
+msgstr ""
+"Shell 引擎被设计为只在运行 GNOME 的系统上工作。你仍然可以在其他桌面环境上生成"
+"主题，但它不会对它们产生任何影响。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:121
+msgid "Disable Engine"
+msgstr "禁用引擎"
+
+#: gradience/frontend/widgets/shell_theming_group.py:122
+#: gradience/frontend/widgets/shell_theming_group.py:133
+#: gradience/frontend/widgets/shell_theming_group.py:145
+msgid "Continue Anyway"
+msgstr "仍然继续"
+
+#: gradience/frontend/widgets/shell_theming_group.py:129
+msgid "User Themes Extension Missing"
+msgstr "缺少用户主题扩展"
+
+#: gradience/frontend/widgets/shell_theming_group.py:130
+msgid ""
+"Gradience requires the User Themes extension installed to apply the Shell "
+"theme. You can still generate a theme, but you won't be able to apply it "
+"without this extension."
+msgstr ""
+"Gradience 需要安装用户主题扩展来应用Shell主题。你仍然可以生成一个主题，但如果"
+"没有这个扩展，你将无法应用它。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:132
+msgid "Install Extension"
+msgstr "安装扩展"
+
+#: gradience/frontend/widgets/shell_theming_group.py:140
+msgid "User Themes Extension Disabled"
+msgstr "用户主题扩展已禁用"
+
+#: gradience/frontend/widgets/shell_theming_group.py:141
+msgid ""
+"The User Themes extension is currently disabled on your system. Please "
+"enable it to apply the theme."
+msgstr "用户主题扩展当前在您的系统上处于禁用状态。请启用它以应用主题。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:181
+msgid "An error occurred while generating a Shell theme."
+msgstr "生成 Shell 主题时出错。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:188
+msgid "Shell theme applied successfully."
+msgstr "成功应用 Shell 主题。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:217
+#: gradience/frontend/widgets/shell_theming_group.py:222
+msgid "Failed to load extension's install link."
+msgstr "无法加载扩展程序的安装链接。"
+
+#: gradience/frontend/widgets/shell_theming_group.py:241
+msgid "Shell theme successfully reset."
+msgstr "Shell 主题成功重置。"
+
+#~ msgid "AdwCustomizer"
+#~ msgstr "AdwCustomizer"
+
+#~ msgid "Adwaita Manager"
+#~ msgstr "Adwaita 管理员"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Customization"
+#~ msgstr "定制"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "显示快捷方式"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Apply Dialog"
+#~ msgstr "显示应用对话框"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Manage Presets"
+#~ msgstr "管理预设"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save Preset"
+#~ msgstr "保存预设"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to the Colors Section"
+#~ msgstr "转到颜色部分"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to the Theming Section"
+#~ msgstr "转到主题部分"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to the Advanced Section"
+#~ msgstr "转到高级部分"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Preferences"
+#~ msgstr "选项"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "退出"
+
+#~ msgid "Monet Engine generates a Material You color palette from an image."
+#~ msgstr "Monet 引擎从图像生成 Material You 调色板。"
+
+#~ msgid "Select an Image"
+#~ msgstr "选择图像"
+
+#~ msgid "Allow GTK 4 Theming"
+#~ msgstr "允许 GTK 4 主题"
+
+#~ msgid "Allow GTK 4 Theming (System)"
+#~ msgstr "允许 GTK 4 主题（系统）"
+
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 4 Flatpak apps to "
+#~ "access custom themes. (Requires root access)"
+#~ msgstr ""
+#~ "覆盖所有用户的 Flatpak 权限，以允许 GTK 4 Flatpak 应用程序访问自定义主"
+#~ "题。 （需要root权限）"
+
+#~ msgid "Allow GTK 3 Theming"
+#~ msgstr "允许 GTK 3 主题"
+
+#~ msgid "Allow GTK 3 Theming (System)"
+#~ msgstr "允许 GTK 3 主题（系统）"
+
+#~ msgid ""
+#~ "Override Flatpak permissions for all users to allow GTK 3 Flatpak apps to "
+#~ "access adw-gtk3 theme. (Requires root access)"
+#~ msgstr ""
+#~ "覆盖所有用户的 Flatpak 权限，以允许 GTK 3 Flatpak 应用程序访问 adw-gtk3 主"
+#~ "题。 （需要root权限）"
+
+#~ msgid "Reset a currently applied preset or restore the previous one."
+#~ msgstr "重置当前应用的预设或恢复上一个预设。"
+
+#~ msgid "Custom Shell Colors"
+#~ msgstr "自定义 Shell 颜色"
+
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more, with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr "使用添加自定义 CSS 等高级功能更改窗口、按钮、列表等的颜色。"
+
+#~ msgid "Theme"
+#~ msgstr "主题"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存更改"
+
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more; with advanced features "
+#~ "like adding custom CSS."
+#~ msgstr "更改窗口、按钮、列表等的颜色；具有添加自定义 CSS 等高级功能。"
+
+#~ msgid "Legacy Apps Theming"
+#~ msgstr "旧版应用程序主题"
+
+#~ msgid "Install adw-gtk3 theme for legacy app theming"
+#~ msgstr "为旧版应用程序主题安装 adw-gtk3 主题"
+
+#~ msgid "System Configuration"
+#~ msgstr "系统配置"
+
+#~ msgid "Installing adw-gtk3"
+#~ msgstr "安装 adw-gtk3"
+
+#~ msgid "Preset set successfully"
+#~ msgstr "预设设置成功"
+
+#~ msgid "Toggle Text Value"
+#~ msgstr "切换文本值"
+
+#~ msgid ""
+#~ "Monet is an engine that generates a Material Design 3 palette from "
+#~ "extracting image's colors."
+#~ msgstr "Monet 是一种引擎可通过提取图像的颜色生成 Material Design 3 调色板。"
+
+#~ msgid "For the changes to take full effect, you need to log out."
+#~ msgstr "要使更改完全生效，您需要注销。"
+
+#~ msgid ""
+#~ "This section allows you to customize colors that will be used in the "
+#~ "Shell theme."
+#~ msgstr "此部分允许您自定义将在 Shell 主题中使用的颜色。"
+
+#~ msgid "Select which preset variant you have currently applied"
+#~ msgstr "选择你目前应用的预设变体"
+
+#~ msgid "Allow GTK 4 Flatpak Applications Theming"
+#~ msgstr "允许 GTK 4 Flatpak 应用程序主题化"
+
+#~ msgid "GTK 3 Flatpak Applications"
+#~ msgstr "GTK 3 Flatpak 应用程序"
+
+#~ msgid ""
+#~ "Remember to install adw-gtk3 theme (as a Flatpak package) in order to get "
+#~ "custom presets working in GTK 3 Flatpak applications."
+#~ msgstr ""
+#~ "请记住安装 adw-gtk3 主题（作为 Flatpak 包），以便在 GTK 3 Flatpak 应用程序"
+#~ "中使用自定义预设。"
+
+#~ msgid "GTK 3 Flatpak Applications (System)"
+#~ msgstr "GTK 3 Flatpak 应用程序（系统）"
+
+#~ msgid ""
+#~ "In this release, we fixed the Firefox GNOME theme plugin, issues with "
+#~ "presets always being saved with the same name, as well as some UX polish, "
+#~ "and more."
+#~ msgstr ""
+#~ "在此版本中，我们修复了 Firefox GNOME 主题插件、预设总是以相同名称保存的问"
+#~ "题，以及一些 UX 优化等。"
+
+#~ msgid "_Monet"
+#~ msgstr "Monet (M)"
+
+#~ msgid "Restore Applied Color Scheme"
+#~ msgstr "恢复应用的配色方案"
+
+#~ msgid "Restore applied color scheme?"
+#~ msgstr "恢复应用的配色方案？"
+
+#~ msgid "Make sure you have the current settings saved as a preset."
+#~ msgstr "确保你将当前的设置保存为预设。"
+
+#~ msgid "_Restore"
+#~ msgstr "恢复 (R)"
+
+#~ msgid "Select a background first"
+#~ msgstr "先选择背景"
+
+#~ msgid "More Options"
+#~ msgstr "更多选项"
+
+#~ msgid "Packages by"
+#~ msgstr "包作者"
+
+#~ msgid "Fixes by"
+#~ msgstr "修复者"
+
+#~ msgid "Special thanks to"
+#~ msgstr "特别感谢"
+
+#~ msgid "Tone"
+#~ msgstr "音色"
+
+#~ msgid "Preview Theme in…"
+#~ msgstr "预览主题在…"
+
+#~ msgid "Adwaita Demo"
+#~ msgstr "Adwaita 演示"
+
+#~ msgid "GTK 4 Demo"
+#~ msgstr "GTK 4 演示"
+
+#~ msgid "GTK 4 Widget Factory"
+#~ msgstr "GTK 4 小工具工厂"
+
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Theme Preview button enabled back</li>\n"
+#~ "<li>The Firefox GNOME theme plugin settings button moved to the right of "
+#~ "the switch</li>\n"
+#~ "<li>Details tab in About dialog has been improved</li>\n"
+#~ "<li>The \"Log out\" dialog logic have been changed, now it only asks for "
+#~ "logout, but does not provide a button to logout</li>\n"
+#~ "<li>Updated translations</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>启用主题预览按钮</li>\n"
+#~ "<li>Firefox GNOME 主题插件设置按钮移至开关右侧</li>\n"
+#~ "<li>改进了“关于”对话框中的“详细信息”选项卡</li>\n"
+#~ "<li>“注销”对话框逻辑已更改，现在它只要求注销，但不提供注销按钮</li>\n"
+#~ "<li>更新翻译</li>\n"
+#~ "</ul>\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Gradience is a tool for customizing Libadwaita applications and the adw-"
+#~ "gtk3 theme.\n"
+#~ "The main features of Gradience include the following:\n"
+#~ "\n"
+#~ "🎨️ Changing any color of Adwaita theme\n"
+#~ "🖼️ Applying Material 3 color scheme from wallpaper\n"
+#~ "🎁️ Usage of other users presets\n"
+#~ "⚙️ Changing advanced options with CSS\n"
+#~ "🧩️ Extending functionality using plugins\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Gradience 是一个用于自定义 Libadwaita 应用程序和 adw-gtk3 主题的工具。\n"
+#~ "Gradience 的主要特点包括：\n"
+#~ "\n"
+#~ "🎨️ 改变 Adwaita 主题的任何颜色\n"
+#~ "🖼️ - 从壁纸上应用材料 3 种配色方案\n"
+#~ "🎁️使用其他用户预设\n"
+#~ "⚙️ 使用 CSS 更改高级选项\n"
+#~ "🧩️ 使用插件扩展功能\n"
+
+#~ msgid "Failed to generate preset from Monet palette"
+#~ msgstr "无法从 Monet 调色板生成预设"
+
+#~ msgid "Unsupported background type"
+#~ msgstr "不支持的背景类型"
+
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Firefox GNOME theme plugin now correctly parses installations with "
+#~ "multiple profiles</li>\n"
+#~ "<li>Esc now closes dialogs and Preset Manager</li>\n"
+#~ "<li>Added mnemonics for dialogs</li>\n"
+#~ "<li>Save is now a default response in dialogs</li>\n"
+#~ "<li>Plugins rows now look cleaner and are correctly placed</li>\n"
+#~ "<li>File picker is now modal and sticks to the parent window</li>\n"
+#~ "<li>Gradience can now be closed with Ctrl+Q</li>\n"
+#~ "<li>\"Favourite(s)\" was renamed to \"Favorite(s)\"</li>\n"
+#~ "<li>Тransition from cssutils to an in-house solution</li>\n"
+#~ "<li>Fixed issues with the CSS parser</li>\n"
+#~ "<li>Fixed an issue with presets always being saved as User.json</li>\n"
+#~ "<li>Presets are now removed correctly</li>\n"
+#~ "<li>The Internal structure was refactored</li>\n"
+#~ "<li>Various typos were fixed</li>\n"
+#~ "<li>The README was fully rewritten</li>\n"
+#~ "<li>All screenshots were taken in high resolution</li>\n"
+#~ "<li>New and updated translations</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Firefox GNOME 主题插件现在可以正确解析具有多个配置文件的安装</li>\n"
+#~ "<li>Esc 现在关闭对话框和预设管理器</li>\n"
+#~ "<li>为对话添加助记符</li>\n"
+#~ "<li>保存现在是对话框中的默认响应</li>\n"
+#~ "<li>插件行现在看起来更干净并且位置正确</li>\n"
+#~ "<li>文件选择器现在是模态的并固定在父窗口</li>\n"
+#~ "<li>现在可以使用 Ctrl+Q 关闭 Gradience</li>\n"
+#~ "<li>“收藏夹”已重命名为“收藏夹”</li>\n"
+#~ "<li>从 cssutils 过渡到内部解决方案</li>\n"
+#~ "<li>修复了 CSS 解析器的问题</li>\n"
+#~ "<li>解决了预设总是保存为 User.json 的问题</li>\n"
+#~ "<li>现在可以正确删除预设</li>\n"
+#~ "<li>重构了内部结构</li>\n"
+#~ "<li>修正了各种拼写错误</li>\n"
+#~ "<li>README 已完全重写</li>\n"
+#~ "<li>所有屏幕截图都是高分辨率的</li>\n"
+#~ "<li>新的和更新的翻译</li>\n"
+#~ "</ul>\n"
+
+#~ msgid ""
+#~ "Enter a keyword to search on <a href=\"https://gradienceteam.github.io/"
+#~ "presets\">GradienceTeam/Community</a>."
+#~ msgstr ""
+#~ "输入关键字以在 <a href=\"https://github.com/GradienceTeam/"
+#~ "Community\">GradienceTeam/Community</a> 上搜索。"
+
+#~ msgid "Logout"
+#~ msgstr "注销"
+
+#~ msgid ""
+#~ "In this release, we added plugin support, a plugin repository, badges, "
+#~ "and a quick preset switcher. We also split the preset repository into an "
+#~ "“Official” repository and a “Curated” repositories."
+#~ msgstr ""
+#~ "在此版本中，我们添加了插件支持、插件存储库、徽章和快速预设切换器。我们还将"
+#~ "预设存储库拆分为“官方”存储库和“策划”存储库。"
+
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Added ability to star preset to display it in Palette</li>\n"
+#~ "<li>Updated Firefox GNOME Theme plugin</li>\n"
+#~ "<li>Welcome screen have been improved</li>\n"
+#~ "<li>Margins in color info popovers are fixed</li>\n"
+#~ "<li>Added filter to search presets by repo</li>\n"
+#~ "<li>Added \"No Preferences\" window</li>\n"
+#~ "<li>Preset Manager window size have changed</li>\n"
+#~ "<li>\"Offline\" and \"Nothing Found\" pages have been added to Preset "
+#~ "Manager</li>\n"
+#~ "<li>All text have been rewritten to follow GNOME Writing Guides</li>\n"
+#~ "<li>Switch from aiohttp to Libsoup3</li>\n"
+#~ "<li>Migrate to GNOME SDK 43</li>\n"
+#~ "<li>All contributors have been added to \"About\" window</li>\n"
+#~ "<li>Added \"Log Out\" dialog after preset apply</li>\n"
+#~ "<li>Some symbolics have changed, removed unnecessary hardcoded symbolics</"
+#~ "li>\n"
+#~ "<li>Flatpak theme override now fixed</li>\n"
+#~ "<li>New and updated translations</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>添加了星形预设以在调色板中显示它的功能</li>\n"
+#~ "<li>更新了 Firefox GNOME 主题插件</li>\n"
+#~ "<li>改进了欢迎屏幕</li>\n"
+#~ "<li>颜色信息弹出框的边距是固定的</li>\n"
+#~ "<li>添加了通过 repo 搜索预设的过滤器</li>\n"
+#~ "<li>添加了“无首选项”窗口</li>\n"
+#~ "<li>预设管理器窗口大小已更改</li>\n"
+#~ "<li>“离线”和“未找到”页面已添加到预设管理器中</li>\n"
+#~ "<li>所有文本均已重写以遵循 GNOME 写作指南</li>\n"
+#~ "<li>从 aiohttp 切换到 Libsoup3</li>\n"
+#~ "<li>迁移到 GNOME SDK 43</li>\n"
+#~ "<li>所有贡献者都已添加到“关于”窗口中</li>\n"
+#~ "<li>预设应用后添加“注销”对话框</li>\n"
+#~ "<li>一些符号已更改，删除了不必要的硬编码符号</li>\n"
+#~ "<li>Flatpak 主题覆盖现已修复</li>\n"
+#~ "<li>新的和更新的翻译</li>\n"
+#~ "</ul>\n"
+
+#~ msgid "Change the look of Adwaita, with ease."
+#~ msgstr "轻松改变 Adwaita 的外观。"
+
+#~ msgid "With Gradience you can:"
+#~ msgstr "使用 Gradience 您可以："
+
+#~ msgid "This app is written in Python and uses GTK 4 and Libadwaita."
+#~ msgstr "这个应用程序是用 Python 编写的，使用 GTK 4 和 Libadwaita。"
+
+#~ msgid "colors purple"
+#~ msgstr "颜色 紫色"
+
+#~ msgid "monet purple"
+#~ msgstr "monet 紫"
+
+#~ msgid "advanced purple"
+#~ msgstr "高级 紫"
+
+#~ msgid ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>Add AdwViewSwitcher in the header bar.</li>\n"
+#~ "<li>Move CSS to the \"Advanced\" tab</li>\n"
+#~ "<li>Move the rest to the \"colors\" tab</li>\n"
+#~ "<li>Add Monet tab which generates a theme from a background</li>\n"
+#~ "<li>Add disk saved and disk unsaved icon in the header bar</li>\n"
+#~ "<li>Update about dialog</li>\n"
+#~ "<li>Change license to GNU GPLv3</li>\n"
+#~ "<li>Begin plugin support</li>\n"
+#~ "<li>Move preset selector to a drop-down called palette (icon palette)</"
+#~ "li>\n"
+#~ "<li>Add ability to apply the theme only for dark theme or oy for light "
+#~ "theme</li>\n"
+#~ "<li>Automaticly use Adwaita-dark preset if the user prefered scheme is "
+#~ "dark.</li>\n"
+#~ "<li>Added Flatpak CI build</li>\n"
+#~ "<li>Added issue template for bug and feature request </li>\n"
+#~ "<li>`Main` branch is now protected by GitHub branch protection. The "
+#~ "development is done on `next` branch</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<ul>\n"
+#~ "<li>在标题栏中添加 AdwViewSwitcher。</li>\n"
+#~ "<li>将 CSS 移动到“高级”选项卡</li>\n"
+#~ "<li>将其余部分移至“颜色”选项卡</li>\n"
+#~ "<li>添加从背景生成主题的“Monet”选项卡</li>\n"
+#~ "<li>在标题栏中添加已保存的磁盘和未保存的磁盘图标</li>\n"
+#~ "<li>更新“关于”对话框</li>\n"
+#~ "<li>将许可证更改为 GNU GPLv3</li>\n"
+#~ "<li>开始插件支持</li>\n"
+#~ "<li>将预设选择器移动到名为调色板（图标调色板）的下拉列表中</li>\n"
+#~ "<li>添加仅对深色主题应用主题或对浅色主题应用主题的功能</li>\n"
+#~ "<li>如果用户首选方案为深色，则自动使用 Adwaita 暗预设。</li>\n"
+#~ "<li>添加了 Flatpak CI 构建</li>\n"
+#~ "<li>添加了错误和功能请求的问题模板 </li>\n"
+#~ "<li>“Main”分支现在受 GitHub 分支保护。开发在“next”分支上完成 </li>\n"
+#~ "</ul>\n"
+
+#~ msgid "Share preset"
+#~ msgstr "分享预设"
+
+#~ msgid ""
+#~ "\n"
+#~ "Gradience is a tool for customizing Libadwaita applications and the adw-"
+#~ "gtk3 theme.\n"
+#~ "With Gradience you can:\n"
+#~ "\n"
+#~ "- Change any color of Adwaita theme\n"
+#~ "- Apply Material 3 colors from wallaper\n"
+#~ "- Use other users presets\n"
+#~ "- Change advanced options with CSS\n"
+#~ "- Extend functionality using plugins\n"
+#~ "\n"
+#~ "This app is written in Python and uses GTK 4 and Libadwaita.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Gradience 是用于自定义 Libadwaita 应用程序和 adw-gtk3 主题的工具。\n"
+#~ "使用Gradience 您可以：\n"
+#~ "\n"
+#~ "- 更改 Adwaita 主题的任何颜色\n"
+#~ "- 从壁纸上涂抹材料 3 种颜色\n"
+#~ "- 使用其他用户预设\n"
+#~ "- 使用 CSS 更改高级选项\n"
+#~ "- 使用插件扩展功能\n"
+#~ "\n"
+#~ "这个程序是用Python编写的，并使用GTK 4 和 Libadwaita。\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "                <ul>\n"
+#~ "                <li>Add AdwViewSwitcher in the header bar.</li>\n"
+#~ "                <li>Move CSS to the \"Advanced\" tab</li>\n"
+#~ "                <li>Move the rest to the \"colors\" tab</li>\n"
+#~ "                <li>Add Monet tab which generates a theme from a "
+#~ "background</li>\n"
+#~ "                <li>Add disk saved and disk unsaved icon in the header "
+#~ "bar</li>\n"
+#~ "                <li>Update about dialog</li>\n"
+#~ "                <li>Change license to GNU GPLv3</li>\n"
+#~ "                <li>Begin plugin support</li>\n"
+#~ "                <li>Move preset selector to a drop-down called palette "
+#~ "(icon palette)</li>\n"
+#~ "                <li>Add ability to apply the theme onlyfor dark theme or "
+#~ "oy for light theme</li>\n"
+#~ "                <li>Automaticly use Adwaita-dark preset if the user "
+#~ "prefered scheme is dark.</li>\n"
+#~ "                <li>Added Flatpak CI build</li>\n"
+#~ "                <li>Added issue template for bug and feature request </"
+#~ "li>\n"
+#~ "                <li>`Main` branch is now protected by GitHub branch "
+#~ "protection. The development is done on `next` branch</li>\n"
+#~ "                </ul>\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "                <ul>\n"
+#~ "        <li>在标题栏中添加 AdwViewSwitcher。</li>\n"
+#~ "        <li>将 CSS 移动到“高级”选项卡</li>\n"
+#~ "        <li>将其余部分移至“颜色”选项卡</li>\n"
+#~ "        <li>添加从背景生成主题的“获利”选项卡</li>\n"
+#~ "        <li>在标题栏中添加已保存的磁盘和未保存的磁盘图标</li>\n"
+#~ "        <li>更新“关于”对话框</li>\n"
+#~ "        <li>将许可证更改为 GNU GPLv3</li>\n"
+#~ "        <li>开始插件支持</li>\n"
+#~ "        <li>将预设选择器移动到名为调色板（图标调色板）的下拉列表中</li>\n"
+#~ "        <li>添加仅对深色主题应用主题或对浅色主题应用主题的功能</li>\n"
+#~ "        <li>如果用户首选方案为深色，则自动使用 Adwaita 暗预设。</li>\n"
+#~ "        <li>添加了 Flatpak CI 构建</li>\n"
+#~ "        <li>添加了错误和功能请求的问题模板 </li>\n"
+#~ "        <li>“主”分支现在受 GitHub 分支保护。开发在“next”分支上完成 </li>\n"
+#~ "      </ul>\n"
+#~ "                "
+
+#~ msgid "colors"
+#~ msgstr "颜色"
+
+#~ msgid "monet"
+#~ msgstr "monet"
+
+#~ msgid "advanced"
+#~ msgstr "高级"
+
+#~ msgid "A small bug fix release of Gradience."
+#~ msgstr "Gradience 的一个小错误修复版本。"
+
+#~ msgid "Small improvements to the welcome screen"
+#~ msgstr "欢迎屏幕的小改进"
+
+#~ msgid "Fixing release notes"
+#~ msgstr "修复发行说明"
+
+#~ msgid "New Release of Gradience."
+#~ msgstr "Gradience 的新版本。"
+
+#~ msgid "Rebrand"
+#~ msgstr "重新命名"
+
+#~ msgid "Refactoring meson architecture"
+#~ msgstr "重构介子架构"
+
+#~ msgid "New debug check"
+#~ msgstr "新的调试检查"
+
+#~ msgid "Switching runtime to GNOME 42 and adding adw 1.2"
+#~ msgstr "将运行时切换到 GNOME 42 并添加 adw 1.2"
+
+#~ msgid "Add more info about monet"
+#~ msgstr "添加有关 Monet 的更多信息"
+
+#~ msgid "Add preset manager with option to download other users presets"
+#~ msgstr "添加预设管理器，并可选择下载其他用户的预设"
+
+#~ msgid "First release of Gradience."
+#~ msgstr "Gradience 的首次发布。"
+
+#~ msgid "Add AdwViewSwitcher in the header bar"
+#~ msgstr "在标题栏中添加 AdwViewSwitcher"
+
+#~ msgid "Move the rest to the \"colors\" tab"
+#~ msgstr "将其余部分移至“颜色”选项卡"
+
+#~ msgid "Add Monet tab which generates a theme from a background"
+#~ msgstr "添加从背景生成主题的 Monet 选项卡"
+
+#~ msgid "Add disk saved and disk unsaved icon in the header bar"
+#~ msgstr "在标题栏中添加已保存的磁盘和未保存的磁盘图标"
+
+#~ msgid "Update about dialog"
+#~ msgstr "更新“关于”对话框"
+
+#~ msgid "Change license to GNU GPLv3"
+#~ msgstr "将许可证改为 GNU GPLv3"
+
+#~ msgid "Begin plugin support"
+#~ msgstr "开始支持插件"
+
+#~ msgid "Move preset selector to a drop-down called palette (icon palette)"
+#~ msgstr "将预设选择器移到称为调色板的下拉菜单中（图标调色板）"
+
+#~ msgid ""
+#~ "Add ability to apply the theme onlyfor dark theme or oy for light theme"
+#~ msgstr "添加仅对深色主题应用主题或为浅色主题应用主题的功能"
+
+#~ msgid ""
+#~ "Automaticly use Adwaita-dark preset if the user prefered scheme is dark."
+#~ msgstr "如果用户首选方案为深色，则自动使用 Adwaita 暗预设。"
+
+#~ msgid "Added Flatpak CI build"
+#~ msgstr "添加了 Flatpak CI 构建"
+
+#~ msgid "Added issue template for bug and feature request"
+#~ msgstr "添加了错误和功能请求的问题模板"
+
+#~ msgid ""
+#~ "`Main` branch is now protected by GitHub branch protection. The "
+#~ "development is done on `next` branch"
+#~ msgstr "“主”分支现在受 GitHub 分支保护。开发在“下一个”分支上完成"
+
+#, fuzzy
+#~ msgid "Select app types you want to affect:"
+#~ msgstr "选择您想要影响的应用类型："
+
+#, fuzzy
+#~ msgid "GTK 3 apps (adw-gtk3 theme required)"
+#~ msgstr "GTK 3 应用（需要 adw-gtk3 主题）"
+
+#~ msgid "Download and apply"
+#~ msgstr "下载并应用"
+
+#~ msgid "Download only"
+#~ msgstr "仅下载"
+
+#, fuzzy
+#~ msgid "Enable plugin"
+#~ msgstr "启用插件"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgid "Remove plugin"
+#~ msgstr "删除插件"
+
+#~ msgid "Edit preset name"
+#~ msgstr "编辑预设名"
+
+#~ msgid "Open in file manager"
+#~ msgstr "在文件管理器中打开"
+
+#~ msgid "Customize Adwaita with ease"
+#~ msgstr "轻松定制 Adwaita"
+
+#, fuzzy
+#~ msgid ""
+#~ "Change colors of windows, buttons, lists and more with advanced features "
+#~ "like adding custom CSS"
+#~ msgstr "使用添加自定义 CSS 等高级功能更改窗口，按钮，列表等的颜色"
+
+#~ msgid "Configure themes"
+#~ msgstr "配置主题"
+
+#, fuzzy
+#~ msgid "Install adw-gtk3 theme for legacy applications."
+#~ msgstr "为旧版应用程序安装 adw-gtk3 主题。"
+
+#~ msgid "adw-gtk3 theme"
+#~ msgstr "adw-gtk3 主题"
+
+#~ msgid "Allow installation"
+#~ msgstr "允许安装"
+
+#, fuzzy
+#~ msgid "Please wait until themes will be installed. "
+#~ msgstr "请等待，直到主题将被安装。 "
+
+#, fuzzy
+#~ msgid "Now you can make your own presets, or download some online."
+#~ msgstr "现在你可以制作自己的预设，或在网上下载一些。"
+
+#, fuzzy
+#~ msgid "Please Finish the setup first"
+#~ msgstr "请先完成设置"
+
+#~ msgid "Start using Gradience"
+#~ msgstr "开始使用 Gradience"
+
+#~ msgid "Unsaved changes"
+#~ msgstr "未保存的更改"
+
+#~ msgid "Save changes"
+#~ msgstr "保存更改"
+
+#~ msgid "Apply this color scheme?"
+#~ msgstr "应用此配色方案？"
+
+#~ msgid ""
+#~ "Plugins add additional features to Gradience, plugins are made by "
+#~ "Gradience community and can make issues."
+#~ msgstr ""
+#~ "插件为 Gradience 添加了额外的功能，插件是由 Gradience 社区制作的，可能会出"
+#~ "现问题。"
+
+#, fuzzy
+#~ msgid "No plugins found"
+#~ msgstr "未找到插件"
+
+#~ msgid "Builtin Presets"
+#~ msgstr "内置预设"
+
+#~ msgid ""
+#~ "See <a href=\"https://github.com/GradienceTeam/Community\">GradienceTeam/"
+#~ "Community</a> on Github for more presets"
+#~ msgstr ""
+#~ "参见Github上的<a href=\"https://github.com/GradienceTeam/"
+#~ "Community\">GradienceTeam/Community</a> 以获得更多的预设"
+
+#~ msgid ""
+#~ "No preset found! Use the import button to import one or search one on the "
+#~ "Explore tab"
+#~ msgstr "未找到预设！使用导入按钮导入一个或在“浏览”选项卡上搜索一个"
+
+#~ msgid "Choose a file"
+#~ msgstr "选择文件"
+
+#~ msgid "Save preset as..."
+#~ msgstr "将预设另存为..."
+
+#, fuzzy
+#~ msgid "Installed Presets"
+#~ msgstr "管理预设"
+
+#~ msgid "Select color mode you want to affect:"
+#~ msgstr "选择要影响的颜色模式："
+
+#~ msgid "Adwaita"
+#~ msgstr "Adwaita"
+
+#~ msgid "Reset successfully!"
+#~ msgstr "重置成功!"
+
+#, fuzzy
+#~ msgid "Rename preset"
+#~ msgstr "删除预设"
+
+#, fuzzy
+#~ msgid "Select app types you want to theme:"
+#~ msgstr "选择您想要影响的应用类型："
+
+#, fuzzy
+#~ msgid "GTK 3 apps (adw-gtk3 theme is required)"
+#~ msgstr "GTK 3 应用（需要 adw-gtk3 主题）"
+
+#, fuzzy
+#~ msgid "Toggle plugin"
+#~ msgstr "启用插件"
+
+#, fuzzy
+#~ msgid "No plugins found."
+#~ msgstr "未找到插件"

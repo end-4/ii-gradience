@@ -1,0 +1,40 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $GradienceAppTypeDialog : Adw.MessageDialog {
+  [extra-child]
+  Box {
+    orientation: vertical;
+    spacing: 15;
+
+    Box {
+      orientation: vertical;
+      Label {
+        styles ["heading"]
+        label: _("Select application types to theme:");
+      }
+      CheckButton gtk4-app-type {
+        label: _("Libadwaita and GTK 4 Applications");
+        active: true;
+      }
+      CheckButton gtk3-app-type {
+        label: _("GTK 3 Applications (adw-gtk3 theme required)");
+      }
+    }
+    // Box {
+    //   orientation: vertical;
+    //   Label {
+    //     styles ["heading"]
+    //     label: _("Select color mode to theme:");
+    //   }
+    //   CheckButton dark {
+    //     label: _("Dark");
+    //     active: true;
+    //   }
+    //   CheckButton light {
+    //     label: _("Light");
+    //   }
+    // }
+  }
+}
+
