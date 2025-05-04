@@ -18,7 +18,7 @@ markupsafe==3.0.2
     # via jinja2
 material-color-utilities-python==0.1.5
     # via -r requirements.in
-pillow @ git+https://github.com/clsty/ii-pillow.git@3726095fb6092c6bd08c312b123e540740b9eb34
+pillow @ git+https://github.com/end-4/ii-pillow.git@3726095fb6092c6bd08c312b123e540740b9eb34
     # via
     #   -r requirements.in
     #   material-color-utilities-python

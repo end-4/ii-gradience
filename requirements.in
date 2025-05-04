@@ -27,7 +27,7 @@
 # or more simply, just push and the bot will do this for you.
 
 setuptools
-git+https://github.com/clsty/ii-pillow.git@9.5.0-patch1
+git+https://github.com/end-4/ii-pillow.git@9.5.0-patch1
 material-color-utilities-python
 anyascii
 svglib
